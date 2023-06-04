@@ -1,0 +1,36 @@
+[
+  {
+    "address": {
+      "size": null,
+      "font": "fonts/arial.ttf",
+      "textWrap": true
+    },
+    "rechnungsnummer": {
+      "size": null,
+      "font": "fonts/arial.ttf",
+      "textWrap": true
+    },
+    "customer_name": {
+      "size": null,
+      "font": "fonts/arial.ttf",
+      "textWrap": false
+    },
+    "organization": {
+      "size": null,
+      "font": "fonts/arial.ttf",
+      "textWrap": false
+    },
+    "product": {
+      "product_name": {
+        "size": null,
+        "font": "fonts/arial.ttf",
+        "textWrap": true
+      },
+      "product_amount": {
+        "size": null,
+        "font": "fonts/arial.ttf",
+        "textWrap": false
+      }
+    }
+  }
+]

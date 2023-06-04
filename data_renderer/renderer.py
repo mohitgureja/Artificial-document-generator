@@ -1,4 +1,4 @@
-from data_renderer import helper
+from data_renderer import helper, imageservice
 
 
 def generate_documents(filepath, config):
@@ -6,5 +6,6 @@ def generate_documents(filepath, config):
     doc_data = helper.read_json(filepath)
 
     # Render document images from this data
+    images = imageservice.generate_textimage(doc_data[0])
 
     return doc_data, None

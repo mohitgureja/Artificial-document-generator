@@ -12,5 +12,5 @@ def orchestrate(request_data):
 
     # Generate fake document images according to the configurations
     doc_images, groundtruth_data = renderer.generate_documents(doc_filepath, renderer_config)
-    print(doc_images)
+    # print(doc_images)
     return doc_images
