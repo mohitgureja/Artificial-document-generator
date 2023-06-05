@@ -1,5 +1,4 @@
 from pydantic import BaseModel
-from pydantic.dataclasses import dataclass
 
 
 # @dataclass
@@ -12,7 +11,8 @@ from pydantic.dataclasses import dataclass
 class InvoiceData(BaseModel):
     address: bool = False
     rechnungsnummer: bool = False
-    product: bool = False
+    product_name: bool = False
+    product_amount: bool = False
     customer_name: bool = False
     organization: bool = False
 

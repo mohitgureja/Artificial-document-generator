@@ -1,36 +1,54 @@
 [
   {
     "address": {
-      "size": null,
+      "width": null,
+      "height": null,
+      "font_size": null,
       "font": "fonts/arial.ttf",
       "textWrap": true
     },
     "rechnungsnummer": {
-      "size": null,
+      "width": null,
+      "height": null,
+      "font_size": null,
       "font": "fonts/arial.ttf",
       "textWrap": true
     },
     "customer_name": {
-      "size": null,
+      "width": null,
+      "height": null,
+      "font_size": null,
       "font": "fonts/arial.ttf",
       "textWrap": false
     },
     "organization": {
-      "size": null,
+      "width": null,
+      "height": null,
+      "font_size": null,
       "font": "fonts/arial.ttf",
       "textWrap": false
     },
-    "product": {
-      "product_name": {
-        "size": null,
-        "font": "fonts/arial.ttf",
-        "textWrap": true
-      },
-      "product_amount": {
-        "size": null,
-        "font": "fonts/arial.ttf",
-        "textWrap": false
-      }
+    "product_name": {
+      "x1": 300,
+      "x2": 800,
+      "y1": 1300,
+      "y2": 2200,
+      "width": null,
+      "height": null,
+      "font_size": 40,
+      "font": "fonts/arial.ttf",
+      "textWrap": true
+    },
+    "product_amount": {
+      "x1": 1250,
+      "x2": 1800,
+      "y1": 1300,
+      "y2": 2200,
+      "width": null,
+      "height": null,
+      "font_size": 40,
+      "font": "fonts/arial.ttf",
+      "textWrap": false
     }
   }
 ]

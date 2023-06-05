@@ -2,3 +2,4 @@ fastapi == 0.96.0
 uvicorn == 0.22.0
 pillow==9.5.0
 pydantic~=1.10.8
+Faker==18.10.1
