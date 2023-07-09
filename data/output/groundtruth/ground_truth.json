@@ -1,0 +1,222 @@
+{
+  "image0.png": {
+    "customer_name": {
+      "content": "Boris Gehringer",
+      "x1": 477,
+      "x2": 577,
+      "y1": 543,
+      "y2": 588
+    },
+    "address": {
+      "content": "Schachtgasse 3\n75841 Eberswalde",
+      "x1": 477,
+      "x2": 577,
+      "y1": 589,
+      "y2": 707
+    },
+    "product_name": {
+      "content": "Artificial limbs (prosthetics)",
+      "x1": 713,
+      "x2": 1413,
+      "y1": 1753,
+      "y2": 1793
+    },
+    "product_amount": {
+      "content": "926,85\u00a0\u20ac",
+      "x1": 1513,
+      "x2": 1613,
+      "y1": 1753,
+      "y2": 1792
+    },
+    "rechnungsnummer": {
+      "content": "Rechnungsnummer:  833227",
+      "x1": 1708,
+      "x2": 1908,
+      "y1": 590,
+      "y2": 630
+    },
+    "organization": {
+      "content": "Martin",
+      "x1": 1708,
+      "x2": 1858,
+      "y1": 640,
+      "y2": 712
+    }
+  },
+  "image1.png": {
+    "customer_name": {
+      "content": "Dipl.-Ing. Heinz-Werner Schleich MBA.",
+      "x1": 328,
+      "x2": 428,
+      "y1": 455,
+      "y2": 500
+    },
+    "address": {
+      "content": "Dowergstra\u00dfe 64\n18467 Rostock",
+      "x1": 328,
+      "x2": 428,
+      "y1": 501,
+      "y2": 619
+    },
+    "product_name": {
+      "content": "X-ray machines",
+      "x1": 481,
+      "x2": 1181,
+      "y1": 1799,
+      "y2": 1839
+    },
+    "product_amount": {
+      "content": "96.921,49\u00a0\u20ac",
+      "x1": 1281,
+      "x2": 1381,
+      "y1": 1799,
+      "y2": 1838
+    },
+    "rechnungsnummer": {
+      "content": "Rechnung Nr.  346449",
+      "x1": 1627,
+      "x2": 1827,
+      "y1": 707,
+      "y2": 747
+    },
+    "organization": {
+      "content": "Metz Schuchhardt GmbH & Co. KGaA",
+      "x1": 1627,
+      "x2": 1777,
+      "y1": 757,
+      "y2": 829
+    }
+  },
+  "image2.png": {
+    "customer_name": {
+      "content": "Pawel Noack B.A.",
+      "x1": 350,
+      "x2": 450,
+      "y1": 612,
+      "y2": 649
+    },
+    "address": {
+      "content": "Rudolphgasse 4\n63064 Eilenburg",
+      "x1": 350,
+      "x2": 450,
+      "y1": 650,
+      "y2": 767
+    },
+    "product_name": {
+      "content": "MRI (magnetic resonance imaging) machines",
+      "x1": 667,
+      "x2": 1367,
+      "y1": 1386,
+      "y2": 1426
+    },
+    "product_amount": {
+      "content": "273,40\u00a0\u20ac",
+      "x1": 1467,
+      "x2": 1567,
+      "y1": 1386,
+      "y2": 1425
+    },
+    "rechnungsnummer": {
+      "content": "Rechnungsnummer:  993318",
+      "x1": 1798,
+      "x2": 1998,
+      "y1": 521,
+      "y2": 561
+    },
+    "organization": {
+      "content": "Renner",
+      "x1": 1798,
+      "x2": 1948,
+      "y1": 571,
+      "y2": 643
+    }
+  },
+  "image3.png": {
+    "customer_name": {
+      "content": "Dr. Hermann Schmiedecke",
+      "x1": 562,
+      "x2": 662,
+      "y1": 899,
+      "y2": 936
+    },
+    "address": {
+      "content": "Erwin-Sorgatz-Ring 43\n34988 Naila",
+      "x1": 562,
+      "x2": 662,
+      "y1": 937,
+      "y2": 1047
+    },
+    "product_name": {
+      "content": "Wheelchairs",
+      "x1": 683,
+      "x2": 1383,
+      "y1": 1454,
+      "y2": 1487
+    },
+    "product_amount": {
+      "content": "28.186,54\u00a0\u20ac",
+      "x1": 1483,
+      "x2": 1583,
+      "y1": 1454,
+      "y2": 1493
+    },
+    "rechnungsnummer": {
+      "content": "Rechnungsnummer:  575347",
+      "x1": 1454,
+      "x2": 1654,
+      "y1": 900,
+      "y2": 940
+    },
+    "organization": {
+      "content": "Hartung M\u00e4lzer GmbH & Co. KG",
+      "x1": 1454,
+      "x2": 1604,
+      "y1": 950,
+      "y2": 1029
+    }
+  },
+  "image4.png": {
+    "customer_name": {
+      "content": "Elfriede Gutknecht-Henschel",
+      "x1": 547,
+      "x2": 647,
+      "y1": 658,
+      "y2": 695
+    },
+    "address": {
+      "content": "Hilde-Fiebig-Gasse 7/8\n28376 Gifhorn",
+      "x1": 547,
+      "x2": 647,
+      "y1": 696,
+      "y2": 806
+    },
+    "product_name": {
+      "content": "IV (intravenous) catheters",
+      "x1": 397,
+      "x2": 1097,
+      "y1": 1868,
+      "y2": 1908
+    },
+    "product_amount": {
+      "content": "8.657,15\u00a0\u20ac",
+      "x1": 1197,
+      "x2": 1297,
+      "y1": 1868,
+      "y2": 1907
+    },
+    "rechnungsnummer": {
+      "content": "Rech Nr.  422701",
+      "x1": 1604,
+      "x2": 1804,
+      "y1": 682,
+      "y2": 715
+    },
+    "organization": {
+      "content": "Haase KG",
+      "x1": 1604,
+      "x2": 1754,
+      "y1": 725,
+      "y2": 790
+    }
+  }
+}

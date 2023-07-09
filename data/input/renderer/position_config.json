@@ -1,0 +1,66 @@
+{
+  "customer_block": {
+    "data_fields": {
+      "customer_name": {
+        "priority": 1,
+        "key": false
+      },
+      "address": {
+        "priority": 2,
+        "key": false
+      }
+    },
+    "direction": "down",
+    "position": {
+      "x1": 300,
+      "x2": 600,
+      "y1": 400,
+      "y2": 900
+    }
+  },
+  "product_block": {
+    "data_fields": {
+      "product_name": {
+        "priority": 1,
+        "key": false
+      },
+      "product_amount": {
+        "priority": 2,
+        "key": false
+      }
+    },
+    "direction": "right",
+    "position": {
+      "x1": 300,
+      "x2": 800,
+      "y1": 1300,
+      "y2": 2200
+    }
+  },
+  "identity_block": {
+    "data_fields": {
+      "rechnungsnummer": {
+        "priority": 1,
+        "key": true,
+        "key_direction": "left",
+        "key_name": [
+          "Rechnungsnummer:  ",
+          "Rech Nr.  ",
+          "Rechnung Nr.  ",
+          "R. Nr. "
+        ]
+      },
+      "organization": {
+        "priority": 2,
+        "key": false
+      }
+    },
+    "direction": "down",
+    "position": {
+      "x1": 1400,
+      "x2": 1800,
+      "y1": 400,
+      "y2": 900
+    }
+  }
+}

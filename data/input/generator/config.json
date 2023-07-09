@@ -1,0 +1,6 @@
+{
+  "gpt_enabled": false,
+  "queries": {
+    "amount": "Generate 10 sentences similar to \"Für ärztliche Leistungen erlauben wir uns, Ihnen\t28,78 EUR\tzu berechnen.\" but instead of amount 28,78 EUR use <amount> tag"
+  }
+}

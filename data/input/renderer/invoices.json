@@ -1,0 +1,47 @@
+[
+  {
+    "address": "Schachtgasse 3\n75841 Eberswalde",
+    "rechnungsnummer": 833227,
+    "product_name": "Artificial limbs (prosthetics)",
+    "product_amount": "926,85\u00a0\u20ac",
+    "customer_name": "Boris Gehringer",
+    "organization": "Martin",
+    "amount_sentence": "Bitte \u00fcberweisen Sie 926,85\u00a0\u20ac f\u00fcr die erbrachten \u00e4rztlichen Leistungen auf das angegebene Konto."
+  },
+  {
+    "address": "Dowergstra\u00dfe 64\n18467 Rostock",
+    "rechnungsnummer": 346449,
+    "product_name": "X-ray machines",
+    "product_amount": "96.921,49\u00a0\u20ac",
+    "customer_name": "Dipl.-Ing. Heinz-Werner Schleich MBA.",
+    "organization": "Metz Schuchhardt GmbH & Co. KGaA",
+    "amount_sentence": "Laut unserem Leistungskatalog bel\u00e4uft sich der Betrag f\u00fcr die \u00e4rztlichen Leistungen auf 96.921,49\u00a0\u20ac."
+  },
+  {
+    "address": "Rudolphgasse 4\n63064 Eilenburg",
+    "rechnungsnummer": 993318,
+    "product_name": "MRI (magnetic resonance imaging) machines",
+    "product_amount": "273,40\u00a0\u20ac",
+    "customer_name": "Pawel Noack B.A.",
+    "organization": "Renner",
+    "amount_sentence": "Gem\u00e4\u00df den erbrachten \u00e4rztlichen Leistungen betr\u00e4gt der Betrag 273,40\u00a0\u20ac."
+  },
+  {
+    "address": "Erwin-Sorgatz-Ring 43\n34988 Naila",
+    "rechnungsnummer": 575347,
+    "product_name": "Wheelchairs",
+    "product_amount": "28.186,54\u00a0\u20ac",
+    "customer_name": "Dr. Hermann Schmiedecke",
+    "organization": "Hartung M\u00e4lzer GmbH & Co. KG",
+    "amount_sentence": "Wir m\u00f6chten Ihnen gerne 28.186,54\u00a0\u20ac f\u00fcr die erbrachten \u00e4rztlichen Leistungen in Rechnung stellen."
+  },
+  {
+    "address": "Hilde-Fiebig-Gasse 7/8\n28376 Gifhorn",
+    "rechnungsnummer": 422701,
+    "product_name": "IV (intravenous) catheters",
+    "product_amount": "8.657,15\u00a0\u20ac",
+    "customer_name": "Elfriede Gutknecht-Henschel",
+    "organization": "Haase KG",
+    "amount_sentence": "Die in Anspruch genommenen \u00e4rztlichen Leistungen erfordern eine Zahlung von 8.657,15\u00a0\u20ac."
+  }
+]

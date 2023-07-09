@@ -24,5 +24,5 @@ def generate_fake_data(data_field, countries):
 def get_data_dict(faker):
     data = {"customer_name": faker.name(), "address": faker.address(), "organization": faker.company(),
             "product_name": faker.product_category(),
-            "product_amount": faker.pricetag(), "rechnungsnummer": faker.random_int(min=1000, max=9999)}
+            "product_amount": faker.pricetag(), "rechnungsnummer": faker.random_int(min=100000, max=999999)}
     return data
