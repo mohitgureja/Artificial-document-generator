@@ -1,47 +1,98 @@
 [
   {
-    "address": "Schachtgasse 3\n75841 Eberswalde",
-    "rechnungsnummer": 833227,
-    "product_name": "Artificial limbs (prosthetics)",
-    "product_amount": "926,85\u00a0\u20ac",
-    "customer_name": "Boris Gehringer",
-    "organization": "Martin",
-    "amount_sentence": "Bitte \u00fcberweisen Sie 926,85\u00a0\u20ac f\u00fcr die erbrachten \u00e4rztlichen Leistungen auf das angegebene Konto."
+    "address": "R\u00f6rrichtweg 566\n29820 Prenzlau",
+    "rechnungsnummer": 747678,
+    "product_amount": [
+      " 100 \u20ac",
+      " 40 \u20ac",
+      " 4,77 \u20ac",
+      " 20 \u20ac",
+      " 1000 \u20ac",
+      " 20 \u20ac"
+    ],
+    "customer_name": "Elly Etzold",
+    "organization": "Wernecke AG",
+    "amount_sentence": "Gem\u00e4\u00df den erbrachten \u00e4rztlichen Leistungen betr\u00e4gt der Betrag 1184.77 \u20ac.",
+    "product_name": [
+      "Rollator",
+      "Diabetesberatung, je Sitzung",
+      "Untersuchung, symptombezogen",
+      "Antibiotika (Packung)",
+      "H\u00f6rger\u00e4t",
+      "Verbandsmaterial, monatlicher Bedarf"
+    ],
+    "total_amount": "1184.77 \u20ac"
   },
   {
-    "address": "Dowergstra\u00dfe 64\n18467 Rostock",
-    "rechnungsnummer": 346449,
-    "product_name": "X-ray machines",
-    "product_amount": "96.921,49\u00a0\u20ac",
-    "customer_name": "Dipl.-Ing. Heinz-Werner Schleich MBA.",
-    "organization": "Metz Schuchhardt GmbH & Co. KGaA",
-    "amount_sentence": "Laut unserem Leistungskatalog bel\u00e4uft sich der Betrag f\u00fcr die \u00e4rztlichen Leistungen auf 96.921,49\u00a0\u20ac."
+    "address": "Edmund-Pruschke-Ring 980\n99418 H\u00fcnfeld",
+    "rechnungsnummer": 843802,
+    "product_amount": [
+      " 20 \u20ac",
+      " 20 \u20ac",
+      " 40 \u20ac"
+    ],
+    "customer_name": "Ralf-Peter Freudenberger MBA.",
+    "organization": "Bien",
+    "amount_sentence": "Gem\u00e4\u00df den erbrachten \u00e4rztlichen Leistungen betr\u00e4gt der Betrag 80.0 \u20ac.",
+    "product_name": [
+      "Chirurgische Nahtentfernung",
+      "Gehhilfe (Gehstock)",
+      "Prostatauntersuchung, rektal"
+    ],
+    "total_amount": "80.0 \u20ac"
   },
   {
-    "address": "Rudolphgasse 4\n63064 Eilenburg",
-    "rechnungsnummer": 993318,
-    "product_name": "MRI (magnetic resonance imaging) machines",
-    "product_amount": "273,40\u00a0\u20ac",
-    "customer_name": "Pawel Noack B.A.",
-    "organization": "Renner",
-    "amount_sentence": "Gem\u00e4\u00df den erbrachten \u00e4rztlichen Leistungen betr\u00e4gt der Betrag 273,40\u00a0\u20ac."
+    "address": "Michail-Neusch\u00e4fer-Allee 634\n32454 Forst",
+    "rechnungsnummer": 847624,
+    "product_amount": [
+      " 1000 \u20ac",
+      " 30 \u20ac"
+    ],
+    "customer_name": "Gottlob Fischer B.Eng.",
+    "organization": "Schaaf AG",
+    "amount_sentence": "Gem\u00e4\u00df unserer Preisliste bel\u00e4uft sich der Betrag f\u00fcr die geleisteten \u00e4rztlichen Dien",
+    "product_name": [
+      "Lippenkorrektur (Lippenaugmentation)",
+      "Antidepressiva (Packung)"
+    ],
+    "total_amount": "1030.0 \u20ac"
   },
   {
-    "address": "Erwin-Sorgatz-Ring 43\n34988 Naila",
-    "rechnungsnummer": 575347,
-    "product_name": "Wheelchairs",
-    "product_amount": "28.186,54\u00a0\u20ac",
-    "customer_name": "Dr. Hermann Schmiedecke",
-    "organization": "Hartung M\u00e4lzer GmbH & Co. KG",
-    "amount_sentence": "Wir m\u00f6chten Ihnen gerne 28.186,54\u00a0\u20ac f\u00fcr die erbrachten \u00e4rztlichen Leistungen in Rechnung stellen."
+    "address": "Karl-Werner-Schinke-Ring 6\n62311 G\u00fctersloh",
+    "rechnungsnummer": 182216,
+    "product_amount": [
+      " 5 \u20ac",
+      " 1000 \u20ac",
+      " 5 \u20ac",
+      " 2000 \u20ac",
+      " 15 \u20ac"
+    ],
+    "customer_name": "Maike K\u00f6hler",
+    "organization": "Reising Wiek GmbH",
+    "amount_sentence": "F\u00fcr \u00e4rztliche Leistungen erlauben wir uns, Ihnen 3025.0 \u20ac zu berechnen.",
+    "product_name": [
+      "\u00dcbungsbehandlung, je Sitzung",
+      "Operation, mittlere Eingriffe",
+      "Blutdruckmessung",
+      "Gebissprothese (komplettes Gebiss)",
+      "Magens\u00e4urehemmer (Packung)"
+    ],
+    "total_amount": "3025.0 \u20ac"
   },
   {
-    "address": "Hilde-Fiebig-Gasse 7/8\n28376 Gifhorn",
-    "rechnungsnummer": 422701,
-    "product_name": "IV (intravenous) catheters",
-    "product_amount": "8.657,15\u00a0\u20ac",
-    "customer_name": "Elfriede Gutknecht-Henschel",
-    "organization": "Haase KG",
-    "amount_sentence": "Die in Anspruch genommenen \u00e4rztlichen Leistungen erfordern eine Zahlung von 8.657,15\u00a0\u20ac."
+    "address": "Horst-G\u00fcnter-Eberhardt-Stra\u00dfe 538\n71201 Peine",
+    "rechnungsnummer": 260629,
+    "product_amount": [
+      " 10000 \u20ac",
+      " 100 \u20ac"
+    ],
+    "customer_name": "Andrew Trubin",
+    "organization": "Losekann GmbH & Co. KGaA",
+    "amount_sentence": "Bitte \u00fcberweisen Sie 10100.0 \u20ac f\u00fcr die erbrachten \u00e4rztlichen Leistungen auf das angegebene Konto.",
+    "product_name": [
+      "Magenbypass-Operation",
+      "Zahnf\u00fcllung"
+    ],
+    "total_amount": "10100.0 \u20ac"
   }
 ]

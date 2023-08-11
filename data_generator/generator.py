@@ -12,11 +12,14 @@ def generate_gpt_data(config_data):
     """
     data = {}
     if config_data["gpt_enabled"]:
-        query = config_data["queries"]["amount"]
-        data["amount_sentence"] = gptService.generate_gpt_sentence("amount_sentence", query)
+        for key in config_data["gpt_keys"]:
+            query = config_data["queries"][key]
+            isKeyPair = key in config_data["gpt_key_pairs"]
+            data[key] = gptService.generate_gpt_sentence(key, query, isKeyPair)
     else:
         gpt_response = helper.read_json("data/input/renderer/gpt_response.json")
-        data["amount_sentence"] = gpt_response["amount_sentence"].split("\n")
+        for key in gpt_response.keys():
+            data[key] = gpt_response[key]
     return data
 
 
@@ -39,9 +42,10 @@ def generate_data(data_field_names, config_params):
     for i in range(config_params["invoice_count"]):
         fake_data = {}
         for data_field in data_field_names.keys():
-            # Generate fake data fields using Faker
-            data = fakerWrapper.generate_fake_data(data_field, config_params["countries"])
-            fake_data[data_field] = data
+            if data_field not in config_data["gpt_keys"] and data_field not in config_data["calculate_keys"]:
+                # Generate fake data fields using Faker
+                data = fakerWrapper.generate_fake_data(data_field, config_params["countries"])
+                fake_data[data_field] = data
 
         # Update generated sentences from GPT into the fields
         fake_data = dataService.update_gpt_data(fake_data, gpt_data)

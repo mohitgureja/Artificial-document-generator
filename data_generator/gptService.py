@@ -8,9 +8,24 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 RESPONSE_FILE_PATH = "data/input/renderer/gpt_response.json"
 
 
-def generate_gpt_sentence(key, query):
+def get_pairs_content(key, content: list, isKeyPair: bool):
+    """
+    :param key: str
+    :param content: list
+    :type isKeyPair: bool
+    """
+    data = {}
+    if isKeyPair:
+        data[key] = [text.split(':') for text in content]
+    else:
+        data[key] = content
+    return data
+
+
+def generate_gpt_sentence(key, query, isKeyPair):
     """
     Generate g
+    :param isKeyPair:
     :param query:
     :return: [String]
     """
@@ -30,6 +45,7 @@ def generate_gpt_sentence(key, query):
     )
 
     content = response["choices"][0]["message"]["content"]
-    data = {key, content}
+    content = content.split("\n")
+    data = get_pairs_content(key, content, isKeyPair)
     helper.write_json(data, RESPONSE_FILE_PATH)
-    return content.split("\n")
+    return data[key]

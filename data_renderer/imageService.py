@@ -9,6 +9,13 @@ POSITION_CONFIG_FILE_PATH = "data/input/renderer/position_config.json"
 
 
 def generate_textimage(data, fields, style_config_data):
+    """
+    Render image according to the data and field_config provided
+    :param data:
+    :param fields:
+    :param style_config_data:
+    :return:
+    """
     position_config_data = helper.read_json(POSITION_CONFIG_FILE_PATH)
 
     # Image size
@@ -22,30 +29,38 @@ def generate_textimage(data, fields, style_config_data):
         block = position_config_data[block]
         x1 = random.randint(block["position"]["x1"], block["position"]["x2"])
         y1 = random.randint(block["position"]["y1"], block["position"]["y2"])
-        direction = block["direction"]
+
         w, h = 0, 0
         for data_field in block["data_fields"]:
+            direction = block["direction"]
             field = block["data_fields"][data_field]
             if data_field not in fields:
                 continue
             text = data[data_field]
 
             if field["key"]:
-                field_direction = field["key_direction"]
-                rech_nr = random.choice(field["key_name"])
-                if field_direction == "top":
-                    text = rech_nr + "\n" + str(text)
-                elif field_direction == "left":
-                    text = rech_nr + str(text)
-            config = style_config_data[data_field]
+                text = get_keytext(field, text)
+            field_config = style_config_data[data_field]
+
+            font = get_font(field_config)
+
+            if field["isList"]:
+                text = "\n".join(text)
+
+            if field["has_previous_key"]:
+                direction = field["key_direction"]
+                x1 = ground_truth[field["previous_key"]]["x1"]
+                y1 = ground_truth[field["previous_key"]]["y1"]
+                h = ground_truth[field["previous_key"]]["y2"] - y1
+                w = ground_truth[field["previous_key"]]["x2"] - x1
+
             if direction == "down":
-                y1 = y1 + config["margin-top"] + h
+                y1 = y1 + field_config["margin-top"] + h
             elif direction == "right":
-                x1 = x1 + config["margin-left"] + w
+                x1 = x1 + field_config["margin-left"] + w
                 h = 0
 
-            font = ImageFont.truetype(config["font"], size=config["font_size"])
-            w = config["width"]
+            w = field_config["width"]
 
             split_text = str(text).split("\n")
             for text_line in split_text:
@@ -53,7 +68,25 @@ def generate_textimage(data, fields, style_config_data):
                 for line in wrapped_text:
                     img_draw.text((x1, y1 + h), str(line), fill=(0, 0, 0), font=font)
                     h += font.getsize(line)[1]
+                h += 10
 
             # Ground Truth Data for each field
             ground_truth[data_field] = {"content": text, "x1": x1, "x2": x1 + w, "y1": y1, "y2": y1 + h}
     return img, ground_truth
+
+
+def get_font(field_config):
+    font = ImageFont.truetype(field_config["font"], size=field_config["font_size"])
+    # if field_config["bold"]:
+    #     font.set_variation_by_name('Bold')
+    return font
+
+
+def get_keytext(field, text):
+    field_direction = field["key_direction"]
+    rech_nr = random.choice(field["key_name"])
+    if field_direction == "top":
+        text = rech_nr + "\n" + str(text)
+    elif field_direction == "left":
+        text = rech_nr + str(text)
+    return text

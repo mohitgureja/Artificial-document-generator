@@ -3,11 +3,15 @@
     "data_fields": {
       "customer_name": {
         "priority": 1,
-        "key": false
+        "key": false,
+        "isList": false,
+        "has_previous_key": false
       },
       "address": {
         "priority": 2,
-        "key": false
+        "key": false,
+        "isList": false,
+        "has_previous_key": false
       }
     },
     "direction": "down",
@@ -22,11 +26,23 @@
     "data_fields": {
       "product_name": {
         "priority": 1,
-        "key": false
+        "key": false,
+        "isList": true,
+        "has_previous_key": false
       },
       "product_amount": {
         "priority": 2,
-        "key": false
+        "key": false,
+        "isList": true,
+        "has_previous_key": false
+      },
+      "total_amount": {
+        "priority": 2,
+        "key": false,
+        "isList": false,
+        "has_previous_key": true,
+        "previous_key": "product_amount",
+        "key_direction": "down"
       }
     },
     "direction": "right",
@@ -48,11 +64,15 @@
           "Rech Nr.  ",
           "Rechnung Nr.  ",
           "R. Nr. "
-        ]
+        ],
+        "isList": false,
+        "has_previous_key": false
       },
       "organization": {
         "priority": 2,
-        "key": false
+        "key": false,
+        "isList": false,
+        "has_previous_key": false
       }
     },
     "direction": "down",
@@ -61,6 +81,23 @@
       "x2": 1800,
       "y1": 400,
       "y2": 900
+    }
+  },
+  "text_details_block": {
+    "data_fields": {
+      "amount_sentence": {
+        "priority": 1,
+        "key": false,
+        "isList": false,
+        "has_previous_key": false
+      }
+    },
+    "direction": "down",
+    "position": {
+      "x1": 300,
+      "x2": 400,
+      "y1": 1000,
+      "y2": 1300
     }
   }
 }

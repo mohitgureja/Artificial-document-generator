@@ -6,7 +6,6 @@ from pydantic import BaseModel
 #     product_name: bool | None = None
 #     product_amount: int | None = None
 
-
 # @dataclass
 class InvoiceData(BaseModel):
     address: bool = False
@@ -15,9 +14,15 @@ class InvoiceData(BaseModel):
     product_amount: bool = False
     customer_name: bool = False
     organization: bool = False
+    amount_sentence: bool = False
+    total_amount: bool = False
 
     def get_variables(self):
         return vars(self)
+
+    def set_variables(self):
+        if self.product_name and self.product_amount:
+            self.total_amount = True
 
 
 # @dataclass

@@ -1,3 +1,388 @@
 {
-  "amount_sentence": "1. F\u00fcr \u00e4rztliche Leistungen erlauben wir uns, Ihnen <amount> zu berechnen.\n2. Wir m\u00f6chten Ihnen gerne <amount> f\u00fcr die erbrachten \u00e4rztlichen Leistungen in Rechnung stellen.\n3. Gem\u00e4\u00df den erbrachten \u00e4rztlichen Leistungen betr\u00e4gt der Betrag <amount>.\n4. Der berechnete Betrag f\u00fcr \u00e4rztliche Leistungen bel\u00e4uft sich auf <amount>.\n5. Laut unserem Leistungskatalog bel\u00e4uft sich der Betrag f\u00fcr die \u00e4rztlichen Leistungen auf <amount>.\n6. Die in Anspruch genommenen \u00e4rztlichen Leistungen erfordern eine Zahlung von <amount>.\n7. Bitte begleichen Sie den Betrag von <amount> f\u00fcr die erbrachten \u00e4rztlichen Leistungen.\n8. Der Rechnungsbetrag f\u00fcr die erbrachten \u00e4rztlichen Leistungen bel\u00e4uft sich auf <amount>.\n9. Bitte \u00fcberweisen Sie <amount> f\u00fcr die erbrachten \u00e4rztlichen Leistungen auf das angegebene Konto.\n10. Gem\u00e4\u00df unserer Preisliste bel\u00e4uft sich der Betrag f\u00fcr die geleisteten \u00e4rztlichen Dien"
+  "amount_sentence": [
+    "1. Für ärztliche Leistungen erlauben wir uns, Ihnen <amount> zu berechnen.",
+    "2. Wir möchten Ihnen gerne <amount> für die erbrachten ärztlichen Leistungen in Rechnung stellen.",
+    "3. Gemäß den erbrachten ärztlichen Leistungen beträgt der Betrag <amount>.",
+    "4. Der berechnete Betrag für ärztliche Leistungen beläuft sich auf <amount>.",
+    "5. Laut unserem Leistungskatalog beläuft sich der Betrag für die ärztlichen Leistungen auf <amount>.",
+    "6. Die in Anspruch genommenen ärztlichen Leistungen erfordern eine Zahlung von <amount>.",
+    "7. Bitte begleichen Sie den Betrag von <amount> für die erbrachten ärztlichen Leistungen.",
+    "8. Der Rechnungsbetrag für die erbrachten ärztlichen Leistungen beläuft sich auf <amount>.",
+    "9. Bitte überweisen Sie <amount> für die erbrachten ärztlichen Leistungen auf das angegebene Konto.",
+    "10. Gemäß unserer Preisliste beläuft sich der Betrag für die geleisteten ärztlichen Dien"
+  ],
+  "product_name": [
+    [
+      "Übungsbehandlung, je Sitzung",
+      " 5 €"
+    ],
+    [
+      "Untersuchung, symptombezogen",
+      " 4,77 €"
+    ],
+    [
+      "Symptombezogene Untersuchung",
+      " 10,72 €"
+    ],
+    [
+      "Magnetresonanztomographie eines oder mehrerer Gelenke oder Abschnitte von Extremitäten",
+      " 321,75 €"
+    ],
+    [
+      "Sonographie, je Organ, bis zu drei",
+      " 26,81 €"
+    ],
+    [
+      "Blutuntersuchung, komplettes Blutbild",
+      " 40 €"
+    ],
+    [
+      "Röntgenaufnahme, eine Aufnahme",
+      " 15 €"
+    ],
+    [
+      "Zahnreinigung",
+      " 80 €"
+    ],
+    [
+      "Zahnfüllung",
+      " 100 €"
+    ],
+    [
+      "Wurzelkanalbehandlung, ein Kanal",
+      " 200 €"
+    ],
+    [
+      "Zahnextraktion, einfacher Zahn",
+      " 60 €"
+    ],
+    [
+      "Gipsverband anlegen",
+      " 20 €"
+    ],
+    [
+      "EKG (Elektrokardiogramm)",
+      " 30 €"
+    ],
+    [
+      "Ultraschall, Bauchraum",
+      " 70 €"
+    ],
+    [
+      "Mammographie (Brustuntersuchung)",
+      " 80 €"
+    ],
+    [
+      "Darmspiegelung (Koloskopie)",
+      " 400 €"
+    ],
+    [
+      "Gelenkpunktion, ein Gelenk",
+      " 50 €"
+    ],
+    [
+      "Wundversorgung, kleine Wunde",
+      " 10 €"
+    ],
+    [
+      "Impfung, Standardimpfstoff",
+      " 30 €"
+    ],
+    [
+      "Physiotherapie, je Sitzung",
+      " 35 €"
+    ],
+    [
+      "Psychotherapie, je Sitzung",
+      " 80 €"
+    ],
+    [
+      "Chirurgische Nahtentfernung",
+      " 20 €"
+    ],
+    [
+      "Injektion, intramuskulär",
+      " 10 €"
+    ],
+    [
+      "Blutdruckmessung",
+      " 5 €"
+    ],
+    [
+      "Diabetesberatung, je Sitzung",
+      " 40 €"
+    ],
+    [
+      "Hörtest",
+      " 30 €"
+    ],
+    [
+      "Sehtest",
+      " 20 €"
+    ],
+    [
+      "Schilddrüsenuntersuchung, Ultraschall",
+      " 60 €"
+    ],
+    [
+      "Herzultraschall (Echokardiographie)",
+      " 120 €"
+    ],
+    [
+      "Prostatauntersuchung, rektal",
+      " 40 €"
+    ],
+    [
+      "Allgemeine ärztliche Beratung",
+      " 25 €"
+    ],
+    [
+      "Blasenkatheterisierung",
+      " 40 €"
+    ],
+    [
+      "Notfallbehandlung, ambulant",
+      " 100 €"
+    ],
+    [
+      "Operation, kleine Eingriffe",
+      " 500 €"
+    ],
+    [
+      "Operation, mittlere Eingriffe",
+      " 1000 €"
+    ],
+    [
+      "Operation, große Eingriffe",
+      " 5000 €"
+    ],
+    [
+      "Herzschrittmacher-Implantation",
+      " 5000 €"
+    ],
+    [
+      "Kniegelenkersatz (Knie-TEP)",
+      " 8000 €"
+    ],
+    [
+      "Hüftgelenkersatz (Hüft-TEP)",
+      " 10000 €"
+    ],
+    [
+      "Bypass-Operation, Herz",
+      " 15000 €"
+    ],
+    [
+      "Kaiserschnitt-Geburt",
+      " 2000 €"
+    ],
+    [
+      "Frakturbehandlung, Gips",
+      " 150 €"
+    ],
+    [
+      "Psychologische Beratung, je Sitzung",
+      " 60 €"
+    ],
+    [
+      "Gehirn-MRT (Magnetresonanztomographie)",
+      " 500 €"
+    ],
+    [
+      "Augenlidkorrektur (Blepharoplastik)",
+      " 2000 €"
+    ],
+    [
+      "Nasenkorrektur (Rhinoplastik)",
+      " 3000 €"
+    ],
+    [
+      "Brustvergrößerung (Mammaaugmentation)",
+      " 4000 €"
+    ],
+    [
+      "Fettabsaugung (Liposuktion)",
+      " 3000 €"
+    ],
+    [
+      "Facelift (Gesichtsstraffung)",
+      " 5000 €"
+    ],
+    [
+      "Laser-Augenoperation (LASIK), pro Auge",
+      " 2000 €"
+    ],
+    [
+      "Haartransplantation",
+      " 4000 €"
+    ],
+    [
+      "Chemotherapie, pro Sitzung",
+      " 500 €"
+    ],
+    [
+      "Bestrahlungstherapie, pro Sitzung",
+      " 200 €"
+    ],
+    [
+      "Nierensteinentfernung (perkutane Nephrolitholapaxie)",
+      " 3000 €"
+    ],
+    [
+      "Magenbypass-Operation",
+      " 10000 €"
+    ],
+    [
+      "Zahnimplantat",
+      " 1500 €"
+    ],
+    [
+      "Kieferorthopädische Behandlung (Zahnspange)",
+      " 3000 €"
+    ],
+    [
+      "Gebissprothese (komplettes Gebiss)",
+      " 2000 €"
+    ],
+    [
+      "Hormonersatztherapie, pro Monat",
+      " 50 €"
+    ],
+    [
+      "Glaukomoperation (Grüner Star)",
+      " 2000 €"
+    ],
+    [
+      "Laser-Haarentfernung, pro Sitzung",
+      " 100 €"
+    ],
+    [
+      "Schlafstudie (Schlafapnoe)",
+      " 500 €"
+    ],
+    [
+      "Lippenkorrektur (Lippenaugmentation)",
+      " 1000 €"
+    ],
+    [
+      "Schrittmacherkontrolle",
+      " 50 €"
+    ],
+    [
+      "Magensonde",
+      " 30 €"
+    ],
+    [
+      "Heimbeatmungsgerät",
+      " 2000 €"
+    ],
+    [
+      "Hörgerät",
+      " 1000 €"
+    ],
+    [
+      "Rollstuhl",
+      " 500 €"
+    ],
+    [
+      "Rollator",
+      " 100 €"
+    ],
+    [
+      "Gehhilfe (Gehstock)",
+      " 20 €"
+    ],
+    [
+      "Inkontinenzhilfen, monatlicher Bedarf",
+      " 50 €"
+    ],
+    [
+      "Gehörschutz (Ohrstöpsel)",
+      " 10 €"
+    ],
+    [
+      "Brille (Standardfassung)",
+      " 100 €"
+    ],
+    [
+      "Kontaktlinsen, monatlicher Bedarf",
+      " 50 €"
+    ],
+    [
+      "Zahnaufhellung (Bleaching)",
+      " 150 €"
+    ],
+    [
+      "Zahnschiene (Knirscherschiene)",
+      " 200 €"
+    ],
+    [
+      "Zahnspülung",
+      " 10 €"
+    ],
+    [
+      "Zahnbürste",
+      " 3 €"
+    ],
+    [
+      "Zahnpasta",
+      " 3 €"
+    ],
+    [
+      "Mundwasser",
+      " 5 €"
+    ],
+    [
+      "Fieberthermometer",
+      " 10 €"
+    ],
+    [
+      "Verbandsmaterial, monatlicher Bedarf",
+      " 20 €"
+    ],
+    [
+      "Desinfektionsmittel, monatlicher Bedarf",
+      " 10 €"
+    ],
+    [
+      "Schmerzmittel (Packung)",
+      " 5 €"
+    ],
+    [
+      "Hustensaft (Packung)",
+      " 10 €"
+    ],
+    [
+      "Nasenspray",
+      " 5 €"
+    ],
+    [
+      "Wundsalbe",
+      " 8 €"
+    ],
+    [
+      "Augentropfen",
+      " 10 €"
+    ],
+    [
+      "Antiallergikum (Packung)",
+      " 10 €"
+    ],
+    [
+      "Antibiotika (Packung)",
+      " 20 €"
+    ],
+    [
+      "Antidepressiva (Packung)",
+      " 30 €"
+    ],
+    [
+      "Magensäurehemmer (Packung)",
+      " 15 €"
+    ],
+    [
+      "Schilddrüsentabletten (Packung)",
+      " 10 €"
+    ]
+  ]
 }
