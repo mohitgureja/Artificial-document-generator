@@ -1,98 +1,104 @@
 [
   {
-    "address": "R\u00f6rrichtweg 566\n29820 Prenzlau",
-    "rechnungsnummer": 747678,
+    "address": "Schottinring 8\n66929 Cottbus",
+    "rechnungsnummer": 683455,
+    "product_amount": [
+      " 500 \u20ac",
+      " 10,72 \u20ac",
+      " 2000 \u20ac",
+      " 10 \u20ac",
+      " 60 \u20ac",
+      " 500 \u20ac"
+    ],
+    "customer_name": "Alla R\u00e4del",
+    "organization": "Seidel",
+    "amount_sentence": "Wir m\u00f6chten Ihnen gerne 3080.7200000000003 \u20ac f\u00fcr die erbrachten \u00e4rztlichen Leistungen in Rechnung stellen.",
+    "product_name": [
+      "Operation, kleine Eingriffe",
+      "Symptombezogene Untersuchung",
+      "Augenlidkorrektur (Blepharoplastik)",
+      "Geh\u00f6rschutz (Ohrst\u00f6psel)",
+      "Psychologische Beratung, je Sitzung",
+      "Gehirn-MRT (Magnetresonanztomographie)"
+    ],
+    "total_amount": "3080.7200000000003 \u20ac"
+  },
+  {
+    "address": "Reuterweg 687\n01565 Tecklenburg",
+    "rechnungsnummer": 344699,
+    "product_amount": [
+      " 100 \u20ac",
+      " 20 \u20ac",
+      " 2000 \u20ac"
+    ],
+    "customer_name": "Frau Evi Wagner",
+    "organization": "Seifert",
+    "amount_sentence": "Der berechnete Betrag f\u00fcr \u00e4rztliche Leistungen bel\u00e4uft sich auf 2120.0 \u20ac.",
+    "product_name": [
+      "Rollator",
+      "Chirurgische Nahtentfernung",
+      "Heimbeatmungsger\u00e4t"
+    ],
+    "total_amount": "2120.0 \u20ac"
+  },
+  {
+    "address": "Caterina-Lindau-Allee 6\n92378 Starnberg",
+    "rechnungsnummer": 592362,
+    "product_amount": [
+      " 10000 \u20ac",
+      " 70 \u20ac",
+      " 50 \u20ac",
+      " 10000 \u20ac",
+      " 200 \u20ac",
+      " 500 \u20ac"
+    ],
+    "customer_name": "Sylvester Bl\u00fcmel",
+    "organization": "Christoph",
+    "amount_sentence": "Bitte \u00fcberweisen Sie 20820.0 \u20ac f\u00fcr die erbrachten \u00e4rztlichen Leistungen auf das angegebene Konto.",
+    "product_name": [
+      "Magenbypass-Operation",
+      "Ultraschall, Bauchraum",
+      "Schrittmacherkontrolle",
+      "H\u00fcftgelenkersatz (H\u00fcft-TEP)",
+      "Bestrahlungstherapie, pro Sitzung",
+      "Operation, kleine Eingriffe"
+    ],
+    "total_amount": "20820.0 \u20ac"
+  },
+  {
+    "address": "Zeynep-Birnbaum-Allee 8\n59446 Schw\u00e4bisch Hall",
+    "rechnungsnummer": 370826,
+    "product_amount": [
+      " 1000 \u20ac",
+      " 5 \u20ac"
+    ],
+    "customer_name": "Dr. Gesa Gunpf B.A.",
+    "organization": "Weimer Peukert GbR",
+    "amount_sentence": "Der berechnete Betrag f\u00fcr \u00e4rztliche Leistungen bel\u00e4uft sich auf 1005.0 \u20ac.",
+    "product_name": [
+      "H\u00f6rger\u00e4t",
+      "Blutdruckmessung"
+    ],
+    "total_amount": "1005.0 \u20ac"
+  },
+  {
+    "address": "auch Schlauchinplatz 0/6\n60466 Querfurt",
+    "rechnungsnummer": 955619,
     "product_amount": [
       " 100 \u20ac",
       " 40 \u20ac",
-      " 4,77 \u20ac",
-      " 20 \u20ac",
-      " 1000 \u20ac",
+      " 5000 \u20ac",
       " 20 \u20ac"
     ],
-    "customer_name": "Elly Etzold",
-    "organization": "Wernecke AG",
-    "amount_sentence": "Gem\u00e4\u00df den erbrachten \u00e4rztlichen Leistungen betr\u00e4gt der Betrag 1184.77 \u20ac.",
-    "product_name": [
-      "Rollator",
-      "Diabetesberatung, je Sitzung",
-      "Untersuchung, symptombezogen",
-      "Antibiotika (Packung)",
-      "H\u00f6rger\u00e4t",
-      "Verbandsmaterial, monatlicher Bedarf"
-    ],
-    "total_amount": "1184.77 \u20ac"
-  },
-  {
-    "address": "Edmund-Pruschke-Ring 980\n99418 H\u00fcnfeld",
-    "rechnungsnummer": 843802,
-    "product_amount": [
-      " 20 \u20ac",
-      " 20 \u20ac",
-      " 40 \u20ac"
-    ],
-    "customer_name": "Ralf-Peter Freudenberger MBA.",
-    "organization": "Bien",
-    "amount_sentence": "Gem\u00e4\u00df den erbrachten \u00e4rztlichen Leistungen betr\u00e4gt der Betrag 80.0 \u20ac.",
-    "product_name": [
-      "Chirurgische Nahtentfernung",
-      "Gehhilfe (Gehstock)",
-      "Prostatauntersuchung, rektal"
-    ],
-    "total_amount": "80.0 \u20ac"
-  },
-  {
-    "address": "Michail-Neusch\u00e4fer-Allee 634\n32454 Forst",
-    "rechnungsnummer": 847624,
-    "product_amount": [
-      " 1000 \u20ac",
-      " 30 \u20ac"
-    ],
-    "customer_name": "Gottlob Fischer B.Eng.",
-    "organization": "Schaaf AG",
+    "customer_name": "Babett Gertz",
+    "organization": "Kostolzin Benthin GbR",
     "amount_sentence": "Gem\u00e4\u00df unserer Preisliste bel\u00e4uft sich der Betrag f\u00fcr die geleisteten \u00e4rztlichen Dien",
     "product_name": [
-      "Lippenkorrektur (Lippenaugmentation)",
-      "Antidepressiva (Packung)"
+      "Notfallbehandlung, ambulant",
+      "Diabetesberatung, je Sitzung",
+      "Facelift (Gesichtsstraffung)",
+      "Verbandsmaterial, monatlicher Bedarf"
     ],
-    "total_amount": "1030.0 \u20ac"
-  },
-  {
-    "address": "Karl-Werner-Schinke-Ring 6\n62311 G\u00fctersloh",
-    "rechnungsnummer": 182216,
-    "product_amount": [
-      " 5 \u20ac",
-      " 1000 \u20ac",
-      " 5 \u20ac",
-      " 2000 \u20ac",
-      " 15 \u20ac"
-    ],
-    "customer_name": "Maike K\u00f6hler",
-    "organization": "Reising Wiek GmbH",
-    "amount_sentence": "F\u00fcr \u00e4rztliche Leistungen erlauben wir uns, Ihnen 3025.0 \u20ac zu berechnen.",
-    "product_name": [
-      "\u00dcbungsbehandlung, je Sitzung",
-      "Operation, mittlere Eingriffe",
-      "Blutdruckmessung",
-      "Gebissprothese (komplettes Gebiss)",
-      "Magens\u00e4urehemmer (Packung)"
-    ],
-    "total_amount": "3025.0 \u20ac"
-  },
-  {
-    "address": "Horst-G\u00fcnter-Eberhardt-Stra\u00dfe 538\n71201 Peine",
-    "rechnungsnummer": 260629,
-    "product_amount": [
-      " 10000 \u20ac",
-      " 100 \u20ac"
-    ],
-    "customer_name": "Andrew Trubin",
-    "organization": "Losekann GmbH & Co. KGaA",
-    "amount_sentence": "Bitte \u00fcberweisen Sie 10100.0 \u20ac f\u00fcr die erbrachten \u00e4rztlichen Leistungen auf das angegebene Konto.",
-    "product_name": [
-      "Magenbypass-Operation",
-      "Zahnf\u00fcllung"
-    ],
-    "total_amount": "10100.0 \u20ac"
+    "total_amount": "5160.0 \u20ac"
   }
 ]

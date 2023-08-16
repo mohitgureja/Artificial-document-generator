@@ -1,292 +1,401 @@
 {
   "image0.png": {
     "customer_name": {
-      "content": "Elly Etzold",
-      "x1": 342,
-      "x2": 442,
-      "y1": 871,
-      "y2": 926
+      "content": "Alla R\u00e4del",
+      "x1": 541,
+      "x2": 641,
+      "y1": 831,
+      "y2": 878
     },
     "address": {
-      "content": "R\u00f6rrichtweg 566\n29820 Prenzlau",
-      "x1": 342,
-      "x2": 442,
-      "y1": 927,
-      "y2": 1075
-    },
-    "product_name": {
-      "content": "Rollator\nDiabetesberatung, je Sitzung\nUntersuchung, symptombezogen\nAntibiotika (Packung)\nH\u00f6rger\u00e4t\nVerbandsmaterial, monatlicher Bedarf",
-      "x1": 398,
-      "x2": 1098,
-      "y1": 2168,
-      "y2": 2460
+      "content": "Schottinring 8\n66929 Cottbus",
+      "x1": 541,
+      "x2": 641,
+      "y1": 879,
+      "y2": 972
     },
     "product_amount": {
-      "content": " 100 \u20ac\n 40 \u20ac\n 4,77 \u20ac\n 20 \u20ac\n 1000 \u20ac\n 20 \u20ac",
-      "x1": 1198,
-      "x2": 1398,
-      "y1": 2168,
-      "y2": 2432
+      "x1": 1843.8260869565217,
+      "x2": 2136,
+      "y1": 2093,
+      "y2": 2442,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Operation, kleine Eingriffe",
+          " 500 \u20ac"
+        ],
+        [
+          "Symptombezogene Untersuchung",
+          " 10,72 \u20ac"
+        ],
+        [
+          "Augenlidkorrektur (Blepharoplastik)",
+          " 2000 \u20ac"
+        ],
+        [
+          "Geh\u00f6rschutz (Ohrst\u00f6psel)",
+          " 10 \u20ac"
+        ],
+        [
+          "Psychologische Beratung, je Sitzung",
+          " 60 \u20ac"
+        ],
+        [
+          "Gehirn-MRT (Magnetresonanztomographie)",
+          " 500 \u20ac"
+        ]
+      ],
+      "x1": 451,
+      "x2": 2141,
+      "y1": 2088,
+      "y2": 2447
     },
     "total_amount": {
-      "content": "1184.77 \u20ac",
-      "x1": 1198,
-      "x2": 1398,
-      "y1": 2442,
-      "y2": 2742
+      "content": "3080.7200000000003 \u20ac",
+      "x1": 1843.8260869565217,
+      "x2": 2043.8260869565217,
+      "y1": 2472,
+      "y2": 2515
     },
     "rechnungsnummer": {
-      "content": "Rechnung Nr.  747678",
-      "x1": 1618,
-      "x2": 1818,
-      "y1": 682,
-      "y2": 732
+      "content": "Rech Nr.  683455",
+      "x1": 1516,
+      "x2": 1716,
+      "y1": 455,
+      "y2": 498
     },
     "organization": {
-      "content": "Wernecke AG",
-      "x1": 1618,
-      "x2": 1768,
-      "y1": 742,
-      "y2": 834
+      "content": "Seidel",
+      "x1": 1516,
+      "x2": 1666,
+      "y1": 508,
+      "y2": 550
     },
     "amount_sentence": {
-      "content": "Gem\u00e4\u00df den erbrachten \u00e4rztlichen Leistungen betr\u00e4gt der Betrag 1184.77 \u20ac.",
-      "x1": 337,
-      "x2": 837,
-      "y1": 1126,
-      "y2": 1176
+      "content": "Wir m\u00f6chten Ihnen gerne 3080.7200000000003 \u20ac f\u00fcr die erbrachten \u00e4rztlichen Leistungen in Rechnung stellen.",
+      "x1": 304,
+      "x2": 804,
+      "y1": 1206,
+      "y2": 1256
     }
   },
   "image1.png": {
     "customer_name": {
-      "content": "Ralf-Peter Freudenberger MBA.",
-      "x1": 501,
-      "x2": 601,
-      "y1": 504,
-      "y2": 559
+      "content": "Frau Evi Wagner",
+      "x1": 334,
+      "x2": 434,
+      "y1": 663,
+      "y2": 718
     },
     "address": {
-      "content": "Edmund-Pruschke-Ring 980\n99418 H\u00fcnfeld",
-      "x1": 501,
-      "x2": 601,
-      "y1": 560,
-      "y2": 708
-    },
-    "product_name": {
-      "content": "Chirurgische Nahtentfernung\nGehhilfe (Gehstock)\nProstatauntersuchung, rektal",
-      "x1": 607,
-      "x2": 1307,
-      "y1": 1696,
-      "y2": 1846
+      "content": "Reuterweg 687\n01565 Tecklenburg",
+      "x1": 334,
+      "x2": 434,
+      "y1": 719,
+      "y2": 819
     },
     "product_amount": {
-      "content": " 20 \u20ac\n 20 \u20ac\n 40 \u20ac",
-      "x1": 1407,
-      "x2": 1607,
-      "y1": 1696,
-      "y2": 1825
+      "x1": 1723.1176470588234,
+      "x2": 2069,
+      "y1": 1880,
+      "y2": 2072,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Rollator",
+          " 100 \u20ac"
+        ],
+        [
+          "Chirurgische Nahtentfernung",
+          " 20 \u20ac"
+        ],
+        [
+          "Heimbeatmungsger\u00e4t",
+          " 2000 \u20ac"
+        ]
+      ],
+      "x1": 384,
+      "x2": 2074,
+      "y1": 1875,
+      "y2": 2077
     },
     "total_amount": {
-      "content": "80.0 \u20ac",
-      "x1": 1407,
-      "x2": 1607,
-      "y1": 1835,
-      "y2": 2000
+      "content": "2120.0 \u20ac",
+      "x1": 1723.1176470588234,
+      "x2": 1923.1176470588234,
+      "y1": 2102,
+      "y2": 2145
     },
     "rechnungsnummer": {
-      "content": "Rechnung Nr.  843802",
-      "x1": 1496,
-      "x2": 1696,
-      "y1": 787,
-      "y2": 837
+      "content": "Rechnung Nr.  344699",
+      "x1": 1701,
+      "x2": 1901,
+      "y1": 655,
+      "y2": 705
     },
     "organization": {
-      "content": "Bien",
-      "x1": 1496,
-      "x2": 1646,
-      "y1": 847,
-      "y2": 939
+      "content": "Seifert",
+      "x1": 1701,
+      "x2": 1851,
+      "y1": 715,
+      "y2": 757
     },
     "amount_sentence": {
-      "content": "Gem\u00e4\u00df den erbrachten \u00e4rztlichen Leistungen betr\u00e4gt der Betrag 80.0 \u20ac.",
-      "x1": 310,
-      "x2": 810,
-      "y1": 1215,
-      "y2": 1265
+      "content": "Der berechnete Betrag f\u00fcr \u00e4rztliche Leistungen bel\u00e4uft sich auf 2120.0 \u20ac.",
+      "x1": 374,
+      "x2": 874,
+      "y1": 1037,
+      "y2": 1087
     }
   },
   "image2.png": {
     "customer_name": {
-      "content": "Gottlob Fischer B.Eng.",
-      "x1": 448,
-      "x2": 548,
-      "y1": 560,
-      "y2": 615
+      "content": "Sylvester Bl\u00fcmel",
+      "x1": 322,
+      "x2": 422,
+      "y1": 887,
+      "y2": 942
     },
     "address": {
-      "content": "Michail-Neusch\u00e4fer-Allee 634\n32454 Forst",
-      "x1": 448,
-      "x2": 548,
-      "y1": 616,
-      "y2": 757
-    },
-    "product_name": {
-      "content": "Lippenkorrektur (Lippenaugmentation)\nAntidepressiva (Packung)",
-      "x1": 758,
-      "x2": 1458,
-      "y1": 1512,
-      "y2": 1612
+      "content": "Caterina-Lindau-Allee 6\n92378 Starnberg",
+      "x1": 322,
+      "x2": 422,
+      "y1": 943,
+      "y2": 1036
     },
     "product_amount": {
-      "content": " 1000 \u20ac\n 30 \u20ac",
-      "x1": 1558,
-      "x2": 1758,
-      "y1": 1512,
-      "y2": 1598
+      "x1": 1904.1951219512196,
+      "x2": 2232,
+      "y1": 2143,
+      "y2": 2484,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Magenbypass-Operation",
+          " 10000 \u20ac"
+        ],
+        [
+          "Ultraschall, Bauchraum",
+          " 70 \u20ac"
+        ],
+        [
+          "Schrittmacherkontrolle",
+          " 50 \u20ac"
+        ],
+        [
+          "H\u00fcftgelenkersatz (H\u00fcft-TEP)",
+          " 10000 \u20ac"
+        ],
+        [
+          "Bestrahlungstherapie, pro Sitzung",
+          " 200 \u20ac"
+        ],
+        [
+          "Operation, kleine Eingriffe",
+          " 500 \u20ac"
+        ]
+      ],
+      "x1": 547,
+      "x2": 2237,
+      "y1": 2138,
+      "y2": 2489
     },
     "total_amount": {
-      "content": "1030.0 \u20ac",
-      "x1": 1558,
-      "x2": 1758,
-      "y1": 1608,
-      "y2": 1730
+      "content": "20820.0 \u20ac",
+      "x1": 1904.1951219512196,
+      "x2": 2104.1951219512193,
+      "y1": 2514,
+      "y2": 2557
     },
     "rechnungsnummer": {
-      "content": "Rech Nr.  847624",
-      "x1": 1402,
-      "x2": 1602,
-      "y1": 538,
-      "y2": 581
+      "content": "Rechnungsnummer:  592362",
+      "x1": 1480,
+      "x2": 1680,
+      "y1": 744,
+      "y2": 794
     },
     "organization": {
-      "content": "Schaaf AG",
-      "x1": 1402,
-      "x2": 1552,
-      "y1": 591,
-      "y2": 676
+      "content": "Christoph",
+      "x1": 1480,
+      "x2": 1630,
+      "y1": 804,
+      "y2": 853
     },
     "amount_sentence": {
-      "content": "Gem\u00e4\u00df unserer Preisliste bel\u00e4uft sich der Betrag f\u00fcr die geleisteten \u00e4rztlichen Dien",
-      "x1": 303,
-      "x2": 803,
-      "y1": 1060,
-      "y2": 1110
+      "content": "Bitte \u00fcberweisen Sie 20820.0 \u20ac f\u00fcr die erbrachten \u00e4rztlichen Leistungen auf das angegebene Konto.",
+      "x1": 325,
+      "x2": 825,
+      "y1": 1281,
+      "y2": 1331
     }
   },
   "image3.png": {
     "customer_name": {
-      "content": "Maike K\u00f6hler",
-      "x1": 484,
-      "x2": 584,
-      "y1": 565,
-      "y2": 612
+      "content": "Dr. Gesa Gunpf B.A.",
+      "x1": 495,
+      "x2": 595,
+      "y1": 718,
+      "y2": 773
     },
     "address": {
-      "content": "Karl-Werner-Schinke-Ring 6\n62311 G\u00fctersloh",
-      "x1": 484,
-      "x2": 584,
-      "y1": 613,
-      "y2": 753
-    },
-    "product_name": {
-      "content": "\u00dcbungsbehandlung, je Sitzung\nOperation, mittlere Eingriffe\nBlutdruckmessung\nGebissprothese (komplettes Gebiss)\nMagens\u00e4urehemmer (Packung)",
-      "x1": 709,
-      "x2": 1409,
-      "y1": 1535,
-      "y2": 1785
+      "content": "Zeynep-Birnbaum-Allee 8\n59446 Schw\u00e4bisch Hall",
+      "x1": 495,
+      "x2": 595,
+      "y1": 774,
+      "y2": 867
     },
     "product_amount": {
-      "content": " 5 \u20ac\n 1000 \u20ac\n 5 \u20ac\n 2000 \u20ac\n 15 \u20ac",
-      "x1": 1509,
-      "x2": 1709,
-      "y1": 1535,
-      "y2": 1750
+      "x1": 1764.695652173913,
+      "x2": 2276,
+      "y1": 1899,
+      "y2": 2048,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "H\u00f6rger\u00e4t",
+          " 1000 \u20ac"
+        ],
+        [
+          "Blutdruckmessung",
+          " 5 \u20ac"
+        ]
+      ],
+      "x1": 591,
+      "x2": 2281,
+      "y1": 1894,
+      "y2": 2053
     },
     "total_amount": {
-      "content": "3025.0 \u20ac",
-      "x1": 1509,
-      "x2": 1709,
-      "y1": 1760,
-      "y2": 2011
+      "content": "1005.0 \u20ac",
+      "x1": 1764.695652173913,
+      "x2": 1964.695652173913,
+      "y1": 2078,
+      "y2": 2121
     },
     "rechnungsnummer": {
-      "content": "Rechnung Nr.  182216",
-      "x1": 1733,
-      "x2": 1933,
-      "y1": 432,
-      "y2": 482
+      "content": "R. Nr. 370826",
+      "x1": 1704,
+      "x2": 1904,
+      "y1": 592,
+      "y2": 635
     },
     "organization": {
-      "content": "Reising Wiek GmbH",
-      "x1": 1733,
-      "x2": 1883,
-      "y1": 492,
-      "y2": 591
+      "content": "Weimer Peukert GbR",
+      "x1": 1704,
+      "x2": 1854,
+      "y1": 645,
+      "y2": 687
     },
     "amount_sentence": {
-      "content": "F\u00fcr \u00e4rztliche Leistungen erlauben wir uns, Ihnen 3025.0 \u20ac zu berechnen.",
-      "x1": 359,
-      "x2": 859,
-      "y1": 1291,
-      "y2": 1341
+      "content": "Der berechnete Betrag f\u00fcr \u00e4rztliche Leistungen bel\u00e4uft sich auf 1005.0 \u20ac.",
+      "x1": 302,
+      "x2": 802,
+      "y1": 1131,
+      "y2": 1181
     }
   },
   "image4.png": {
     "customer_name": {
-      "content": "Andrew Trubin",
-      "x1": 440,
-      "x2": 540,
-      "y1": 482,
-      "y2": 529
+      "content": "Babett Gertz",
+      "x1": 414,
+      "x2": 514,
+      "y1": 752,
+      "y2": 799
     },
     "address": {
-      "content": "Horst-G\u00fcnter-Eberhardt-Stra\u00dfe 538\n71201 Peine",
-      "x1": 440,
-      "x2": 540,
-      "y1": 530,
-      "y2": 663
-    },
-    "product_name": {
-      "content": "Magenbypass-Operation\nZahnf\u00fcllung",
-      "x1": 599,
-      "x2": 1299,
-      "y1": 1309,
-      "y2": 1409
+      "content": "auch Schlauchinplatz 0/6\n60466 Querfurt",
+      "x1": 414,
+      "x2": 514,
+      "y1": 800,
+      "y2": 895
     },
     "product_amount": {
-      "content": " 10000 \u20ac\n 100 \u20ac",
-      "x1": 1399,
-      "x2": 1599,
-      "y1": 1309,
-      "y2": 1395
+      "x1": 1995.5116279069766,
+      "x2": 2269,
+      "y1": 1312,
+      "y2": 1560,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Notfallbehandlung, ambulant",
+          " 100 \u20ac"
+        ],
+        [
+          "Diabetesberatung, je Sitzung",
+          " 40 \u20ac"
+        ],
+        [
+          "Facelift (Gesichtsstraffung)",
+          " 5000 \u20ac"
+        ],
+        [
+          "Verbandsmaterial, monatlicher Bedarf",
+          " 20 \u20ac"
+        ]
+      ],
+      "x1": 584,
+      "x2": 2274,
+      "y1": 1307,
+      "y2": 1565
     },
     "total_amount": {
-      "content": "10100.0 \u20ac",
-      "x1": 1399,
-      "x2": 1599,
-      "y1": 1405,
-      "y2": 1527
+      "content": "5160.0 \u20ac",
+      "x1": 1995.5116279069766,
+      "x2": 2195.5116279069766,
+      "y1": 1590,
+      "y2": 1633
     },
     "rechnungsnummer": {
-      "content": "Rech Nr.  260629",
-      "x1": 1425,
-      "x2": 1625,
-      "y1": 436,
-      "y2": 479
+      "content": "Rechnungsnummer:  955619",
+      "x1": 1562,
+      "x2": 1762,
+      "y1": 419,
+      "y2": 469
     },
     "organization": {
-      "content": "Losekann GmbH & Co. KGaA",
-      "x1": 1425,
-      "x2": 1575,
-      "y1": 489,
-      "y2": 574
+      "content": "Kostolzin Benthin GbR",
+      "x1": 1562,
+      "x2": 1712,
+      "y1": 479,
+      "y2": 521
     },
     "amount_sentence": {
-      "content": "Bitte \u00fcberweisen Sie 10100.0 \u20ac f\u00fcr die erbrachten \u00e4rztlichen Leistungen auf das angegebene Konto.",
-      "x1": 374,
-      "x2": 874,
-      "y1": 1104,
-      "y2": 1154
+      "content": "Gem\u00e4\u00df unserer Preisliste bel\u00e4uft sich der Betrag f\u00fcr die geleisteten \u00e4rztlichen Dien",
+      "x1": 337,
+      "x2": 837,
+      "y1": 1214,
+      "y2": 1264
     }
   }
 }
