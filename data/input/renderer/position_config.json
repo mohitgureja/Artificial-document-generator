@@ -1,17 +1,18 @@
 {
   "customer_block": {
+    "hasTable": false,
     "data_fields": {
       "customer_name": {
         "priority": 1,
         "key": false,
         "isList": false,
-        "has_previous_key": false
+        "has_dependent_field": false
       },
       "address": {
         "priority": 2,
         "key": false,
         "isList": false,
-        "has_previous_key": false
+        "has_dependent_field": false
       }
     },
     "direction": "down",
@@ -23,37 +24,55 @@
     }
   },
   "product_block": {
-    "data_fields": {
+    "hasTable": true,
+    "tableName": "product_table",
+    "table_data_fields": {
       "product_name": {
-        "priority": 1,
+        "column": 1,
+        "header": [
+          "Bezeichnung"
+        ],
+        "header_font": "fonts/Arial Bold.ttf",
         "key": false,
         "isList": true,
-        "has_previous_key": false
+        "has_dependent_field": false,
+        "is_dependent_field": false
       },
       "product_amount": {
-        "priority": 2,
+        "column": 2,
+        "header": [
+          "Betrag"
+        ],
+        "header_font": "fonts/Arial Bold.ttf",
         "key": false,
         "isList": true,
-        "has_previous_key": false
+        "has_dependent_field": false,
+        "is_dependent_field": true
       },
+      "faktor": {
+      }
+    },
+    "data_fields": {
       "total_amount": {
         "priority": 2,
         "key": false,
         "isList": false,
-        "has_previous_key": true,
+        "has_dependent_field": true,
         "previous_key": "product_amount",
-        "key_direction": "down"
+        "key_direction": "down",
+        "previous_key_position": {}
       }
     },
     "direction": "right",
     "position": {
       "x1": 300,
-      "x2": 800,
+      "x2": 600,
       "y1": 1300,
       "y2": 2200
     }
   },
   "identity_block": {
+    "hasTable": false,
     "data_fields": {
       "rechnungsnummer": {
         "priority": 1,
@@ -66,13 +85,13 @@
           "R. Nr. "
         ],
         "isList": false,
-        "has_previous_key": false
+        "has_dependent_field": false
       },
       "organization": {
         "priority": 2,
         "key": false,
         "isList": false,
-        "has_previous_key": false
+        "has_dependent_field": false
       }
     },
     "direction": "down",
@@ -84,12 +103,13 @@
     }
   },
   "text_details_block": {
+    "hasTable": false,
     "data_fields": {
       "amount_sentence": {
         "priority": 1,
         "key": false,
         "isList": false,
-        "has_previous_key": false
+        "has_dependent_field": false
       }
     },
     "direction": "down",

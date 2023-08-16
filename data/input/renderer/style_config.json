@@ -63,10 +63,10 @@
     "total_amount": {
       "width": 200,
       "height": null,
-      "font_size": 28,
+      "font_size": 36,
       "margin-left": 100,
-      "margin-top": 10,
-      "font": "fonts/arial.ttf",
+      "margin-top": 30,
+      "font": "fonts/Arial Bold.ttf",
       "bold": true,
       "textWrap": false
     },
