@@ -1,6 +1,6 @@
-from data_generator import helper, fakerWrapper, gptService, dataService
+from components.data_generator import dataService, fakerWrapper, helper, gptService
 
-DATA_CONFIG = "data/input/generator/config.json"
+GPT_DATA_CONFIG = "data/input/generator/config.json"
 WRITE_INVOICE_FILENAME = "data/input/renderer/invoices.json"
 
 
@@ -31,21 +31,21 @@ def generate_data(data_field_names, config_params):
     :return:
     """
     # JSON Data file for configurations
-    config_data = helper.read_json(DATA_CONFIG)
+    gen_config_data = helper.read_json(GPT_DATA_CONFIG)
 
     # Create data here
     generated_data = []
 
     # Generate gpt sentences for fields
-    gpt_data = generate_gpt_data(config_data)
+    gpt_data = generate_gpt_data(gen_config_data)
 
     for i in range(config_params["invoice_count"]):
         fake_data = {}
+        # Generate fake data fields using Faker
+        data = fakerWrapper.generate_fake_data(config_params["countries"])
         for data_field in data_field_names.keys():
-            if data_field not in config_data["gpt_keys"] and data_field not in config_data["calculate_keys"]:
-                # Generate fake data fields using Faker
-                data = fakerWrapper.generate_fake_data(data_field, config_params["countries"])
-                fake_data[data_field] = data
+            if data_field not in gen_config_data["gpt_keys"] and data_field not in gen_config_data["calculate_keys"]:
+                fake_data[data_field] = data[data_field]
 
         # Update generated sentences from GPT into the fields
         fake_data = dataService.update_gpt_data(fake_data, gpt_data)

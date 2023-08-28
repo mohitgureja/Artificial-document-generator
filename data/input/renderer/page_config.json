@@ -1,0 +1,26 @@
+{
+  "width": 2480,
+  "height": 3508,
+  "rows": {
+    "n": 7,
+    "are_equal": false,
+    "size": [
+      10,
+      20,
+      20,
+      15,
+      10,
+      20,
+      5
+    ]
+  },
+  "columns": {
+    "n": 4,
+    "are_equal": true
+  },
+  "has_margins": true,
+  "header_line": true,
+  "horizontal-margin": 5,
+  "vertical-margin": 3,
+  "min_vertical_distance": 3
+}

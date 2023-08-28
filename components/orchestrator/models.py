@@ -14,8 +14,14 @@ class InvoiceData(BaseModel):
     product_amount: bool = False
     customer_name: bool = False
     organization: bool = False
+    organization_address: bool = False
+    organization_contact: bool = False
     amount_sentence: bool = False
     total_amount: bool = False
+    bank_iban: bool = False
+    bank_swift: bool = False
+    date: bool = False
+    title: bool = False
 
     def get_variables(self):
         return vars(self)
@@ -23,6 +29,9 @@ class InvoiceData(BaseModel):
     def set_variables(self):
         if self.product_name and self.product_amount:
             self.total_amount = True
+
+        if self.organization:
+            self.title = True
 
 
 # @dataclass

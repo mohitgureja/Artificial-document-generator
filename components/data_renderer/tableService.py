@@ -2,7 +2,7 @@ import random
 
 from PIL import ImageFont
 
-from data_renderer.drawtable import Drawtable
+from components.data_renderer.drawtable import Drawtable
 
 
 def get_dependent_field_positions(x1, y1, x2, y2, width_list, fields):
@@ -28,10 +28,7 @@ def get_dependent_field_positions(x1, y1, x2, y2, width_list, fields):
     return table_ground_truth
 
 
-def draw_table(block, style_config_data, img, ground_truth, data):
-    x1 = random.randint(block["position"]["x1"], block["position"]["x2"])
-    y1 = random.randint(block["position"]["y1"], block["position"]["y2"])
-
+def draw_table(block, style_config_data, img, ground_truth, data, x1, y1):
     tb_field_configs = block["table_data_fields"]
     tb_fields = list(tb_field_configs.keys())  # table field names
     list_tb_fields_data: list[int] = [0] * len(tb_fields)

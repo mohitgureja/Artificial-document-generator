@@ -1,4 +1,4 @@
-from data_renderer import helper, imageService
+from components.data_renderer import imageService, helper
 
 STYLE_CONFIG_FILE_PATH = "data/input/renderer/style_config.json"
 GROUND_TRUTH_FILE_PATH = "data/output/groundtruth/ground_truth.json"

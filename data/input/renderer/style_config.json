@@ -3,7 +3,27 @@
     "address": {
       "width": 100,
       "height": null,
-      "font_size": 36,
+      "font_size": 40,
+      "margin-left": 10,
+      "margin-top": 1,
+      "font": "fonts/arial.ttf",
+      "bold": false,
+      "textWrap": true
+    },
+    "bank_iban": {
+      "width": 100,
+      "height": null,
+      "font_size": 40,
+      "margin-left": 10,
+      "margin-top": 1,
+      "font": "fonts/arial.ttf",
+      "bold": false,
+      "textWrap": true
+    },
+    "bank_swift": {
+      "width": 100,
+      "height": null,
+      "font_size": 40,
       "margin-left": 10,
       "margin-top": 1,
       "font": "fonts/arial.ttf",
@@ -13,7 +33,7 @@
     "rechnungsnummer": {
       "width": 200,
       "height": null,
-      "font_size": 36,
+      "font_size": 40,
       "margin-left": 10,
       "margin-top": 10,
       "font": "fonts/arial.ttf",
@@ -23,6 +43,16 @@
     "customer_name": {
       "width": 100,
       "height": null,
+      "font_size": 45,
+      "margin-left": 10,
+      "margin-top": 10,
+      "font": "fonts/arial.ttf",
+      "bold": false,
+      "textWrap": false
+    },
+    "date": {
+      "width": 100,
+      "height": null,
       "font_size": 40,
       "margin-left": 10,
       "margin-top": 10,
@@ -30,20 +60,50 @@
       "bold": false,
       "textWrap": false
     },
-    "organization": {
-      "width": 150,
+    "organization_contact": {
+      "width": 100,
       "height": null,
-      "font_size": 35,
+      "font_size": 40,
       "margin-left": 10,
       "margin-top": 10,
       "font": "fonts/arial.ttf",
       "bold": false,
       "textWrap": false
     },
+    "organization_address": {
+      "width": 100,
+      "height": null,
+      "font_size": 40,
+      "margin-left": 10,
+      "margin-top": 10,
+      "font": "fonts/arial.ttf",
+      "bold": false,
+      "textWrap": false
+    },
+    "title": {
+      "width": 150,
+      "height": null,
+      "font_size": 60,
+      "margin-left": 10,
+      "margin-top": 10,
+      "font": "fonts/Arial Bold.ttf",
+      "bold": false,
+      "textWrap": false
+    },
+    "organization": {
+      "width": 150,
+      "height": null,
+      "font_size": 40,
+      "margin-left": 10,
+      "margin-top": 10,
+      "font": "fonts/Arial Bold.ttf",
+      "bold": false,
+      "textWrap": false
+    },
     "product_name": {
       "width": 700,
       "height": null,
-      "font_size": 36,
+      "font_size": 38,
       "margin-left": 10,
       "margin-top": 10,
       "font": "fonts/arial.ttf",
@@ -53,7 +113,7 @@
     "product_amount": {
       "width": 200,
       "height": null,
-      "font_size": 36,
+      "font_size": 38,
       "margin-left": 100,
       "margin-top": 10,
       "font": "fonts/arial.ttf",
@@ -63,7 +123,7 @@
     "total_amount": {
       "width": 200,
       "height": null,
-      "font_size": 36,
+      "font_size": 40,
       "margin-left": 100,
       "margin-top": 30,
       "font": "fonts/Arial Bold.ttf",
@@ -73,7 +133,7 @@
     "amount_sentence": {
       "width": 500,
       "height": null,
-      "font_size": 36,
+      "font_size": 40,
       "margin-left": 100,
       "margin-top": 10,
       "font": "fonts/arial.ttf",

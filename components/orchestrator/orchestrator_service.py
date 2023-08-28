@@ -1,11 +1,13 @@
-from data_generator import generator
-from data_renderer import renderer
-from orchestrator import helper
+from components.data_generator import generator
+from components.data_renderer import renderer
+from components.orchestrator import helper
 
 """
     :param request_data: 
     :return: 
 """
+
+
 def orchestrate(request_data):
     # Transform data and configurations separately for different modules
     data_fields, generator_config, renderer_config = helper.transform_input(request_data)

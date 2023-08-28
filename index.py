@@ -1,8 +1,8 @@
 import uvicorn
 from fastapi import FastAPI
 
-from orchestrator import orchestrator_service
-from orchestrator.models import RequestBody
+from components.orchestrator import orchestrator_service
+from components.orchestrator.models import RequestBody
 
 app = FastAPI()
 

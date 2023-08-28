@@ -1,7 +1,7 @@
-from data_generator import helper
+from components.data_generator import helper
 
 # GPT_RESPONSE_FILE_PATH = "data/input/renderer/gpt_response.json"
-GPT_RESPONSE_FILE_PATH = "/Users/ssdn/PycharmProjects/Artificial-document-generator/data/input/renderer/gpt_response.json"
+GPT_RESPONSE_FILE_PATH = "/data/input/renderer/gpt_response.json"
 
 gpt_response = helper.read_json(GPT_RESPONSE_FILE_PATH)
 key = "product_name"

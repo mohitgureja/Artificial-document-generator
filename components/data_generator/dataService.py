@@ -9,6 +9,10 @@ PRODUCT_NAME = "product_name"
 
 PRODUCT_AMOUNT = "product_amount"
 
+TITLE = "title"
+
+ORGANIZATION = "organization"
+
 
 def update_gpt_data(fake_data, gpt_data):
     """
@@ -27,9 +31,13 @@ def update_total_amount(fake_data):
     total = 0
     for val in amount_list:
         total += float(val[:-2].strip().replace(',', '.'))
-    fake_data[TOTAL_AMOUNT] = str(total) + " €"
+    fake_data[TOTAL_AMOUNT] = "{:.2f}".format(total) + " €"
     return fake_data
 
+
+def update_title(fake_data):
+    fake_data[TITLE] = fake_data[ORGANIZATION]
+    return fake_data
 
 def transform_data(fake_data):
     """
@@ -42,17 +50,20 @@ def transform_data(fake_data):
     # Returns random samples of product name and amount
     if PRODUCT_AMOUNT in fake_data and PRODUCT_NAME in fake_data:
         len_products = len(fake_data[PRODUCT_NAME])
-        n = random.randint(2, 6)
+        n = random.randint(4, 8)
         products_data = fake_data[PRODUCT_NAME]
         if n <= len_products:
             products_data = random.sample(products_data, n)
         fake_data[PRODUCT_NAME] = []
         fake_data[PRODUCT_AMOUNT] = []
         for product in products_data:
-            print(product[0])
             fake_data[PRODUCT_NAME].append(product[0])
             fake_data[PRODUCT_AMOUNT].append(product[1])
         fake_data = update_total_amount(fake_data)
+
+    # If organization exists in the generated data
+    if ORGANIZATION in fake_data:
+        fake_data = update_title(fake_data)
 
     # If amount sentence exists in the generated data
     if TOTAL_AMOUNT in fake_data and AMOUNT_SENTENCE in fake_data:

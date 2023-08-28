@@ -1,6 +1,31 @@
 {
+  "title_block": {
+    "hasTable": false,
+    "is_header": true,
+    "data_fields": {
+      "title": {
+        "priority": 1,
+        "key": false,
+        "isList": false,
+        "has_dependent_field": false,
+        "previous_key": "organization"
+      }
+    },
+    "direction": "down",
+    "position": {
+      "x1": 620,
+      "x2": 1240,
+      "y1": 105,
+      "y2": 350
+    },
+    "block_position": [
+      0,
+      1
+    ]
+  },
   "customer_block": {
     "hasTable": false,
+    "is_header": false,
     "data_fields": {
       "customer_name": {
         "priority": 1,
@@ -17,14 +42,150 @@
     },
     "direction": "down",
     "position": {
-      "x1": 300,
-      "x2": 600,
-      "y1": 400,
-      "y2": 900
-    }
+      "x1": 124,
+      "x2": 620,
+      "y1": 350,
+      "y2": 1051
+    },
+    "block_position": [
+      1,
+      0
+    ]
+  },
+  "organization_block": {
+    "hasTable": false,
+    "is_header": false,
+    "data_fields": {
+      "organization": {
+        "priority": 1,
+        "key": false,
+        "isList": false,
+        "has_dependent_field": false,
+        "previous_key": "organization"
+      },
+      "organization_address": {
+        "priority": 2,
+        "key": false,
+        "isList": false,
+        "has_dependent_field": false
+      },
+      "organization_contact": {
+        "priority": 3,
+        "key": true,
+        "key_direction": "left",
+        "key_name": [
+          "Tel:  ",
+          "Tele.  ",
+          "Contact:    ",
+          "Mob.    "
+        ],
+        "isList": false,
+        "has_dependent_field": false
+      }
+    },
+    "direction": "down",
+    "position": {
+      "x1": 1240,
+      "x2": 1860,
+      "y1": 350,
+      "y2": 1051
+    },
+    "block_position": [
+      1,
+      2
+    ]
+  },
+  "bank_block": {
+    "hasTable": false,
+    "is_header": false,
+    "data_fields": {
+      "bank_iban": {
+        "priority": 1,
+        "key": true,
+        "key_direction": "left",
+        "key_name": [
+          "IBAN:  ",
+          "Iban.  ",
+          "BAN :    ",
+          "Konto Nr.  ",
+          "IBAN.    "
+        ],
+        "isList": false,
+        "has_dependent_field": false
+      },
+      "bank_swift": {
+        "priority": 2,
+        "key": true,
+        "key_direction": "left",
+        "key_name": [
+          "SWIFT:  ",
+          "Swift.  ",
+          "BIC:    ",
+          "BIC.    ",
+          "BIC Code:    "
+        ],
+        "isList": false,
+        "has_dependent_field": false
+      }
+    },
+    "direction": "down",
+    "position": {
+      "x1": 1240,
+      "x2": 1860,
+      "y1": 1051,
+      "y2": 1752
+    },
+    "block_position": [
+      2,
+      2
+    ]
+  },
+  "invoice_details_block": {
+    "hasTable": false,
+    "is_header": false,
+    "data_fields": {
+      "rechnungsnummer": {
+        "priority": 1,
+        "key": true,
+        "key_direction": "left",
+        "key_name": [
+          "Rechnungsnummer:  ",
+          "Rech Nr.  ",
+          "Rechnung Nr.  ",
+          "R. Nr. "
+        ],
+        "isList": false,
+        "has_dependent_field": false
+      },
+      "date": {
+        "priority": 1,
+        "key": true,
+        "key_direction": "left",
+        "key_name": [
+          "Date:  ",
+          "Invoice Date.  ",
+          "Datum:  ",
+          "Datum. "
+        ],
+        "isList": false,
+        "has_dependent_field": false
+      }
+    },
+    "direction": "down",
+    "position": {
+      "x1": 124,
+      "x2": 620,
+      "y1": 1051,
+      "y2": 1752
+    },
+    "block_position": [
+      2,
+      2
+    ]
   },
   "product_block": {
     "hasTable": true,
+    "is_header": false,
     "tableName": "product_table",
     "table_data_fields": {
       "product_name": {
@@ -48,62 +209,53 @@
         "isList": true,
         "has_dependent_field": false,
         "is_dependent_field": true
-      },
-      "faktor": {
-      }
-    },
-    "data_fields": {
-      "total_amount": {
-        "priority": 2,
-        "key": false,
-        "isList": false,
-        "has_dependent_field": true,
-        "previous_key": "product_amount",
-        "key_direction": "down",
-        "previous_key_position": {}
       }
     },
     "direction": "right",
     "position": {
-      "x1": 300,
-      "x2": 600,
-      "y1": 1300,
-      "y2": 2200
-    }
+      "x1": 124,
+      "x2": 620,
+      "y1": 1752,
+      "y2": 2453
+    },
+    "block_position": [
+      3,
+      0
+    ]
   },
-  "identity_block": {
+  "product_text_block": {
     "hasTable": false,
+    "is_header": false,
+    "direction": "down",
+    "position": {
+      "x1": 1240,
+      "x2": 1860,
+      "y1": 2453,
+      "y2": 2628
+    },
+    "block_position": [
+      4,
+      2
+    ],
     "data_fields": {
-      "rechnungsnummer": {
+      "total_amount": {
         "priority": 1,
         "key": true,
         "key_direction": "left",
         "key_name": [
-          "Rechnungsnummer:  ",
-          "Rech Nr.  ",
-          "Rechnung Nr.  ",
-          "R. Nr. "
+          "Rechnungsbetrag:  ",
+          "Rechnungsbetrag.  ",
+          "Total Amount:  "
         ],
         "isList": false,
-        "has_dependent_field": false
-      },
-      "organization": {
-        "priority": 2,
-        "key": false,
-        "isList": false,
-        "has_dependent_field": false
+        "has_dependent_field": true,
+        "previous_key": "product_amount"
       }
-    },
-    "direction": "down",
-    "position": {
-      "x1": 1400,
-      "x2": 1800,
-      "y1": 400,
-      "y2": 900
     }
   },
   "text_details_block": {
     "hasTable": false,
+    "is_header": false,
     "data_fields": {
       "amount_sentence": {
         "priority": 1,
@@ -114,10 +266,14 @@
     },
     "direction": "down",
     "position": {
-      "x1": 300,
-      "x2": 400,
-      "y1": 1000,
-      "y2": 1300
-    }
+      "x1": 124,
+      "x2": 620,
+      "y1": 2628,
+      "y2": 3330
+    },
+    "block_position": [
+      5,
+      0
+    ]
   }
 }

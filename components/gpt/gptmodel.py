@@ -2,7 +2,7 @@ import os
 
 import openai
 
-from data_generator import helper
+from components.data_generator import helper
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
