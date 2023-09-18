@@ -1,0 +1,27 @@
+{
+  "invoice": {
+    "invoice_params": {
+      "address": true,
+      "rechnungsnummer": true,
+      "product_name": true,
+      "product_amount": true,
+      "customer_name": true,
+      "organization": true,
+      "amount_sentence": true,
+      "bank_iban": true,
+      "bank_swift": true,
+      "organization_address": true,
+      "organization_contact": true,
+      "date": true,
+      "diagnose": true
+    }
+  },
+  "identity": {
+  },
+  "count": 10,
+  "groundtruth_format": "json",
+  "groundtruth_type": "block",
+  "countries": [
+    "de_DE"
+  ]
+}

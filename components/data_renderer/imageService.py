@@ -26,25 +26,42 @@ def generate_textimage(data, fields, style_config_data):
     top_margin = page_matrix[0][0][1][1]
     l = len(page_matrix[0])
     y2_prev = [top_margin] * l
-    x2_prev = [page_matrix[0][l - 1][1][0]] * l
-    x1_prev = [page_matrix[0][0][0][0]] * l
+    # x2_prev = [page_matrix[0][l - 1][1][0]] * l
+    # x1_prev = [page_matrix[0][0][0][0]] * l
+    x1_used_col = [0] * l
+    rendered_data = []
 
-    def test_side_semantics(x1_c, x2_c):
-        for i in range(l):
-            if x2_prev[i] > x1_c:
-                if x2_c > x1_prev[i] or x1_prev[i] < x1_c:
-                    return True
-            elif x2_c > x2_prev[i] > x1_c:
-                return True
-        return False
+    def test_previous_intersection(x1_c, x2_c, y1_c, y2_c):
+        if rendered_data:
+            for data_row in rendered_data:
+                x1_data, y1_data, x2_data, y2_data = data_row[0], data_row[1], data_row[2], data_row[3]
+                if y2_data < y1_c or y1_data > y2_c or x1_c > x2_data or x1_data > x2_c:
+                    continue
+                else:
+                    return False
+        return True
+
+    # def test_side_semantics(x1_c, x2_c):
+    #     for i in range(l):
+    #
+    #         if x1_c > x2_prev[i]:
+    #             return False
+    #         if x2_prev[i] > x1_c:
+    #             if x2_c > x1_prev[i] or x1_prev[i] < x1_c:
+    #                 return True
+    #         elif x2_c > x2_prev[i] > x1_c:
+    #             return True
+    #     return False
 
     def test_layout_semantics(x1_c, y1_c, x2_c, y2_c, row, column, cropped, count=0):
         if count == 10:
             raise ValueError("Maximum recursion limit reached. Creating default coordinates")
 
-        # If the column is not used earlier
-        if y2_prev[column] == top_margin:
-            if y2_prev[column] > y1_c and test_side_semantics(x1_c, x2_c):
+        if x1_used_col[column] == 0:
+            if test_previous_intersection(x1_c, x2_c, y1_c, y2_c):
+                rendered_data.append([x1_c, y1_c, x2_c, y2_c])
+                x1_used_col[column] = x1_c
+            else:
                 print("Semantic Layout test failed at unused column: ", row, column)
                 x1_c = random.randint(page_matrix[row][column][0][0], page_matrix[row][column][1][0])
                 y1_c = random.randint(page_matrix[row][column][0][1], page_matrix[row][column][1][1])
@@ -52,21 +69,43 @@ def generate_textimage(data, fields, style_config_data):
                 count += 1
                 x1_c, y1_c, x2_c, y2_c, count = test_layout_semantics(x1_c, y1_c, x2_c, y2_c, row, column, cropped,
                                                                       count)
-            else:
-                x1_prev[column], x2_prev[column], y2_prev[column] = x1_c, x2_c, y2_c
         else:
-            x1_c = x1_prev[column]
+            x1_c = x1_used_col[column]
             x2_c, y2_c = create_b_box(cropped, x1_c, y1_c)
-            if y2_prev[column] > y1_c and test_side_semantics(x1_c, x2_c):
+            if test_previous_intersection(x1_c, x2_c, y1_c, y2_c):
+                rendered_data.append([x1_c, y1_c, x2_c, y2_c])
+            else:
                 print("Semantic Layout test failed at already used column: ", row, column)
                 y1_c = random.randint(page_matrix[row][column][0][1], page_matrix[row][column][1][1])
                 count += 1
                 x1_c, y1_c, x2_c, y2_c, count = test_layout_semantics(x1_c, y1_c, x2_c, y2_c, row, column, cropped,
                                                                       count)
-            else:
-                if x2_c > x2_prev[column]:
-                    x2_prev[column] = x2_c
-                y2_prev[column] = y2_c
+
+        # If the column is not used earlier
+        # if not x1_used_col[column]:
+        #     if (y2_prev[column] > y1_c) and test_side_semantics(x1_c, x2_c):
+        #         print("Semantic Layout test failed at unused column: ", row, column)
+        #         x1_c = random.randint(page_matrix[row][column][0][0], page_matrix[row][column][1][0])
+        #         y1_c = random.randint(page_matrix[row][column][0][1], page_matrix[row][column][1][1])
+        #         x2_c, y2_c = create_b_box(cropped, x1_c, y1_c)
+        #         count += 1
+        #         x1_c, y1_c, x2_c, y2_c, count = test_layout_semantics(x1_c, y1_c, x2_c, y2_c, row, column, cropped,
+        #                                                               count)
+        #     else:
+        #         x1_prev[column], x2_prev[column], y2_prev[column] = x1_c, x2_c, y2_c
+        # else:
+        #     x1_c = x1_prev[column]
+        #     x2_c, y2_c = create_b_box(cropped, x1_c, y1_c)
+        #     if y2_prev[column] > y1_c and test_side_semantics(x1_c, x2_c):
+        #         print("Semantic Layout test failed at already used column: ", row, column)
+        #         y1_c = random.randint(page_matrix[row][column][0][1], page_matrix[row][column][1][1])
+        #         count += 1
+        #         x1_c, y1_c, x2_c, y2_c, count = test_layout_semantics(x1_c, y1_c, x2_c, y2_c, row, column, cropped,
+        #                                                               count)
+        #     else:
+        #         if x2_c > x2_prev[column]:
+        #             x2_prev[column] = x2_c
+        #         y2_prev[column] = y2_c
         print("Semantic test passed. ")
         count += 1
         return x1_c, y1_c, x2_c, y2_c, count
@@ -82,11 +121,16 @@ def generate_textimage(data, fields, style_config_data):
         row, column = block["block_position"]
         x1 = random.randint(page_matrix[row][column][0][0], page_matrix[row][column][1][0])
         y1 = random.randint(page_matrix[row][column][0][1], page_matrix[row][column][1][1])
-        # x1 = random.randint(block["position"]["x1"], block["position"]["x2"])
-        # y1 = random.randint(block["position"]["y1"], block["position"]["y2"])
+
         if block["hasTable"]:
-            img, ground_truth = tableService.draw_table(block, style_config_data, img, ground_truth, data, x1, y1)
-        if "data_fields" in block:
+            cropped, tb_fields, x2, y2, ground_truth = tableService.draw_table(block, style_config_data, ground_truth,
+                                                                               data, x1, y1)
+            b_box_old = (x1, y1, x2, y2)
+            x1, y1, x2, y2, count = test_layout_semantics(x1, y1, x2, y2, row, column, cropped)
+            b_box_new = (x1, y1, x2, y2)
+            ground_truth = tableService.get_updated_ground_truth(b_box_old, b_box_new, tb_fields, ground_truth)
+            img.paste(cropped, (x1, y1, x2, y2))
+        elif "data_fields" in block:
             img_new, b_box, ground_truth = get_block_image(block, data, fields, ground_truth, style_config_data, x1, y1)
             cropped = img_new.crop(b_box)
             x2, y2 = create_b_box(cropped, x1, y1)
@@ -94,6 +138,7 @@ def generate_textimage(data, fields, style_config_data):
                 img_draw.line([(x1, y2),
                                (x2, y2)], fill="black", width=3)
                 y2_prev[column] = y2
+                rendered_data.append([x1, y1, x2, y2])
             else:
                 try:
                     x1, y1, x2, y2, count = test_layout_semantics(x1, y1, x2, y2, row, column, cropped)

@@ -1,152 +1,161 @@
 [
   {
-    "address": "Niko-Mentzel-Ring 575\n58406 Wernigerode",
-    "rechnungsnummer": 606362,
+    "address": "Scholtzallee 07\n38956 Rottweil",
+    "rechnungsnummer": 464522,
     "product_amount": [
-      " 70 \u20ac",
+      " 50 \u20ac",
       " 500 \u20ac",
-      " 10 \u20ac",
-      " 20 \u20ac",
-      " 3 \u20ac"
-    ],
-    "customer_name": "Frau\n Imelda Bolnbach-Gutknecht",
-    "organization": "Oderwald GmbH",
-    "organization_address": "M\u00e4lzerring 85\n96440 Meppen",
-    "organization_contact": "(08230) 174421",
-    "bank_iban": "DE56012711250834500661",
-    "bank_swift": "PKKQDECSQ5C",
-    "date": "1970-09-25",
-    "amount_sentence": "Bitte begleichen Sie den Betrag von 603.00 \u20ac f\u00fcr die erbrachten \u00e4rztlichen Leistungen.",
-    "product_name": [
-      "Ultraschall, Bauchraum",
-      "Rollstuhl",
-      "Schilddr\u00fcsentabletten (Packung)",
-      "Gipsverband anlegen",
-      "Zahnpasta"
-    ],
-    "total_amount": "603.00 \u20ac",
-    "title": "Oderwald GmbH"
-  },
-  {
-    "address": "Hentschelallee 17\n53563 Schrobenhausen",
-    "rechnungsnummer": 969819,
-    "product_amount": [
-      " 500 \u20ac",
-      " 5000 \u20ac",
-      " 30 \u20ac",
-      " 10000 \u20ac",
-      " 2000 \u20ac",
-      " 500 \u20ac",
-      " 3 \u20ac"
-    ],
-    "customer_name": "Herr\n Karl-Werner Gehringer",
-    "organization": "Mosemann Seifert KGaA",
-    "organization_address": "Heydrichstr. 9\n24494 B\u00fctzow",
-    "organization_contact": "+49(0)4866 57692",
-    "bank_iban": "DE60469357503377747550",
-    "bank_swift": "HASTDESKIN6",
-    "date": "2021-07-11",
-    "amount_sentence": "Bitte begleichen Sie den Betrag von 18033.00 \u20ac f\u00fcr die erbrachten \u00e4rztlichen Leistungen.",
-    "product_name": [
-      "Schlafstudie (Schlafapnoe)",
-      "Herzschrittmacher-Implantation",
-      "Impfung, Standardimpfstoff",
-      "Magenbypass-Operation",
-      "Glaukomoperation (Gr\u00fcner Star)",
-      "Chemotherapie, pro Sitzung",
-      "Zahnpasta"
-    ],
-    "total_amount": "18033.00 \u20ac",
-    "title": "Mosemann Seifert KGaA"
-  },
-  {
-    "address": "Adelheid-Tlustek-Weg 7\n17548 J\u00fclich",
-    "rechnungsnummer": 879516,
-    "product_amount": [
-      " 30 \u20ac",
-      " 10 \u20ac",
-      " 4,77 \u20ac",
-      " 3000 \u20ac",
-      " 1000 \u20ac",
-      " 25 \u20ac"
-    ],
-    "customer_name": "Frau\n Silva M\u00fcller",
-    "organization": "Baum GbR",
-    "organization_address": "Reichmannring 7/5\n63436 Forst",
-    "organization_contact": "(05468) 52887",
-    "bank_iban": "DE48148493139874380336",
-    "bank_swift": "BAGGDEH3D06",
-    "date": "2008-11-19",
-    "amount_sentence": "Wir m\u00f6chten Ihnen gerne 4069.77 \u20ac f\u00fcr die erbrachten \u00e4rztlichen Leistungen in Rechnung stellen.",
-    "product_name": [
-      "Magensonde",
-      "Zahnsp\u00fclung",
-      "Untersuchung, symptombezogen",
-      "Nasenkorrektur (Rhinoplastik)",
-      "Lippenkorrektur (Lippenaugmentation)",
-      "Allgemeine \u00e4rztliche Beratung"
-    ],
-    "total_amount": "4069.77 \u20ac",
-    "title": "Baum GbR"
-  },
-  {
-    "address": "Nils-Mende-Platz 50\n37186 Holzminden",
-    "rechnungsnummer": 308978,
-    "product_amount": [
-      " 5 \u20ac",
-      " 20 \u20ac",
-      " 8000 \u20ac",
       " 40 \u20ac",
+      " 2000 \u20ac",
       " 50 \u20ac",
-      " 50 \u20ac",
-      " 3 \u20ac"
+      " 40 \u20ac"
     ],
-    "customer_name": "Herr\n Ekrem Steinberg",
-    "organization": "D\u00f6rr GmbH & Co. OHG",
-    "organization_address": "Aumannplatz 28\n00491 Hersbruck",
-    "organization_contact": "(02599) 21973",
-    "bank_iban": "DE76071636760607593199",
-    "bank_swift": "HSPVDE7N2KF",
-    "date": "2021-11-30",
-    "amount_sentence": "Der Rechnungsbetrag f\u00fcr die erbrachten \u00e4rztlichen Leistungen bel\u00e4uft sich auf 8168.00 \u20ac.",
+    "customer_name": "Herr\n Abraham Kade-Margraf",
+    "organization": "Wende KGaA",
+    "organization_address": "Erol-Faust-Platz 8\n06754 Stade",
+    "organization_contact": "09823 82812",
+    "bank_iban": "DE84277466569012954829",
+    "bank_swift": "UXMWDE9MQK9",
+    "date": "2018-04-24",
+    "diagnose": "Rheumatoide Arthritis",
+    "amount_sentence": "Der berechnete Betrag f\u00fcr \u00e4rztliche Leistungen bel\u00e4uft sich auf 2680.00 \u20ac.",
     "product_name": [
-      "Mundwasser",
-      "Sehtest",
-      "Kniegelenkersatz (Knie-TEP)",
-      "Diabetesberatung, je Sitzung",
-      "Gelenkpunktion, ein Gelenk",
       "Schrittmacherkontrolle",
-      "Zahnpasta"
+      "Chemotherapie, pro Sitzung",
+      "Prostatauntersuchung, rektal",
+      "Glaukomoperation (Gr\u00fcner Star)",
+      "Gelenkpunktion, ein Gelenk",
+      "Blasenkatheterisierung"
     ],
-    "total_amount": "8168.00 \u20ac",
-    "title": "D\u00f6rr GmbH & Co. OHG"
+    "total_amount": "2680.00 \u20ac",
+    "title": "Wende KGaA"
   },
   {
-    "address": "Ernestine-Baum-Stra\u00dfe 833\n54758 Hechingen",
-    "rechnungsnummer": 222390,
+    "address": "Tomasz-Schaaf-Gasse 49\n40351 Uffenheim",
+    "rechnungsnummer": 134008,
     "product_amount": [
+      " 10000 \u20ac",
+      " 15 \u20ac",
+      " 10 \u20ac",
+      " 1000 \u20ac",
       " 20 \u20ac",
+      " 5 \u20ac",
       " 35 \u20ac",
-      " 50 \u20ac",
-      " 1500 \u20ac",
-      " 4000 \u20ac"
+      " 10 \u20ac"
     ],
-    "customer_name": "Herr\n Eckard R\u00f6hrdanz",
-    "organization": "Ruppert e.V.",
-    "organization_address": "Katarina-Matth\u00e4i-Weg 561\n73697 Goslar",
-    "organization_contact": "+49(0) 715818194",
-    "bank_iban": "DE24087502381361026197",
-    "bank_swift": "XCLSDE6XQY5",
-    "date": "2016-04-06",
-    "amount_sentence": "Gem\u00e4\u00df den erbrachten \u00e4rztlichen Leistungen betr\u00e4gt der Betrag 5605.00 \u20ac.",
+    "customer_name": "Frau\n Conny F\u00f6rster",
+    "organization": "J\u00e4kel Stiftung & Co. KGaA",
+    "organization_address": "Jochem-Reichmann-Platz 14\n55336 Nordhausen",
+    "organization_contact": "+49(0) 616041992",
+    "bank_iban": "DE58906820647030530570",
+    "bank_swift": "VRAODE2I67B",
+    "date": "1994-09-20",
+    "diagnose": "Osteoporose",
+    "amount_sentence": "Die in Anspruch genommenen \u00e4rztlichen Leistungen erfordern eine Zahlung von 11095.00 \u20ac.",
     "product_name": [
-      "Antibiotika (Packung)",
+      "Magenbypass-Operation",
+      "R\u00f6ntgenaufnahme, eine Aufnahme",
+      "Fieberthermometer",
+      "Lippenkorrektur (Lippenaugmentation)",
+      "Gipsverband anlegen",
+      "\u00dcbungsbehandlung, je Sitzung",
       "Physiotherapie, je Sitzung",
-      "Kontaktlinsen, monatlicher Bedarf",
-      "Zahnimplantat",
-      "Haartransplantation"
+      "Injektion, intramuskul\u00e4r"
     ],
-    "total_amount": "5605.00 \u20ac",
-    "title": "Ruppert e.V."
+    "total_amount": "11095.00 \u20ac",
+    "title": "J\u00e4kel Stiftung & Co. KGaA"
+  },
+  {
+    "address": "Seipgasse 8\n37568 Senftenberg",
+    "rechnungsnummer": 986166,
+    "product_amount": [
+      " 3000 \u20ac",
+      " 40 \u20ac",
+      " 30 \u20ac",
+      " 10 \u20ac",
+      " 8 \u20ac",
+      " 10 \u20ac",
+      " 400 \u20ac",
+      " 80 \u20ac"
+    ],
+    "customer_name": "Herr\n Jobst L\u00fcbs B.Eng.",
+    "organization": "Scheibe K\u00f6hler GmbH",
+    "organization_address": "Rosenowweg 0\n60982 Holzminden",
+    "organization_contact": "04015 115243",
+    "bank_iban": "DE15957486864846238725",
+    "bank_swift": "TCDMDE3HU9C",
+    "date": "1975-10-05",
+    "diagnose": "Lungenentz\u00fcndung",
+    "amount_sentence": "Gem\u00e4\u00df unserer Preisliste bel\u00e4uft sich der Betrag f\u00fcr die geleisteten \u00e4rztlichen Dien",
+    "product_name": [
+      "Nasenkorrektur (Rhinoplastik)",
+      "Blasenkatheterisierung",
+      "Magensonde",
+      "Desinfektionsmittel, monatlicher Bedarf",
+      "Wundsalbe",
+      "Antiallergikum (Packung)",
+      "Darmspiegelung (Koloskopie)",
+      "Zahnreinigung"
+    ],
+    "total_amount": "3578.00 \u20ac",
+    "title": "Scheibe K\u00f6hler GmbH"
+  },
+  {
+    "address": "Annita-Siering-Platz 1/1\n69986 Bad Langensalza",
+    "rechnungsnummer": 933277,
+    "product_amount": [
+      " 40 \u20ac",
+      " 15 \u20ac",
+      " 3000 \u20ac",
+      " 5000 \u20ac",
+      " 30 \u20ac"
+    ],
+    "customer_name": "Herr\n Hans-Hermann Atzler",
+    "organization": "Fischer GmbH",
+    "organization_address": "Walli-Dehmel-Ring 09\n25778 Hildburghausen",
+    "organization_contact": "+49 (0) 1743 583897",
+    "bank_iban": "DE88920416282933518520",
+    "bank_swift": "ZXXVDEPG1XI",
+    "date": "1979-12-26",
+    "diagnose": "Nierenstein",
+    "amount_sentence": "Der Rechnungsbetrag f\u00fcr die erbrachten \u00e4rztlichen Leistungen bel\u00e4uft sich auf 8085.00 \u20ac.",
+    "product_name": [
+      "Blutuntersuchung, komplettes Blutbild",
+      "Magens\u00e4urehemmer (Packung)",
+      "Fettabsaugung (Liposuktion)",
+      "Facelift (Gesichtsstraffung)",
+      "Magensonde"
+    ],
+    "total_amount": "8085.00 \u20ac",
+    "title": "Fischer GmbH"
+  },
+  {
+    "address": "Wellerring 1/8\n42118 Wismar",
+    "rechnungsnummer": 836347,
+    "product_amount": [
+      " 500 \u20ac",
+      " 30 \u20ac",
+      " 60 \u20ac",
+      " 30 \u20ac",
+      " 60 \u20ac"
+    ],
+    "customer_name": "Herr\n Ingo Scheuermann",
+    "organization": "M\u00fchle GbR",
+    "organization_address": "Harloffgasse 3\n70967 Lemgo",
+    "organization_contact": "04655 254273",
+    "bank_iban": "DE74203426402764276898",
+    "bank_swift": "OIFRDEK96ZY",
+    "date": "2023-03-23",
+    "diagnose": "Migr\u00e4ne",
+    "amount_sentence": "Bitte begleichen Sie den Betrag von 680.00 \u20ac f\u00fcr die erbrachten \u00e4rztlichen Leistungen.",
+    "product_name": [
+      "Operation, kleine Eingriffe",
+      "Antidepressiva (Packung)",
+      "Psychologische Beratung, je Sitzung",
+      "Magensonde",
+      "Zahnextraktion, einfacher Zahn"
+    ],
+    "total_amount": "680.00 \u20ac",
+    "title": "M\u00fchle GbR"
   }
 ]

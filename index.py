@@ -14,8 +14,8 @@ def read_root():
 
 # Endpoint to create invoices
 @app.post("/create")
-def create_invoices(body: RequestBody):
-    json_data = orchestrator_service.orchestrate(body)
+def create_invoices(body: RequestBody, doc_format="invoice"):
+    json_data = orchestrator_service.orchestrate(body, doc_format)
     return json_data
 
 

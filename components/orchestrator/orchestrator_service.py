@@ -8,9 +8,9 @@ from components.orchestrator import helper
 """
 
 
-def orchestrate(request_data):
+def orchestrate(request_data, doc_format):
     # Transform data and configurations separately for different modules
-    data_fields, generator_config, renderer_config = helper.transform_input(request_data)
+    data_fields, generator_config, renderer_config = helper.transform_input(request_data, doc_format)
 
     # Required data fields in documents
     data_field_names = {key: value for key, value in data_fields.items() if data_fields[key] is True}

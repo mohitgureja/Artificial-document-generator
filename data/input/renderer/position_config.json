@@ -12,15 +12,27 @@
       }
     },
     "direction": "down",
-    "position": {
-      "x1": 620,
-      "x2": 1240,
-      "y1": 105,
-      "y2": 350
-    },
     "block_position": [
       0,
       1
+    ]
+  },
+  "image_block": {
+    "hasTable": false,
+    "is_header": true,
+    "image": {
+      "title": {
+        "priority": 1,
+        "key": false,
+        "isList": false,
+        "has_dependent_field": false,
+        "previous_key": "organization"
+      }
+    },
+    "direction": "down",
+    "block_position": [
+      0,
+      2
     ]
   },
   "customer_block": {
@@ -41,14 +53,30 @@
       }
     },
     "direction": "down",
-    "position": {
-      "x1": 124,
-      "x2": 620,
-      "y1": 350,
-      "y2": 1051
-    },
     "block_position": [
       1,
+      0
+    ]
+  },
+  "diagnose_block": {
+    "hasTable": false,
+    "is_header": false,
+    "data_fields": {
+      "diagnose": {
+        "priority": 1,
+        "key": true,
+        "key_direction": "left",
+        "key_name": [
+          "Diagnose:  ",
+          "Diagnose-  "
+        ],
+        "isList": false,
+        "has_dependent_field": false
+      }
+    },
+    "direction": "down",
+    "block_position": [
+      2,
       0
     ]
   },
@@ -84,12 +112,6 @@
       }
     },
     "direction": "down",
-    "position": {
-      "x1": 1240,
-      "x2": 1860,
-      "y1": 350,
-      "y2": 1051
-    },
     "block_position": [
       1,
       2
@@ -129,12 +151,6 @@
       }
     },
     "direction": "down",
-    "position": {
-      "x1": 1240,
-      "x2": 1860,
-      "y1": 1051,
-      "y2": 1752
-    },
     "block_position": [
       2,
       2
@@ -172,12 +188,6 @@
       }
     },
     "direction": "down",
-    "position": {
-      "x1": 124,
-      "x2": 620,
-      "y1": 1051,
-      "y2": 1752
-    },
     "block_position": [
       2,
       2
@@ -212,12 +222,6 @@
       }
     },
     "direction": "right",
-    "position": {
-      "x1": 124,
-      "x2": 620,
-      "y1": 1752,
-      "y2": 2453
-    },
     "block_position": [
       3,
       0
@@ -227,12 +231,6 @@
     "hasTable": false,
     "is_header": false,
     "direction": "down",
-    "position": {
-      "x1": 1240,
-      "x2": 1860,
-      "y1": 2453,
-      "y2": 2628
-    },
     "block_position": [
       4,
       2
@@ -265,12 +263,6 @@
       }
     },
     "direction": "down",
-    "position": {
-      "x1": 124,
-      "x2": 620,
-      "y1": 2628,
-      "y2": 3330
-    },
     "block_position": [
       5,
       0

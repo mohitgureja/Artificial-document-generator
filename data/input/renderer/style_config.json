@@ -50,6 +50,16 @@
       "bold": false,
       "textWrap": false
     },
+    "diagnose": {
+      "width": 100,
+      "height": null,
+      "font_size": 45,
+      "margin-left": 10,
+      "margin-top": 10,
+      "font": "fonts/arial.ttf",
+      "bold": false,
+      "textWrap": false
+    },
     "date": {
       "width": 100,
       "height": null,
@@ -84,6 +94,16 @@
       "width": 150,
       "height": null,
       "font_size": 60,
+      "margin-left": 10,
+      "margin-top": 10,
+      "font": "fonts/Arial Bold.ttf",
+      "bold": false,
+      "textWrap": false
+    },
+    "image": {
+      "width": 150,
+      "height": null,
+      "font_size": 40,
       "margin-left": 10,
       "margin-top": 10,
       "font": "fonts/Arial Bold.ttf",

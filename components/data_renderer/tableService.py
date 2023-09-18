@@ -5,7 +5,8 @@ from PIL import ImageFont
 from components.data_renderer.drawtable import Drawtable
 
 
-def get_dependent_field_positions(x1, y1, x2, y2, width_list, fields):
+def get_dependent_field_positions(x1, y1, x2, y2, width_list, fields, img_margin):
+    x1, y1, x2, y2 = x1 + img_margin, y1 + img_margin, x2 - img_margin, y2 - img_margin
     x_diff = x2 - x1
     width_columns = [width_list[i] * x_diff for i in range(len(width_list))]
     table_ground_truth = {}
@@ -28,7 +29,16 @@ def get_dependent_field_positions(x1, y1, x2, y2, width_list, fields):
     return table_ground_truth
 
 
-def draw_table(block, style_config_data, img, ground_truth, data, x1, y1):
+def get_updated_ground_truth(b_box_old, b_box_new, tb_fields, ground_truth):
+    for field in tb_fields:
+        ground_truth[field]['x1'] = ground_truth[field]['x1'] + b_box_new[0] - b_box_old[0]
+        ground_truth[field]['y1'] = ground_truth[field]['y1'] + b_box_new[1] - b_box_old[1]
+        ground_truth[field]['x2'] = ground_truth[field]['x2'] + b_box_new[2] - b_box_old[2]
+        ground_truth[field]['y2'] = ground_truth[field]['y2'] + b_box_new[3] - b_box_old[3]
+    return ground_truth
+
+
+def draw_table(block, style_config_data, ground_truth, data, x1, y1):
     tb_field_configs = block["table_data_fields"]
     tb_fields = list(tb_field_configs.keys())  # table field names
     list_tb_fields_data: list[int] = [0] * len(tb_fields)
@@ -80,12 +90,10 @@ def draw_table(block, style_config_data, img, ground_truth, data, x1, y1):
     cropped = image_details[0].crop(bbox_params)
     y2 = y1 + cropped.height
     x2 = x1 + cropped.width
-    img.paste(cropped, (x1, y1, x2, y2))
 
-    table_ground_truth = get_dependent_field_positions(x1 + img_margin, y1 + img_margin, x2 - img_margin,
-                                                       y2 - img_margin,
-                                                       width_list, tb_fields)
+    table_ground_truth = get_dependent_field_positions(x1, y1, x2, y2,
+                                                       width_list, tb_fields, img_margin)
     for field in dependent_fields:
         ground_truth[field] = table_ground_truth[field]
     ground_truth[block["tableName"]] = {"content": tdata, "x1": x1, "x2": x2, "y1": y1, "y2": y2}
-    return img, ground_truth
+    return cropped, dependent_fields, x2, y2, ground_truth

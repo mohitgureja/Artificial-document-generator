@@ -44,6 +44,8 @@ def generate_data(data_field_names, config_params):
         # Generate fake data fields using Faker
         data = fakerWrapper.generate_fake_data(config_params["countries"])
         for data_field in data_field_names.keys():
+            # if data_field == "image":
+            #     fake_data[data_field] = "images/Logo.png"
             if data_field not in gen_config_data["gpt_keys"] and data_field not in gen_config_data["calculate_keys"]:
                 fake_data[data_field] = data[data_field]
 

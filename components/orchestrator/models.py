@@ -22,6 +22,9 @@ class InvoiceData(BaseModel):
     bank_swift: bool = False
     date: bool = False
     title: bool = False
+    diagnose: bool = False
+
+    # image: bool = False
 
     def get_variables(self):
         return vars(self)
@@ -37,6 +40,7 @@ class InvoiceData(BaseModel):
 # @dataclass
 class RequestBody(BaseModel):
     invoice_params: InvoiceData | None = None
-    invoice_count: int
+    count: int
     groundtruth_type: str
+    groundtruth_format: str
     countries: list[str]
