@@ -1,0 +1,674 @@
+{
+  "image0.png": {
+    "title": {
+      "content": "Kallert Hertrampf GmbH & Co. OHG",
+      "x1": 921,
+      "x2": 1934,
+      "y1": 336,
+      "y2": 413
+    },
+    "customer_name": {
+      "content": "Frau\n Prof. Eleonore Geisel B.A.",
+      "x1": 225,
+      "x2": 767,
+      "y1": 891,
+      "y2": 993
+    },
+    "address": {
+      "content": "Fiebigallee 1\n30679 D\u00fcren",
+      "x1": 225,
+      "x2": 454,
+      "y1": 994,
+      "y2": 1096
+    },
+    "diagnose": {
+      "content": "Diagnose-  Schilddr\u00fcsenunterfunktion (Hypothyreose)",
+      "x1": 457,
+      "x2": 1535,
+      "y1": 1255,
+      "y2": 1315
+    },
+    "organization": {
+      "content": "Kallert Hertrampf GmbH & Co. OHG",
+      "x1": 1657,
+      "x2": 2331,
+      "y1": 598,
+      "y2": 653
+    },
+    "organization_address": {
+      "content": "Olav-Mitschke-Ring 4/0\n22459 Pinneberg",
+      "x1": 1657,
+      "x2": 1959,
+      "y1": 663,
+      "y2": 773
+    },
+    "organization_contact": {
+      "content": "Tele.  0170713285",
+      "x1": 1657,
+      "x2": 1987,
+      "y1": 783,
+      "y2": 830
+    },
+    "bank_iban": {
+      "content": "Konto Nr.  DE69687422747578432903",
+      "x1": 1748,
+      "x2": 2434,
+      "y1": 1220,
+      "y2": 1267
+    },
+    "bank_swift": {
+      "content": "Swift.  TCVFDEJML1T",
+      "x1": 1748,
+      "x2": 2149,
+      "y1": 1268,
+      "y2": 1315
+    },
+    "rechnungsnummer": {
+      "content": "Rechnung Nr.  868101",
+      "x1": 1695,
+      "x2": 2094,
+      "y1": 1734,
+      "y2": 1789
+    },
+    "date": {
+      "content": "Date:  1978-03-03",
+      "x1": 1695,
+      "x2": 2014,
+      "y1": 1799,
+      "y2": 1846
+    },
+    "product_amount": {
+      "x1": 2281.818181818182,
+      "x2": 2670,
+      "y1": 2019,
+      "y2": 2492,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Ultraschall, Bauchraum",
+          " 70 \u20ac"
+        ],
+        [
+          "Antidepressiva (Packung)",
+          " 30 \u20ac"
+        ],
+        [
+          "Gipsverband anlegen",
+          " 20 \u20ac"
+        ],
+        [
+          "Schilddr\u00fcsentabletten (Packung)",
+          " 10 \u20ac"
+        ],
+        [
+          "Antibiotika (Packung)",
+          " 20 \u20ac"
+        ],
+        [
+          "\u00dcbungsbehandlung, je Sitzung",
+          " 5 \u20ac"
+        ],
+        [
+          "Blutuntersuchung, komplettes Blutbild",
+          " 40 \u20ac"
+        ],
+        [
+          "Heimbeatmungsger\u00e4t",
+          " 2000 \u20ac"
+        ]
+      ],
+      "x1": 521,
+      "x2": 2971,
+      "y1": 2014,
+      "y2": 2497
+    },
+    "total_amount": {
+      "content": "Total Amount:  2195.00 \u20ac",
+      "x1": 1587,
+      "x2": 2053,
+      "y1": 2402,
+      "y2": 2449
+    },
+    "amount_sentence": {
+      "content": "Gem\u00e4\u00df unserer Preisliste bel\u00e4uft sich der Betrag f\u00fcr die geleisteten \u00e4rztlichen Dien",
+      "x1": 415,
+      "x2": 1871,
+      "y1": 2675,
+      "y2": 2730
+    }
+  },
+  "image1.png": {
+    "title": {
+      "content": "Jessel GmbH",
+      "x1": 885,
+      "x2": 1264,
+      "y1": 82,
+      "y2": 148
+    },
+    "customer_name": {
+      "content": "Herr\n Fabian Ackermann-Mitschke",
+      "x1": 290,
+      "x2": 875,
+      "y1": 1035,
+      "y2": 1137
+    },
+    "address": {
+      "content": "S\u00f6lzerstra\u00dfe 3\n48946 Rastatt",
+      "x1": 290,
+      "x2": 537,
+      "y1": 1138,
+      "y2": 1232
+    },
+    "diagnose": {
+      "content": "Diagnose-  Schilddr\u00fcsenunterfunktion (Hypothyreose)",
+      "x1": 419,
+      "x2": 1497,
+      "y1": 1251,
+      "y2": 1311
+    },
+    "organization": {
+      "content": "Jessel GmbH",
+      "x1": 1835,
+      "x2": 2087,
+      "y1": 398,
+      "y2": 445
+    },
+    "organization_address": {
+      "content": "Speergasse 4\n10907 Ebermannstadt",
+      "x1": 1835,
+      "x2": 2225,
+      "y1": 455,
+      "y2": 557
+    },
+    "organization_contact": {
+      "content": "Mob.    04905 934456",
+      "x1": 1835,
+      "x2": 2220,
+      "y1": 567,
+      "y2": 614
+    },
+    "bank_iban": {
+      "content": "Konto Nr.  DE25826349575711749276",
+      "x1": 1365,
+      "x2": 2051,
+      "y1": 1158,
+      "y2": 1205
+    },
+    "bank_swift": {
+      "content": "SWIFT:  IJIJDEWQ6FJ",
+      "x1": 1365,
+      "x2": 1775,
+      "y1": 1206,
+      "y2": 1255
+    },
+    "rechnungsnummer": {
+      "content": "Rechnung Nr.  458680",
+      "x1": 1425,
+      "x2": 1824,
+      "y1": 1061,
+      "y2": 1116
+    },
+    "date": {
+      "content": "Date:  1973-09-16",
+      "x1": 1425,
+      "x2": 1744,
+      "y1": 1126,
+      "y2": 1173
+    },
+    "product_amount": {
+      "x1": 2291.3636363636365,
+      "x2": 2735,
+      "y1": 1999,
+      "y2": 2313,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Verbandsmaterial, monatlicher Bedarf",
+          " 20 \u20ac"
+        ],
+        [
+          "Sonographie, je Organ, bis zu drei",
+          " 26,81 \u20ac"
+        ],
+        [
+          "Magens\u00e4urehemmer (Packung)",
+          " 15 \u20ac"
+        ],
+        [
+          "Gehhilfe (Gehstock)",
+          " 20 \u20ac"
+        ],
+        [
+          "Lippenkorrektur (Lippenaugmentation)",
+          " 1000 \u20ac"
+        ]
+      ],
+      "x1": 583,
+      "x2": 3033,
+      "y1": 1994,
+      "y2": 2318
+    },
+    "total_amount": {
+      "content": "Rechnungsbetrag.  1081.81 \u20ac",
+      "x1": 1500,
+      "x2": 2045,
+      "y1": 2522,
+      "y2": 2577
+    },
+    "amount_sentence": {
+      "content": "Laut unserem Leistungskatalog bel\u00e4uft sich der Betrag f\u00fcr die \u00e4rztlichen Leistungen auf 1081.81 \u20ac.",
+      "x1": 150,
+      "x2": 1880,
+      "y1": 3245,
+      "y2": 3300
+    }
+  },
+  "image2.png": {
+    "title": {
+      "content": "Holsten Stiftung & Co. KGaA",
+      "x1": 745,
+      "x2": 1568,
+      "y1": 313,
+      "y2": 391
+    },
+    "customer_name": {
+      "content": "Frau\n Reinhild Jessel MBA.",
+      "x1": 216,
+      "x2": 657,
+      "y1": 447,
+      "y2": 549
+    },
+    "address": {
+      "content": "Patricia-Reinhardt-Ring 9/4\n45483 Perleberg",
+      "x1": 216,
+      "x2": 509,
+      "y1": 550,
+      "y2": 660
+    },
+    "diagnose": {
+      "content": "Diagnose:  Diabetes mellitus Typ 2",
+      "x1": 316,
+      "x2": 1017,
+      "y1": 1481,
+      "y2": 1541
+    },
+    "organization": {
+      "content": "Holsten Stiftung & Co. KGaA",
+      "x1": 1860,
+      "x2": 2402,
+      "y1": 841,
+      "y2": 896
+    },
+    "organization_address": {
+      "content": "Weinhageallee 362\n83713 Bersenbr\u00fcck",
+      "x1": 1860,
+      "x2": 2204,
+      "y1": 906,
+      "y2": 1008
+    },
+    "organization_contact": {
+      "content": "Mob.    04869 81675",
+      "x1": 1860,
+      "x2": 2223,
+      "y1": 1018,
+      "y2": 1065
+    },
+    "bank_iban": {
+      "content": "IBAN.    DE84479415396026386149",
+      "x1": 1657,
+      "x2": 2302,
+      "y1": 1419,
+      "y2": 1466
+    },
+    "bank_swift": {
+      "content": "BIC.    KFANDE2MKI5",
+      "x1": 1657,
+      "x2": 2057,
+      "y1": 1467,
+      "y2": 1514
+    },
+    "rechnungsnummer": {
+      "content": "R. Nr. 297088",
+      "x1": 1611,
+      "x2": 1858,
+      "y1": 1075,
+      "y2": 1122
+    },
+    "date": {
+      "content": "Datum. 2001-08-27",
+      "x1": 1611,
+      "x2": 1952,
+      "y1": 1132,
+      "y2": 1179
+    },
+    "product_amount": {
+      "x1": 2371.508474576271,
+      "x2": 2661,
+      "y1": 1815,
+      "y2": 2168,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Nierensteinentfernung (perkutane Nephrolitholapaxie)",
+          " 3000 \u20ac"
+        ],
+        [
+          "Hormonersatztherapie, pro Monat",
+          " 50 \u20ac"
+        ],
+        [
+          "Sehtest",
+          " 20 \u20ac"
+        ],
+        [
+          "Magens\u00e4urehemmer (Packung)",
+          " 15 \u20ac"
+        ],
+        [
+          "Hustensaft (Packung)",
+          " 10 \u20ac"
+        ],
+        [
+          "Rollstuhl",
+          " 500 \u20ac"
+        ]
+      ],
+      "x1": 461,
+      "x2": 2911,
+      "y1": 1810,
+      "y2": 2173
+    },
+    "total_amount": {
+      "content": "Total Amount:  3595.00 \u20ac",
+      "x1": 1790,
+      "x2": 2256,
+      "y1": 2320,
+      "y2": 2367
+    },
+    "amount_sentence": {
+      "content": "Gem\u00e4\u00df unserer Preisliste bel\u00e4uft sich der Betrag f\u00fcr die geleisteten \u00e4rztlichen Dien",
+      "x1": 559,
+      "x2": 2015,
+      "y1": 3125,
+      "y2": 3180
+    }
+  },
+  "image3.png": {
+    "title": {
+      "content": "T\u00e4sche Kensy KG",
+      "x1": 689,
+      "x2": 1198,
+      "y1": 321,
+      "y2": 399
+    },
+    "customer_name": {
+      "content": "Frau\n Valeria Wirth",
+      "x1": 200,
+      "x2": 471,
+      "y1": 436,
+      "y2": 538
+    },
+    "address": {
+      "content": "Tlustekstr. 4\n80144 Rastatt",
+      "x1": 200,
+      "x2": 447,
+      "y1": 539,
+      "y2": 633
+    },
+    "diagnose": {
+      "content": "Diagnose-  Lungenentz\u00fcndung",
+      "x1": 597,
+      "x2": 1215,
+      "y1": 1319,
+      "y2": 1379
+    },
+    "organization": {
+      "content": "T\u00e4sche Kensy KG",
+      "x1": 1390,
+      "x2": 1727,
+      "y1": 486,
+      "y2": 541
+    },
+    "organization_address": {
+      "content": "Sandor-Henk-Allee 0\n13521 Plauen",
+      "x1": 1390,
+      "x2": 1635,
+      "y1": 551,
+      "y2": 645
+    },
+    "organization_contact": {
+      "content": "Contact:    +49(0) 400983049",
+      "x1": 1390,
+      "x2": 1906,
+      "y1": 655,
+      "y2": 710
+    },
+    "bank_iban": {
+      "content": "IBAN.    DE14555621343707150203",
+      "x1": 1481,
+      "x2": 2126,
+      "y1": 1708,
+      "y2": 1755
+    },
+    "bank_swift": {
+      "content": "BIC:    AXJLDER9SHL",
+      "x1": 1481,
+      "x2": 1884,
+      "y1": 1756,
+      "y2": 1803
+    },
+    "rechnungsnummer": {
+      "content": "Rech Nr.  719727",
+      "x1": 1411,
+      "x2": 1722,
+      "y1": 1264,
+      "y2": 1311
+    },
+    "date": {
+      "content": "Datum:  2006-10-15",
+      "x1": 1411,
+      "x2": 1763,
+      "y1": 1321,
+      "y2": 1368
+    },
+    "product_amount": {
+      "x1": 2256.818181818182,
+      "x2": 2645,
+      "y1": 1850,
+      "y2": 2113,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Psychotherapie, je Sitzung",
+          " 80 \u20ac"
+        ],
+        [
+          "Geh\u00f6rschutz (Ohrst\u00f6psel)",
+          " 10 \u20ac"
+        ],
+        [
+          "Kniegelenkersatz (Knie-TEP)",
+          " 8000 \u20ac"
+        ],
+        [
+          "Blutuntersuchung, komplettes Blutbild",
+          " 40 \u20ac"
+        ]
+      ],
+      "x1": 402,
+      "x2": 2852,
+      "y1": 1789,
+      "y2": 2062
+    },
+    "total_amount": {
+      "content": "Rechnungsbetrag:  8130.00 \u20ac",
+      "x1": 1611,
+      "x2": 2158,
+      "y1": 2537,
+      "y2": 2592
+    },
+    "amount_sentence": {
+      "content": "Wir m\u00f6chten Ihnen gerne 8130.00 \u20ac f\u00fcr die erbrachten \u00e4rztlichen Leistungen in Rechnung stellen.",
+      "x1": 385,
+      "x2": 2095,
+      "y1": 3221,
+      "y2": 3276
+    }
+  },
+  "image4.png": {
+    "title": {
+      "content": "H\u00f6vel GbR",
+      "x1": 960,
+      "x2": 1268,
+      "y1": 84,
+      "y2": 150
+    },
+    "customer_name": {
+      "content": "Herr\n Herr S\u00f6nke Lindau MBA.",
+      "x1": 350,
+      "x2": 863,
+      "y1": 609,
+      "y2": 711
+    },
+    "address": {
+      "content": "Blochgasse 16\n94777 Aschaffenburg",
+      "x1": 350,
+      "x2": 727,
+      "y1": 712,
+      "y2": 822
+    },
+    "diagnose": {
+      "content": "Diagnose:  Schlaganfall",
+      "x1": 256,
+      "x2": 732,
+      "y1": 1142,
+      "y2": 1202
+    },
+    "organization": {
+      "content": "H\u00f6vel GbR",
+      "x1": 1292,
+      "x2": 1495,
+      "y1": 1015,
+      "y2": 1062
+    },
+    "organization_address": {
+      "content": "Mahmoud-K\u00e4ster-Allee 31\n46695 Soest",
+      "x1": 1292,
+      "x2": 1515,
+      "y1": 1072,
+      "y2": 1166
+    },
+    "organization_contact": {
+      "content": "Tel:  01360 731341",
+      "x1": 1292,
+      "x2": 1633,
+      "y1": 1176,
+      "y2": 1223
+    },
+    "bank_iban": {
+      "content": "BAN :    DE26990512976904597707",
+      "x1": 1691,
+      "x2": 2336,
+      "y1": 1367,
+      "y2": 1414
+    },
+    "bank_swift": {
+      "content": "BIC Code:    HTUTDEHYV6U",
+      "x1": 1691,
+      "x2": 2215,
+      "y1": 1415,
+      "y2": 1462
+    },
+    "rechnungsnummer": {
+      "content": "Rech Nr.  453115",
+      "x1": 1293,
+      "x2": 1604,
+      "y1": 1355,
+      "y2": 1402
+    },
+    "date": {
+      "content": "Datum. 1983-06-05",
+      "x1": 1293,
+      "x2": 1634,
+      "y1": 1412,
+      "y2": 1459
+    },
+    "product_amount": {
+      "x1": 2370.6521739130435,
+      "x2": 2795,
+      "y1": 1895,
+      "y2": 2211,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Brustvergr\u00f6\u00dferung (Mammaaugmentation)",
+          " 4000 \u20ac"
+        ],
+        [
+          "Gehirn-MRT (Magnetresonanztomographie)",
+          " 500 \u20ac"
+        ],
+        [
+          "Symptombezogene Untersuchung",
+          " 10,72 \u20ac"
+        ],
+        [
+          "Psychotherapie, je Sitzung",
+          " 80 \u20ac"
+        ],
+        [
+          "H\u00fcftgelenkersatz (H\u00fcft-TEP)",
+          " 10000 \u20ac"
+        ]
+      ],
+      "x1": 129,
+      "x2": 2579,
+      "y1": 1827,
+      "y2": 2153
+    },
+    "total_amount": {
+      "content": "Total Amount:  14590.72 \u20ac",
+      "x1": 1370,
+      "x2": 1858,
+      "y1": 2314,
+      "y2": 2361
+    },
+    "amount_sentence": {
+      "content": "Bitte begleichen Sie den Betrag von 14590.72 \u20ac f\u00fcr die erbrachten \u00e4rztlichen Leistungen.",
+      "x1": 135,
+      "x2": 1694,
+      "y1": 2792,
+      "y2": 2847
+    }
+  }
+}

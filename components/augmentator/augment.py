@@ -7,7 +7,7 @@ pipeline_fns = [pipeline_archetype1, pipeline_archetype2, pipeline_archetype3, p
                 pipeline_archetype7, pipeline_archetype8, pipeline_archetype9, pipeline_archetype10,
                 pipeline_archetype11]
 # pipeline_fns = [pipeline_archetype1, pipeline_archetype2]
-filepath = "/Users/ssdn/PycharmProjects/Artificial-document-generator/data/output/images/"
+filepath = "/Users/ssdn/PycharmProjects/Artificial-document-generator/data/output/images/receipt/"
 img_name = "image0.png"
 image = cv2.imread(filepath + img_name)
 

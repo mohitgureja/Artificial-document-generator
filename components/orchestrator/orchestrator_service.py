@@ -16,9 +16,10 @@ def orchestrate(request_data, doc_format):
     data_field_names = {key: value for key, value in data_fields.items() if data_fields[key] is True}
 
     # Generate fake data according to the configurations
-    doc_filepath = generator.generate_data(data_field_names, generator_config)
+    doc_filepath = generator.generate_data(data_field_names, generator_config, doc_format)
 
     # Generate fake document images according to the configurations
-    doc_images, groundtruth_data = renderer.generate_documents(doc_filepath, renderer_config, data_field_names)
+    doc_images, groundtruth_data = renderer.generate_documents(doc_filepath, renderer_config, data_field_names,
+                                                               doc_format)
     # print(doc_images)
     return doc_images

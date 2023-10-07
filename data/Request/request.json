@@ -16,7 +16,14 @@
       "diagnose": true
     }
   },
-  "identity": {
+  "receipt": {
+    "receipt_params": {
+      "address": true,
+      "customer_name": true,
+      "organization": true,
+      "organization_address": true,
+      "organization_contact": true
+    }
   },
   "count": 10,
   "groundtruth_format": "json",

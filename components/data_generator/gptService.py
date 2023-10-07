@@ -2,10 +2,7 @@ import os
 
 import openai
 
-from components.data_generator import helper
-
 openai.api_key = os.getenv("OPENAI_API_KEY")
-RESPONSE_FILE_PATH = "data/input/renderer/gpt_response.json"
 
 
 def get_pairs_content(key, content: list, isKeyPair: bool):
@@ -24,7 +21,7 @@ def get_pairs_content(key, content: list, isKeyPair: bool):
 
 def generate_gpt_sentence(key, query, isKeyPair):
     """
-    Generate g
+    Generate gpt sentences for each key
     :param isKeyPair:
     :param query:
     :return: [String]
@@ -47,5 +44,4 @@ def generate_gpt_sentence(key, query, isKeyPair):
     content = response["choices"][0]["message"]["content"]
     content = content.split("\n")
     data = get_pairs_content(key, content, isKeyPair)
-    helper.write_json(data, RESPONSE_FILE_PATH)
     return data[key]

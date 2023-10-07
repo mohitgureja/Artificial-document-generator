@@ -38,7 +38,7 @@ def get_updated_ground_truth(b_box_old, b_box_new, tb_fields, ground_truth):
     return ground_truth
 
 
-def draw_table(block, style_config_data, ground_truth, data, x1, y1):
+def draw_table(block, style_config_data, ground_truth, data, x1, y1, page_config):
     tb_field_configs = block["table_data_fields"]
     tb_fields = list(tb_field_configs.keys())  # table field names
     list_tb_fields_data: list[int] = [0] * len(tb_fields)
@@ -64,13 +64,13 @@ def draw_table(block, style_config_data, ground_truth, data, x1, y1):
     width_list = [w / sum_width for w in max_col_widths]
 
     table = Drawtable(data=tdata,
-                      x=60,
-                      y=60,
+                      x=20,
+                      y=20,
                       font=text_font,
                       line_spacer=10,
                       margin_text=10,
-                      image_width=1800,
-                      image_height=1000,
+                      image_width=page_config["width"],
+                      image_height=page_config["height"],
                       columnwidth=width_list,
                       frame=False,
                       grid=False,

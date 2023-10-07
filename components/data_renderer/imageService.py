@@ -1,37 +1,40 @@
 import random
 import textwrap
 
-from PIL import Image, ImageFont, ImageDraw
+from PIL import Image, ImageFont, ImageDraw, ImageChops
 
-from components.data_renderer import tableService, helper, pageService
-
-PAGE_CONFIG_FILE_PATH = "data/input/renderer/page_config.json"
-
-POSITION_CONFIG_FILE_PATH = "data/input/renderer/position_config.json"
+from components.data_renderer import tableService, pageService
 
 
-def generate_textimage(data, fields, style_config_data):
+def generate_textimage(data, fields, style_config_data, page_config, position_config_data):
     """
-    Render image according to the data and field_config provided
+    Render image according to the data and field configurations provided
+    :param position_config_data:
+    :param page_config:
     :param data:
     :param fields:
     :param style_config_data:
     :return:
     """
-    position_config_data = helper.read_json(POSITION_CONFIG_FILE_PATH)
-    page_config = helper.read_json(PAGE_CONFIG_FILE_PATH)
 
     page_matrix = pageService.create_page_matrix(page_config)  # Matrix of the form [[[tuple(x1, y1), tuple(x2, y2)]]]
 
     top_margin = page_matrix[0][0][1][1]
     l = len(page_matrix[0])
     y2_prev = [top_margin] * l
-    # x2_prev = [page_matrix[0][l - 1][1][0]] * l
-    # x1_prev = [page_matrix[0][0][0][0]] * l
     x1_used_col = [0] * l
     rendered_data = []
 
     def test_previous_intersection(x1_c, x2_c, y1_c, y2_c):
+        """
+        Check if current position overlap with any of the previous blocks
+        Uses global variables
+        :param x1_c:
+        :param x2_c:
+        :param y1_c:
+        :param y2_c:
+        :return:
+        """
         if rendered_data:
             for data_row in rendered_data:
                 x1_data, y1_data, x2_data, y2_data = data_row[0], data_row[1], data_row[2], data_row[3]
@@ -41,22 +44,24 @@ def generate_textimage(data, fields, style_config_data):
                     return False
         return True
 
-    # def test_side_semantics(x1_c, x2_c):
-    #     for i in range(l):
-    #
-    #         if x1_c > x2_prev[i]:
-    #             return False
-    #         if x2_prev[i] > x1_c:
-    #             if x2_c > x1_prev[i] or x1_prev[i] < x1_c:
-    #                 return True
-    #         elif x2_c > x2_prev[i] > x1_c:
-    #             return True
-    #     return False
-
     def test_layout_semantics(x1_c, y1_c, x2_c, y2_c, row, column, cropped, count=0):
+        """
+        Check and update the layout semantics for current positions
+        Uses global variables
+        :param x1_c:
+        :param y1_c:
+        :param x2_c:
+        :param y2_c:
+        :param row:
+        :param column:
+        :param cropped:
+        :param count:
+        :return:
+        """
         if count == 10:
             raise ValueError("Maximum recursion limit reached. Creating default coordinates")
 
+        # If current column is not already used earlier
         if x1_used_col[column] == 0:
             if test_previous_intersection(x1_c, x2_c, y1_c, y2_c):
                 rendered_data.append([x1_c, y1_c, x2_c, y2_c])
@@ -69,6 +74,7 @@ def generate_textimage(data, fields, style_config_data):
                 count += 1
                 x1_c, y1_c, x2_c, y2_c, count = test_layout_semantics(x1_c, y1_c, x2_c, y2_c, row, column, cropped,
                                                                       count)
+        # If current column is already used by earlier block
         else:
             x1_c = x1_used_col[column]
             x2_c, y2_c = create_b_box(cropped, x1_c, y1_c)
@@ -80,32 +86,6 @@ def generate_textimage(data, fields, style_config_data):
                 count += 1
                 x1_c, y1_c, x2_c, y2_c, count = test_layout_semantics(x1_c, y1_c, x2_c, y2_c, row, column, cropped,
                                                                       count)
-
-        # If the column is not used earlier
-        # if not x1_used_col[column]:
-        #     if (y2_prev[column] > y1_c) and test_side_semantics(x1_c, x2_c):
-        #         print("Semantic Layout test failed at unused column: ", row, column)
-        #         x1_c = random.randint(page_matrix[row][column][0][0], page_matrix[row][column][1][0])
-        #         y1_c = random.randint(page_matrix[row][column][0][1], page_matrix[row][column][1][1])
-        #         x2_c, y2_c = create_b_box(cropped, x1_c, y1_c)
-        #         count += 1
-        #         x1_c, y1_c, x2_c, y2_c, count = test_layout_semantics(x1_c, y1_c, x2_c, y2_c, row, column, cropped,
-        #                                                               count)
-        #     else:
-        #         x1_prev[column], x2_prev[column], y2_prev[column] = x1_c, x2_c, y2_c
-        # else:
-        #     x1_c = x1_prev[column]
-        #     x2_c, y2_c = create_b_box(cropped, x1_c, y1_c)
-        #     if y2_prev[column] > y1_c and test_side_semantics(x1_c, x2_c):
-        #         print("Semantic Layout test failed at already used column: ", row, column)
-        #         y1_c = random.randint(page_matrix[row][column][0][1], page_matrix[row][column][1][1])
-        #         count += 1
-        #         x1_c, y1_c, x2_c, y2_c, count = test_layout_semantics(x1_c, y1_c, x2_c, y2_c, row, column, cropped,
-        #                                                               count)
-        #     else:
-        #         if x2_c > x2_prev[column]:
-        #             x2_prev[column] = x2_c
-        #         y2_prev[column] = y2_c
         print("Semantic test passed. ")
         count += 1
         return x1_c, y1_c, x2_c, y2_c, count
@@ -116,22 +96,31 @@ def generate_textimage(data, fields, style_config_data):
     img_draw = ImageDraw.Draw(img)
     ground_truth = {}
 
+    # Generate image using block by block configurations
     for block in position_config_data.keys():
         block = position_config_data[block]
         row, column = block["block_position"]
         x1 = random.randint(page_matrix[row][column][0][0], page_matrix[row][column][1][0])
         y1 = random.randint(page_matrix[row][column][0][1], page_matrix[row][column][1][1])
 
-        if block["hasTable"]:
+        if block["isImage"]:
+            logo_img = "images/Logo.png"
+            logo = Image.open(logo_img)
+            bbox = ImageChops.invert(logo).getbbox()
+            x1, y1, x2, y2, count = test_layout_semantics(x1, y1, x1 + bbox[2] - bbox[0], y1 + bbox[3] - bbox[1], row,
+                                                          column, logo)
+            img.paste(logo, (x1, y1, x2, y2))
+        elif block["hasTable"]:
             cropped, tb_fields, x2, y2, ground_truth = tableService.draw_table(block, style_config_data, ground_truth,
-                                                                               data, x1, y1)
+                                                                               data, x1, y1, page_config)
             b_box_old = (x1, y1, x2, y2)
             x1, y1, x2, y2, count = test_layout_semantics(x1, y1, x2, y2, row, column, cropped)
             b_box_new = (x1, y1, x2, y2)
             ground_truth = tableService.get_updated_ground_truth(b_box_old, b_box_new, tb_fields, ground_truth)
             img.paste(cropped, (x1, y1, x2, y2))
         elif "data_fields" in block:
-            img_new, b_box, ground_truth = get_block_image(block, data, fields, ground_truth, style_config_data, x1, y1)
+            img_new, b_box, ground_truth = get_block_image(block, data, fields, ground_truth, style_config_data, x1, y1,
+                                                           page_config)
             cropped = img_new.crop(b_box)
             x2, y2 = create_b_box(cropped, x1, y1)
             if page_config["header_line"] and block["is_header"]:
@@ -154,8 +143,20 @@ def create_b_box(cropped, x1, y1):
     return x2, y2
 
 
-def get_block_image(block, data, fields, ground_truth, style_config_data, x1, y1):
-    img = Image.new('RGB', (2480, 3508), "white")
+def get_block_image(block, data, fields, ground_truth, style_config_data, x1, y1, page_config):
+    """
+    Generate separate images for each block using position and configuration
+    :param block:
+    :param data:
+    :param fields:
+    :param ground_truth:
+    :param style_config_data:
+    :param x1:
+    :param y1:
+    :param page_config:
+    :return:
+    """
+    img = Image.new('RGB', (page_config["width"], page_config["height"]), "white")
     img_draw = ImageDraw.Draw(img)
     w, h = 0, 0
     x1_block, y1_block, x2_block, y2_block = x1, y1, 0, 0
@@ -181,14 +182,6 @@ def get_block_image(block, data, fields, ground_truth, style_config_data, x1, y1
         if field["isList"]:
             text = "\n".join(text)
 
-        # If a field has dependency on a previous rendered field
-        # if field["has_dependent_field"]:
-        #     direction = field["key_direction"]
-        #     x1 = ground_truth[field["previous_key"]]["x1"]
-        #     y1 = ground_truth[field["previous_key"]]["y1"]
-        #     h = ground_truth[field["previous_key"]]["y2"] - y1
-        #     w = ground_truth[field["previous_key"]]["x2"] - x1
-
         if direction == "down":
             y1 = y1 + field_style_config["margin-top"] + h
             h = 0
@@ -199,6 +192,7 @@ def get_block_image(block, data, fields, ground_truth, style_config_data, x1, y1
         w = field_style_config["width"]
         width = 0
         split_text = str(text).split("\n")
+        # Renders text line by line on the canvas
         for text_line in split_text:
             wrapped_text = textwrap.wrap(text_line, width=w)
             for line in wrapped_text:
@@ -222,6 +216,12 @@ def get_font(field_config):
 
 
 def get_keytext(field, text):
+    """
+    Generates data field key value pair to be rendered on image canvas
+    :param field:
+    :param text:
+    :return:
+    """
     field_direction = field["key_direction"]
     # TODO: Not generic (Need to generalize it to every field)
     keyname = random.choice(field["key_name"])

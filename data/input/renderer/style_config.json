@@ -1,5 +1,5 @@
-[
-  {
+{
+  "invoice": {
     "address": {
       "width": 100,
       "height": null,
@@ -160,5 +160,67 @@
       "bold": false,
       "textWrap": true
     }
+  },
+  "receipt": {
+    "title": {
+      "width": 150,
+      "height": null,
+      "font_size": 60,
+      "margin-left": 10,
+      "margin-top": 10,
+      "font": "fonts/Arial Bold.ttf",
+      "bold": false,
+      "textWrap": false
+    },
+    "customer_name": {
+      "width": 100,
+      "height": null,
+      "font_size": 45,
+      "margin-left": 10,
+      "margin-top": 10,
+      "font": "fonts/arial.ttf",
+      "bold": false,
+      "textWrap": false
+    },
+    "address": {
+      "width": 100,
+      "height": null,
+      "font_size": 40,
+      "margin-left": 10,
+      "margin-top": 1,
+      "font": "fonts/arial.ttf",
+      "bold": false,
+      "textWrap": true
+    },
+    "organization": {
+      "width": 150,
+      "height": null,
+      "font_size": 40,
+      "margin-left": 10,
+      "margin-top": 10,
+      "font": "fonts/Arial Bold.ttf",
+      "bold": false,
+      "textWrap": false
+    },
+    "organization_contact": {
+      "width": 100,
+      "height": null,
+      "font_size": 40,
+      "margin-left": 10,
+      "margin-top": 10,
+      "font": "fonts/arial.ttf",
+      "bold": false,
+      "textWrap": false
+    },
+    "organization_address": {
+      "width": 100,
+      "height": null,
+      "font_size": 40,
+      "margin-left": 10,
+      "margin-top": 10,
+      "font": "fonts/arial.ttf",
+      "bold": false,
+      "textWrap": false
+    }
   }
-]
+}

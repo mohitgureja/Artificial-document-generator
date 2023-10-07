@@ -1,18 +1,38 @@
 {
-  "gpt_enabled": false,
-  "gpt_keys": [
-    "amount_sentence",
-    "product_name"
-  ],
-  "gpt_key_pairs": {
-    "product_name": "product_amount"
+  "invoice": {
+    "gpt_enabled": false,
+    "gpt_keys": [
+      "amount_sentence",
+      "product_name"
+    ],
+    "gpt_key_pairs": {
+      "product_name": "product_amount"
+    },
+    "queries": {
+      "amount_sentence": "Generate 10 sentences similar to \"Für ärztliche Leistungen erlauben wir uns, Ihnen\t28,78 EUR\tzu berechnen.\" but instead of amount 28,78 EUR use <amount> tag",
+      "product_name": "Can you please write 100 medical services and their approximate prices (no real time prices just approximate values in €) in german language.\nSome examples are: \n1. Übungsbehandlung, je Sitzung : 5 €\n2. Untersuchung, symptombezogen : 4,77 €\n3. Symptombezogene Untersuchung : 10,72 €\n4. Magnetresonanztomographie eines oder mehrerer Gelenke oder Abschnitte von Extremitäten : 321,75 €\n5. Sonographie, je Organ, bis zu drei : 26,81 €"
+    },
+    "calculate_keys": [
+      "total_amount",
+      "title"
+    ]
   },
-  "queries": {
-    "amount_sentence": "Generate 10 sentences similar to \"Für ärztliche Leistungen erlauben wir uns, Ihnen\t28,78 EUR\tzu berechnen.\" but instead of amount 28,78 EUR use <amount> tag",
-    "product_name": "Can you please write 100 medical services and their approximate prices (no real time prices just approximate values in €) in german language.\nSome examples are: \n1. Übungsbehandlung, je Sitzung : 5 €\n2. Untersuchung, symptombezogen : 4,77 €\n3. Symptombezogene Untersuchung : 10,72 €\n4. Magnetresonanztomographie eines oder mehrerer Gelenke oder Abschnitte von Extremitäten : 321,75 €\n5. Sonographie, je Organ, bis zu drei : 26,81 €"
-  },
-  "calculate_keys": [
-    "total_amount",
-    "title"
-  ]
+  "receipt": {
+    "gpt_enabled": false,
+    "gpt_keys": [
+      "amount_sentence",
+      "product_name"
+    ],
+    "gpt_key_pairs": {
+      "product_name": "product_amount"
+    },
+    "queries": {
+      "amount_sentence": "Generate 10 sentences similar to \"Für ärztliche Leistungen erlauben wir uns, Ihnen\t28,78 EUR\tzu berechnen.\" but instead of amount 28,78 EUR use <amount> tag",
+      "product_name": "Can you please write 100 medical services and their approximate prices (no real time prices just approximate values in €) in german language.\nSome examples are: \n1. Übungsbehandlung, je Sitzung : 5 €\n2. Untersuchung, symptombezogen : 4,77 €\n3. Symptombezogene Untersuchung : 10,72 €\n4. Magnetresonanztomographie eines oder mehrerer Gelenke oder Abschnitte von Extremitäten : 321,75 €\n5. Sonographie, je Organ, bis zu drei : 26,81 €"
+    },
+    "calculate_keys": [
+      "total_amount",
+      "title"
+    ]
+  }
 }

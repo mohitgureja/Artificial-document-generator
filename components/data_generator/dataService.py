@@ -39,6 +39,7 @@ def update_title(fake_data):
     fake_data[TITLE] = fake_data[ORGANIZATION]
     return fake_data
 
+# TODO: Make it generic with configurations
 def transform_data(fake_data):
     """
     Transform generated data according to the need of the output

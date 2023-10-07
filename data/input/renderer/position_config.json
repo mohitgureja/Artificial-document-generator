@@ -1,271 +1,376 @@
 {
-  "title_block": {
-    "hasTable": false,
-    "is_header": true,
-    "data_fields": {
-      "title": {
-        "priority": 1,
-        "key": false,
-        "isList": false,
-        "has_dependent_field": false,
-        "previous_key": "organization"
-      }
-    },
-    "direction": "down",
-    "block_position": [
-      0,
-      1
-    ]
-  },
-  "image_block": {
-    "hasTable": false,
-    "is_header": true,
-    "image": {
-      "title": {
-        "priority": 1,
-        "key": false,
-        "isList": false,
-        "has_dependent_field": false,
-        "previous_key": "organization"
-      }
-    },
-    "direction": "down",
-    "block_position": [
-      0,
-      2
-    ]
-  },
-  "customer_block": {
-    "hasTable": false,
-    "is_header": false,
-    "data_fields": {
-      "customer_name": {
-        "priority": 1,
-        "key": false,
-        "isList": false,
-        "has_dependent_field": false
+  "invoice": {
+    "title_block": {
+      "hasTable": false,
+      "isImage": false,
+      "is_header": true,
+      "data_fields": {
+        "title": {
+          "priority": 1,
+          "key": false,
+          "isList": false,
+          "has_dependent_field": false,
+          "previous_key": "organization"
+        }
       },
-      "address": {
-        "priority": 2,
-        "key": false,
-        "isList": false,
-        "has_dependent_field": false
-      }
+      "direction": "down",
+      "block_position": [
+        0,
+        1
+      ]
     },
-    "direction": "down",
-    "block_position": [
-      1,
-      0
-    ]
-  },
-  "diagnose_block": {
-    "hasTable": false,
-    "is_header": false,
-    "data_fields": {
-      "diagnose": {
-        "priority": 1,
-        "key": true,
-        "key_direction": "left",
-        "key_name": [
-          "Diagnose:  ",
-          "Diagnose-  "
-        ],
-        "isList": false,
-        "has_dependent_field": false
-      }
-    },
-    "direction": "down",
-    "block_position": [
-      2,
-      0
-    ]
-  },
-  "organization_block": {
-    "hasTable": false,
-    "is_header": false,
-    "data_fields": {
-      "organization": {
-        "priority": 1,
-        "key": false,
-        "isList": false,
-        "has_dependent_field": false,
-        "previous_key": "organization"
+    "image_block": {
+      "hasTable": false,
+      "isImage": false,
+      "is_header": true,
+      "image": {
+        "title": {
+          "priority": 1,
+          "key": false,
+          "isList": false,
+          "has_dependent_field": false,
+          "previous_key": "organization"
+        }
       },
-      "organization_address": {
-        "priority": 2,
-        "key": false,
-        "isList": false,
-        "has_dependent_field": false
+      "direction": "down",
+      "block_position": [
+        0,
+        2
+      ]
+    },
+    "customer_block": {
+      "isImage": false,
+      "hasTable": false,
+      "is_header": false,
+      "data_fields": {
+        "customer_name": {
+          "priority": 1,
+          "key": false,
+          "isList": false,
+          "has_dependent_field": false
+        },
+        "address": {
+          "priority": 2,
+          "key": false,
+          "isList": false,
+          "has_dependent_field": false
+        }
       },
-      "organization_contact": {
-        "priority": 3,
-        "key": true,
-        "key_direction": "left",
-        "key_name": [
-          "Tel:  ",
-          "Tele.  ",
-          "Contact:    ",
-          "Mob.    "
-        ],
-        "isList": false,
-        "has_dependent_field": false
+      "direction": "down",
+      "block_position": [
+        1,
+        0
+      ]
+    },
+    "diagnose_block": {
+      "isImage": false,
+      "hasTable": false,
+      "is_header": false,
+      "data_fields": {
+        "diagnose": {
+          "priority": 1,
+          "key": true,
+          "key_direction": "left",
+          "key_name": [
+            "Diagnose:  ",
+            "Diagnose-  "
+          ],
+          "isList": false,
+          "has_dependent_field": false
+        }
+      },
+      "direction": "down",
+      "block_position": [
+        2,
+        0
+      ]
+    },
+    "organization_block": {
+      "isImage": false,
+      "hasTable": false,
+      "is_header": false,
+      "data_fields": {
+        "organization": {
+          "priority": 1,
+          "key": false,
+          "isList": false,
+          "has_dependent_field": false,
+          "previous_key": "organization"
+        },
+        "organization_address": {
+          "priority": 2,
+          "key": false,
+          "isList": false,
+          "has_dependent_field": false
+        },
+        "organization_contact": {
+          "priority": 3,
+          "key": true,
+          "key_direction": "left",
+          "key_name": [
+            "Tel:  ",
+            "Tele.  ",
+            "Contact:    ",
+            "Mob.    "
+          ],
+          "isList": false,
+          "has_dependent_field": false
+        }
+      },
+      "direction": "down",
+      "block_position": [
+        1,
+        2
+      ]
+    },
+    "bank_block": {
+      "isImage": false,
+      "hasTable": false,
+      "is_header": false,
+      "data_fields": {
+        "bank_iban": {
+          "priority": 1,
+          "key": true,
+          "key_direction": "left",
+          "key_name": [
+            "IBAN:  ",
+            "Iban.  ",
+            "BAN :    ",
+            "Konto Nr.  ",
+            "IBAN.    "
+          ],
+          "isList": false,
+          "has_dependent_field": false
+        },
+        "bank_swift": {
+          "priority": 2,
+          "key": true,
+          "key_direction": "left",
+          "key_name": [
+            "SWIFT:  ",
+            "Swift.  ",
+            "BIC:    ",
+            "BIC.    ",
+            "BIC Code:    "
+          ],
+          "isList": false,
+          "has_dependent_field": false
+        }
+      },
+      "direction": "down",
+      "block_position": [
+        2,
+        2
+      ]
+    },
+    "invoice_details_block": {
+      "isImage": false,
+      "hasTable": false,
+      "is_header": false,
+      "data_fields": {
+        "rechnungsnummer": {
+          "priority": 1,
+          "key": true,
+          "key_direction": "left",
+          "key_name": [
+            "Rechnungsnummer:  ",
+            "Rech Nr.  ",
+            "Rechnung Nr.  ",
+            "R. Nr. "
+          ],
+          "isList": false,
+          "has_dependent_field": false
+        },
+        "date": {
+          "priority": 1,
+          "key": true,
+          "key_direction": "left",
+          "key_name": [
+            "Date:  ",
+            "Invoice Date.  ",
+            "Datum:  ",
+            "Datum. "
+          ],
+          "isList": false,
+          "has_dependent_field": false
+        }
+      },
+      "direction": "down",
+      "block_position": [
+        2,
+        2
+      ]
+    },
+    "product_block": {
+      "isImage": false,
+      "hasTable": true,
+      "is_header": false,
+      "tableName": "product_table",
+      "table_data_fields": {
+        "product_name": {
+          "column": 1,
+          "header": [
+            "Bezeichnung"
+          ],
+          "header_font": "fonts/Arial Bold.ttf",
+          "key": false,
+          "isList": true,
+          "has_dependent_field": false,
+          "is_dependent_field": false
+        },
+        "product_amount": {
+          "column": 2,
+          "header": [
+            "Betrag"
+          ],
+          "header_font": "fonts/Arial Bold.ttf",
+          "key": false,
+          "isList": true,
+          "has_dependent_field": false,
+          "is_dependent_field": true
+        }
+      },
+      "direction": "right",
+      "block_position": [
+        3,
+        0
+      ]
+    },
+    "product_text_block": {
+      "isImage": false,
+      "hasTable": false,
+      "is_header": false,
+      "direction": "down",
+      "block_position": [
+        4,
+        2
+      ],
+      "data_fields": {
+        "total_amount": {
+          "priority": 1,
+          "key": true,
+          "key_direction": "left",
+          "key_name": [
+            "Rechnungsbetrag:  ",
+            "Rechnungsbetrag.  ",
+            "Total Amount:  "
+          ],
+          "isList": false,
+          "has_dependent_field": true,
+          "previous_key": "product_amount"
+        }
       }
     },
-    "direction": "down",
-    "block_position": [
-      1,
-      2
-    ]
-  },
-  "bank_block": {
-    "hasTable": false,
-    "is_header": false,
-    "data_fields": {
-      "bank_iban": {
-        "priority": 1,
-        "key": true,
-        "key_direction": "left",
-        "key_name": [
-          "IBAN:  ",
-          "Iban.  ",
-          "BAN :    ",
-          "Konto Nr.  ",
-          "IBAN.    "
-        ],
-        "isList": false,
-        "has_dependent_field": false
+    "text_details_block": {
+      "isImage": false,
+      "hasTable": false,
+      "is_header": false,
+      "data_fields": {
+        "amount_sentence": {
+          "priority": 1,
+          "key": false,
+          "isList": false,
+          "has_dependent_field": false
+        }
       },
-      "bank_swift": {
-        "priority": 2,
-        "key": true,
-        "key_direction": "left",
-        "key_name": [
-          "SWIFT:  ",
-          "Swift.  ",
-          "BIC:    ",
-          "BIC.    ",
-          "BIC Code:    "
-        ],
-        "isList": false,
-        "has_dependent_field": false
-      }
-    },
-    "direction": "down",
-    "block_position": [
-      2,
-      2
-    ]
-  },
-  "invoice_details_block": {
-    "hasTable": false,
-    "is_header": false,
-    "data_fields": {
-      "rechnungsnummer": {
-        "priority": 1,
-        "key": true,
-        "key_direction": "left",
-        "key_name": [
-          "Rechnungsnummer:  ",
-          "Rech Nr.  ",
-          "Rechnung Nr.  ",
-          "R. Nr. "
-        ],
-        "isList": false,
-        "has_dependent_field": false
-      },
-      "date": {
-        "priority": 1,
-        "key": true,
-        "key_direction": "left",
-        "key_name": [
-          "Date:  ",
-          "Invoice Date.  ",
-          "Datum:  ",
-          "Datum. "
-        ],
-        "isList": false,
-        "has_dependent_field": false
-      }
-    },
-    "direction": "down",
-    "block_position": [
-      2,
-      2
-    ]
-  },
-  "product_block": {
-    "hasTable": true,
-    "is_header": false,
-    "tableName": "product_table",
-    "table_data_fields": {
-      "product_name": {
-        "column": 1,
-        "header": [
-          "Bezeichnung"
-        ],
-        "header_font": "fonts/Arial Bold.ttf",
-        "key": false,
-        "isList": true,
-        "has_dependent_field": false,
-        "is_dependent_field": false
-      },
-      "product_amount": {
-        "column": 2,
-        "header": [
-          "Betrag"
-        ],
-        "header_font": "fonts/Arial Bold.ttf",
-        "key": false,
-        "isList": true,
-        "has_dependent_field": false,
-        "is_dependent_field": true
-      }
-    },
-    "direction": "right",
-    "block_position": [
-      3,
-      0
-    ]
-  },
-  "product_text_block": {
-    "hasTable": false,
-    "is_header": false,
-    "direction": "down",
-    "block_position": [
-      4,
-      2
-    ],
-    "data_fields": {
-      "total_amount": {
-        "priority": 1,
-        "key": true,
-        "key_direction": "left",
-        "key_name": [
-          "Rechnungsbetrag:  ",
-          "Rechnungsbetrag.  ",
-          "Total Amount:  "
-        ],
-        "isList": false,
-        "has_dependent_field": true,
-        "previous_key": "product_amount"
-      }
+      "direction": "down",
+      "block_position": [
+        5,
+        0
+      ]
     }
   },
-  "text_details_block": {
-    "hasTable": false,
-    "is_header": false,
-    "data_fields": {
-      "amount_sentence": {
-        "priority": 1,
-        "key": false,
-        "isList": false,
-        "has_dependent_field": false
-      }
+  "receipt": {
+    "image_block": {
+      "hasTable": false,
+      "isImage": true,
+      "is_header": true,
+      "direction": "down",
+      "block_position": [
+        0,
+        2
+      ]
     },
-    "direction": "down",
-    "block_position": [
-      5,
-      0
-    ]
+    "title_block": {
+      "hasTable": false,
+      "is_header": true,
+      "isImage": false,
+      "data_fields": {
+        "title": {
+          "priority": 1,
+          "key": false,
+          "isList": false,
+          "has_dependent_field": false,
+          "previous_key": "organization"
+        }
+      },
+      "direction": "down",
+      "block_position": [
+        0,
+        1
+      ]
+    },
+    "customer_block": {
+      "hasTable": false,
+      "isImage": false,
+      "is_header": false,
+      "data_fields": {
+        "customer_name": {
+          "priority": 1,
+          "key": false,
+          "isList": false,
+          "has_dependent_field": false
+        },
+        "address": {
+          "priority": 2,
+          "key": false,
+          "isList": false,
+          "has_dependent_field": false
+        }
+      },
+      "direction": "down",
+      "block_position": [
+        1,
+        2
+      ]
+    },
+    "organization_block": {
+      "hasTable": false,
+      "is_header": false,
+      "isImage": false,
+      "data_fields": {
+        "organization": {
+          "priority": 1,
+          "key": false,
+          "isList": false,
+          "has_dependent_field": false,
+          "previous_key": "organization"
+        },
+        "organization_address": {
+          "priority": 2,
+          "key": false,
+          "isList": false,
+          "has_dependent_field": false
+        },
+        "organization_contact": {
+          "priority": 3,
+          "key": true,
+          "key_direction": "left",
+          "key_name": [
+            "Tel:  ",
+            "Tele.  ",
+            "Contact:    ",
+            "Mob.    "
+          ],
+          "isList": false,
+          "has_dependent_field": false
+        }
+      },
+      "direction": "down",
+      "block_position": [
+        2,
+        0
+      ]
+    }
   }
 }
