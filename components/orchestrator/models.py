@@ -25,6 +25,7 @@ class InvoiceData(BaseModel):
     date: bool = False
     title: bool = False
     diagnose: bool = False
+    logo_image: bool = False
 
     # image: bool = False
 
@@ -39,13 +40,29 @@ class InvoiceData(BaseModel):
             self.title = True
 
 
-class ReceiptData(BaseModel):
-    customer_name: bool = False
-    address: bool = False
-    organization: bool = False
-    organization_address: bool = False
-    organization_contact: bool = False
-    title: bool = False
+class ResumeData(BaseModel):
+    name: bool = False,
+    address: bool = False,
+    email: bool = False,
+    phone_number: bool = False,
+    summary: bool = False,
+    position: bool = False,
+    company: bool = False,
+    company_location: bool = False,
+    experience_dates: bool = False,
+    responsibilities: bool = False,
+    project_title: bool = False,
+    project_dates: bool = False,
+    project_description: bool = False,
+    degree: bool = False,
+    school: bool = False,
+    school_location: bool = False,
+    graduation_date: bool = False,
+    skill: bool = False,
+    certificate_name: bool = False,
+    date_earned: bool = False,
+    language: bool = False
+    profile_image: bool = False
 
     def get_variables(self):
         return vars(self)
@@ -53,15 +70,13 @@ class ReceiptData(BaseModel):
     def set_variables(self):
         # if self.product_name and self.product_amount:
         #     self.total_amount = True
-
-        if self.organization:
-            self.title = True
+        return True
 
 
 # @dataclass
 class RequestBody(BaseModel):
     invoice_params: InvoiceData | None = None
-    receipt_params: ReceiptData | None = None
+    resume_params: ResumeData | None = None
     count: int
     groundtruth_type: str
     groundtruth_format: str
@@ -70,4 +85,4 @@ class RequestBody(BaseModel):
 
 class Params(Enum):
     invoice = "invoice"
-    receipt = "receipt"
+    resume = "resume"

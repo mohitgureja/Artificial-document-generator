@@ -1,4 +1,5 @@
 import os
+import random
 
 from components.data_renderer import imageService, helper
 
@@ -9,20 +10,32 @@ POSITION_CONFIG_FILE_PATH = "data/input/renderer/position_config.json"
 PAGE_CONFIG_FILE_PATH = "data/input/renderer/page_config.json"
 
 
+def get_random_template(style_config_data, page_config_data, position_config_data, doc_format):
+    random_template_nr = random.choice(list(page_config_data[doc_format].keys()))
+    print(random_template_nr)
+    return style_config_data[doc_format], page_config_data[doc_format][random_template_nr], \
+        position_config_data[doc_format][random_template_nr]
+
+
 def generate_documents(data_filepath, config_params, fields, doc_format):
     # Read JSON Data file for documents data
     doc_data = helper.read_json(data_filepath)
     style_config_data = helper.read_json(STYLE_CONFIG_FILE_PATH)
-    page_config = helper.read_json(PAGE_CONFIG_FILE_PATH)
+    page_config_data = helper.read_json(PAGE_CONFIG_FILE_PATH)
     position_config_data = helper.read_json(POSITION_CONFIG_FILE_PATH)
 
-    # Render document images from this data
+    # Render document person from this data
     images = []
     ground_truth_all = {}
     for i in range(config_params["count"]):
+
+        # Pick random template from the available templates
+        style_config, page_config, position_config = get_random_template(style_config_data, page_config_data,
+                                                                         position_config_data, doc_format)
+
         # Generate image from configurations
-        img, ground_truth = imageService.generate_textimage(doc_data[i], fields, style_config_data[doc_format],
-                                                            page_config[doc_format], position_config_data[doc_format])
+        img, ground_truth = imageService.generate_textimage(doc_data[i], fields, style_config,
+                                                            page_config, position_config)
         images.append(img)
         filename = f"image{i}.png"
         image_file_path = IMAGE_FILE_PATH + doc_format + "/"

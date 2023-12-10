@@ -23,11 +23,10 @@ def generate_fake_data(countries):
 
 
 def get_data_dict(faker):
-    data = {"customer_name": faker.name(), "address": faker.address(), "organization": faker.company(),
-            "organization_address": faker.address(),
-            "organization_contact": faker.phone_number(), "date": faker.date(), "bank_iban": faker.iban(),
-            "bank_swift": faker.swift11(use_dataset=True),
-            "diagnose": faker.diagnose(),
-            "product_amount": faker.pricetag(), "rechnungsnummer": faker.random_int(min=100000, max=999999)}
-
+    data = {"name": faker.name(), "address": faker.address(), "company1": faker.company(), "company2": faker.company(),
+            "phone_number": faker.phone_number(), "email": faker.email(),
+            "date": faker.date(), "iban": faker.iban(), "swift": faker.swift11(use_dataset=True),
+            "diagnose": faker.diagnose(), "location1": f"{faker.city()}, {faker.state()}",
+            "location2": f"{faker.city()}, {faker.state()}",
+            "amount": faker.pricetag(), "number6": faker.random_int(min=100000, max=999999)}
     return data

@@ -1,30 +1,36 @@
 from components.data_generator import dataService, fakerWrapper, helper, gptService
 
-GPT_DATA_CONFIG = "data/input/generator/config.json"
+DATA_GEN_CONFIG = "data/input/generator/config.json"
 WRITE_DATA_FILEPATH = "data/input/renderer/"
 RESPONSE_FILE_PATH = "data/input/renderer/gpt_response.json"
 
 
-def generate_gpt_data(config_data, data_fields):
+def generate_gpt_data(config_data, data_fields, doc_format):
     """
     Generate data for field variables using GPT model
+    :param doc_format:
     :param data_fields:
     :param config_data:
     :return:
     """
-    data = {}
+    data = {doc_format: {}}
     if config_data["gpt_enabled"]:
+        config_data = config_data["gpt_config"]
         for key in config_data["gpt_keys"]:
             if key in data_fields:
                 query = config_data["queries"][key]
                 isKeyPair = key in config_data["gpt_key_pairs"]
-                data[key] = gptService.generate_gpt_sentence(key, query, isKeyPair)
+                data[doc_format][key] = gptService.generate_gpt_sentence(key, query, isKeyPair)
         helper.write_json(data, RESPONSE_FILE_PATH)
     else:
         gpt_response = helper.read_json("data/input/renderer/gpt_response.json")
-        for key in gpt_response.keys():
-            if key in data_fields:
-                data[key] = gpt_response[key]
+        for key in gpt_response[doc_format].keys():
+            # if key in data_fields:
+            data[doc_format][key] = gpt_response[doc_format][key]
+    return data[doc_format]
+
+
+def assign_field_data(data, data_field_keys, gen_config_data):
     return data
 
 
@@ -37,28 +43,34 @@ def generate_data(data_field_names, config_params, doc_format):
     :return:
     """
     # JSON Data file for configurations
-    gen_config_data = helper.read_json(GPT_DATA_CONFIG)
+    gen_config_data = helper.read_json(DATA_GEN_CONFIG)
     gen_config_data = gen_config_data[doc_format]
 
     # Create data here
     generated_data = []
 
     # Generate gpt sentences for fields
-    gpt_data = generate_gpt_data(gen_config_data, data_field_names.keys())
+    data_field_keys = data_field_names.keys()
+    gpt_data = generate_gpt_data(gen_config_data, data_field_keys, doc_format)
 
+    # Total number of data person
     for i in range(config_params["count"]):
         fake_data = {}
         # Generate fake data fields using Faker
         data = fakerWrapper.generate_fake_data(config_params["countries"])
-        for data_field in data_field_names.keys():
-            if data_field not in gen_config_data["gpt_keys"] and data_field not in gen_config_data["calculate_keys"]:
-                fake_data[data_field] = data[data_field]
+        # Assign general generated fake data to required fields
+        data = assign_field_data(data, data_field_keys, gen_config_data["faker_keys"])
+        for data_field in data_field_keys:
+            # if (data_field not in gen_config_data["gpt_keys"] and data_field not in gen_config_data["calculate_keys"]) or data_field in gen_config_data["faker_keys"]:
+            if data_field in gen_config_data["faker_keys"]:
+                faker_key = gen_config_data["faker_keys"][data_field]
+                fake_data[data_field] = data[faker_key]
 
         # Update generated sentences from GPT into the fields
         fake_data = dataService.update_gpt_data(fake_data, gpt_data)
 
         # Invoke transformations in data
-        fake_data = dataService.transform_data(fake_data)
+        fake_data = dataService.transform_data(fake_data, gen_config_data)
 
         generated_data.append(fake_data)
 

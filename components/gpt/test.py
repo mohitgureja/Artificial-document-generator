@@ -6,7 +6,7 @@
 # header_font = ImageFont.truetype("fonts/Arial.ttf", 16)
 # list_tb_data_fields = [["Hello", "Mohit"],["Hello","Nimritee"]]
 # tdata = [tuple(lst[i] for lst in list_tb_data_fields) for i in range(2)]
-# img = Image.open("/Users/ssdn/PycharmProjects/Artificial-document-generator/data/output/images/image1.png")
+# img = Image.open("/Users/ssdn/PycharmProjects/Artificial-document-generator/data/output/person/image1.png")
 #
 # table = Drawtable(data=tdata,
 #                   x=60,
@@ -76,7 +76,7 @@ table_fig.canvas.draw()
 table_pil_image = Image.frombytes('RGB', table_fig.canvas.get_width_height(), table_fig.canvas.tostring_rgb())
 
 # Load an existing PIL image where you want to paste the table
-background_image = Image.open('/data/output/images/image0.png')
+background_image = Image.open('/data/output/person/image10.png')
 
 # Define the position to paste the table
 paste_position = (200, 200)

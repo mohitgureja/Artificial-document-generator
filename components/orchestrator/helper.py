@@ -17,15 +17,15 @@ def get_invoice_params(request_body):
     return {k: v for k, v in params.items() if v is True}
 
 
-def get_receipt_params(request_body):
-    request_body.receipt_params.set_variables()
-    params = request_body.receipt_params.get_variables()
+def get_resume_params(request_body):
+    request_body.resume_params.set_variables()
+    params = request_body.resume_params.get_variables()
     return {k: v for k, v in params.items() if v is True}
 
 
 params_method = {
     Params.invoice: get_invoice_params,
-    Params.receipt: get_receipt_params
+    Params.resume: get_resume_params
 }
 
 

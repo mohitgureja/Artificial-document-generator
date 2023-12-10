@@ -16,13 +16,30 @@
       "diagnose": true
     }
   },
-  "receipt": {
-    "receipt_params": {
+  "resume": {
+    "resume_params": {
+      "name": true,
       "address": true,
-      "customer_name": true,
-      "organization": true,
-      "organization_address": true,
-      "organization_contact": true
+      "email": true,
+      "phone_number": true,
+      "summary": true,
+      "position": true,
+      "company": true,
+      "company_location": true,
+      "experience_dates": true,
+      "responsibilities": true,
+      "project_title": true,
+      "project_dates": true,
+      "project_description": true,
+      "degree": true,
+      "school": true,
+      "school_location": true,
+      "graduation_date": true,
+      "skill": true,
+      "certificate_name": true,
+      "date_earned": true,
+      "language": true,
+      "profile_image": true
     }
   },
   "count": 10,

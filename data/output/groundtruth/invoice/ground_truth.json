@@ -1,87 +1,94 @@
 {
   "image0.png": {
+    "INVOICE": {
+      "content": "INVOICE",
+      "x1": 1374,
+      "x2": 1621,
+      "y1": 85,
+      "y2": 151
+    },
     "title": {
-      "content": "Kallert Hertrampf GmbH & Co. OHG",
-      "x1": 921,
-      "x2": 1934,
-      "y1": 336,
-      "y2": 413
+      "content": "van der Dussen Davids GbR",
+      "x1": 1157,
+      "x2": 1296,
+      "y1": 125,
+      "y2": 257
+    },
+    "rechnungsnummer": {
+      "content": "Rechnung Nr.  941310",
+      "x1": 209,
+      "x2": 623,
+      "y1": 189,
+      "y2": 244
+    },
+    "date": {
+      "content": "Datum. 1987-10-03",
+      "x1": 209,
+      "x2": 550,
+      "y1": 254,
+      "y2": 301
     },
     "customer_name": {
-      "content": "Frau\n Prof. Eleonore Geisel B.A.",
-      "x1": 225,
-      "x2": 767,
-      "y1": 891,
-      "y2": 993
+      "content": "Frau\n Dr. Nathalie Sch\u00e4fer",
+      "x1": 1109,
+      "x2": 1554,
+      "y1": 1256,
+      "y2": 1358
     },
     "address": {
-      "content": "Fiebigallee 1\n30679 D\u00fcren",
-      "x1": 225,
-      "x2": 454,
-      "y1": 994,
+      "content": "Ernst-R\u00f6rricht-Stra\u00dfe 7\n12329 Mallersdorf",
+      "x1": 1109,
+      "x2": 1428,
+      "y1": 1359,
+      "y2": 1453
+    },
+    "bank_iban": {
+      "content": "BAN :    DE44858989533722159166",
+      "x1": 1081,
+      "x2": 1726,
+      "y1": 1312,
+      "y2": 1359
+    },
+    "bank_swift": {
+      "content": "BIC.    YYXXDEEKA40",
+      "x1": 1081,
+      "x2": 1492,
+      "y1": 1360,
+      "y2": 1407
+    },
+    "diagnose": {
+      "content": "Diagnose-  Schilddr\u00fcsenunterfunktion (Hypothyreose)",
+      "x1": 223,
+      "x2": 552,
+      "y1": 1561,
+      "y2": 1712
+    },
+    "organization": {
+      "content": "van der Dussen Davids GbR",
+      "x1": 1261,
+      "x2": 1792,
+      "y1": 880,
+      "y2": 927
+    },
+    "organization_address": {
+      "content": "Ernst-R\u00f6rricht-Stra\u00dfe 7\n12329 Mallersdorf",
+      "x1": 1261,
+      "x2": 1580,
+      "y1": 937,
+      "y2": 1031
+    },
+    "organization_contact": {
+      "content": "Tel:  (02422) 20217",
+      "x1": 1261,
+      "x2": 1606,
+      "y1": 1041,
       "y2": 1096
     },
-    "diagnose": {
-      "content": "Diagnose-  Schilddr\u00fcsenunterfunktion (Hypothyreose)",
-      "x1": 457,
-      "x2": 1535,
-      "y1": 1255,
-      "y2": 1315
-    },
-    "organization": {
-      "content": "Kallert Hertrampf GmbH & Co. OHG",
-      "x1": 1657,
-      "x2": 2331,
-      "y1": 598,
-      "y2": 653
-    },
-    "organization_address": {
-      "content": "Olav-Mitschke-Ring 4/0\n22459 Pinneberg",
-      "x1": 1657,
-      "x2": 1959,
-      "y1": 663,
-      "y2": 773
-    },
-    "organization_contact": {
-      "content": "Tele.  0170713285",
-      "x1": 1657,
-      "x2": 1987,
-      "y1": 783,
-      "y2": 830
-    },
-    "bank_iban": {
-      "content": "Konto Nr.  DE69687422747578432903",
-      "x1": 1748,
-      "x2": 2434,
-      "y1": 1220,
-      "y2": 1267
-    },
-    "bank_swift": {
-      "content": "Swift.  TCVFDEJML1T",
-      "x1": 1748,
-      "x2": 2149,
-      "y1": 1268,
-      "y2": 1315
-    },
-    "rechnungsnummer": {
-      "content": "Rechnung Nr.  868101",
-      "x1": 1695,
-      "x2": 2094,
-      "y1": 1734,
-      "y2": 1789
-    },
-    "date": {
-      "content": "Date:  1978-03-03",
-      "x1": 1695,
-      "x2": 2014,
-      "y1": 1799,
-      "y2": 1846
-    },
     "product_amount": {
-      "x1": 2281.818181818182,
-      "x2": 2670,
-      "y1": 2019,
-      "y2": 2492,
+      "x1": 1734.842105263158,
+      "x2": 1894,
+      "y1": 2072,
+      "y2": 2482,
       "content": ""
     },
     "product_table": {
@@ -91,409 +98,144 @@
           "Betrag"
         ],
         [
-          "Ultraschall, Bauchraum",
-          " 70 \u20ac"
-        ],
-        [
-          "Antidepressiva (Packung)",
-          " 30 \u20ac"
-        ],
-        [
-          "Gipsverband anlegen",
-          " 20 \u20ac"
-        ],
-        [
-          "Schilddr\u00fcsentabletten (Packung)",
-          " 10 \u20ac"
-        ],
-        [
-          "Antibiotika (Packung)",
-          " 20 \u20ac"
-        ],
-        [
-          "\u00dcbungsbehandlung, je Sitzung",
-          " 5 \u20ac"
-        ],
-        [
-          "Blutuntersuchung, komplettes Blutbild",
-          " 40 \u20ac"
-        ],
-        [
-          "Heimbeatmungsger\u00e4t",
-          " 2000 \u20ac"
-        ]
-      ],
-      "x1": 521,
-      "x2": 2971,
-      "y1": 2014,
-      "y2": 2497
-    },
-    "total_amount": {
-      "content": "Total Amount:  2195.00 \u20ac",
-      "x1": 1587,
-      "x2": 2053,
-      "y1": 2402,
-      "y2": 2449
-    },
-    "amount_sentence": {
-      "content": "Gem\u00e4\u00df unserer Preisliste bel\u00e4uft sich der Betrag f\u00fcr die geleisteten \u00e4rztlichen Dien",
-      "x1": 415,
-      "x2": 1871,
-      "y1": 2675,
-      "y2": 2730
-    }
-  },
-  "image1.png": {
-    "title": {
-      "content": "Jessel GmbH",
-      "x1": 885,
-      "x2": 1264,
-      "y1": 82,
-      "y2": 148
-    },
-    "customer_name": {
-      "content": "Herr\n Fabian Ackermann-Mitschke",
-      "x1": 290,
-      "x2": 875,
-      "y1": 1035,
-      "y2": 1137
-    },
-    "address": {
-      "content": "S\u00f6lzerstra\u00dfe 3\n48946 Rastatt",
-      "x1": 290,
-      "x2": 537,
-      "y1": 1138,
-      "y2": 1232
-    },
-    "diagnose": {
-      "content": "Diagnose-  Schilddr\u00fcsenunterfunktion (Hypothyreose)",
-      "x1": 419,
-      "x2": 1497,
-      "y1": 1251,
-      "y2": 1311
-    },
-    "organization": {
-      "content": "Jessel GmbH",
-      "x1": 1835,
-      "x2": 2087,
-      "y1": 398,
-      "y2": 445
-    },
-    "organization_address": {
-      "content": "Speergasse 4\n10907 Ebermannstadt",
-      "x1": 1835,
-      "x2": 2225,
-      "y1": 455,
-      "y2": 557
-    },
-    "organization_contact": {
-      "content": "Mob.    04905 934456",
-      "x1": 1835,
-      "x2": 2220,
-      "y1": 567,
-      "y2": 614
-    },
-    "bank_iban": {
-      "content": "Konto Nr.  DE25826349575711749276",
-      "x1": 1365,
-      "x2": 2051,
-      "y1": 1158,
-      "y2": 1205
-    },
-    "bank_swift": {
-      "content": "SWIFT:  IJIJDEWQ6FJ",
-      "x1": 1365,
-      "x2": 1775,
-      "y1": 1206,
-      "y2": 1255
-    },
-    "rechnungsnummer": {
-      "content": "Rechnung Nr.  458680",
-      "x1": 1425,
-      "x2": 1824,
-      "y1": 1061,
-      "y2": 1116
-    },
-    "date": {
-      "content": "Date:  1973-09-16",
-      "x1": 1425,
-      "x2": 1744,
-      "y1": 1126,
-      "y2": 1173
-    },
-    "product_amount": {
-      "x1": 2291.3636363636365,
-      "x2": 2735,
-      "y1": 1999,
-      "y2": 2313,
-      "content": ""
-    },
-    "product_table": {
-      "content": [
-        [
-          "Bezeichnung",
-          "Betrag"
-        ],
-        [
-          "Verbandsmaterial, monatlicher Bedarf",
-          " 20 \u20ac"
+          "Haartransplantation",
+          " 4000 \u20ac"
         ],
         [
           "Sonographie, je Organ, bis zu drei",
           " 26,81 \u20ac"
         ],
         [
-          "Magens\u00e4urehemmer (Packung)",
-          " 15 \u20ac"
-        ],
-        [
-          "Gehhilfe (Gehstock)",
-          " 20 \u20ac"
-        ],
-        [
-          "Lippenkorrektur (Lippenaugmentation)",
-          " 1000 \u20ac"
-        ]
-      ],
-      "x1": 583,
-      "x2": 3033,
-      "y1": 1994,
-      "y2": 2318
-    },
-    "total_amount": {
-      "content": "Rechnungsbetrag.  1081.81 \u20ac",
-      "x1": 1500,
-      "x2": 2045,
-      "y1": 2522,
-      "y2": 2577
-    },
-    "amount_sentence": {
-      "content": "Laut unserem Leistungskatalog bel\u00e4uft sich der Betrag f\u00fcr die \u00e4rztlichen Leistungen auf 1081.81 \u20ac.",
-      "x1": 150,
-      "x2": 1880,
-      "y1": 3245,
-      "y2": 3300
-    }
-  },
-  "image2.png": {
-    "title": {
-      "content": "Holsten Stiftung & Co. KGaA",
-      "x1": 745,
-      "x2": 1568,
-      "y1": 313,
-      "y2": 391
-    },
-    "customer_name": {
-      "content": "Frau\n Reinhild Jessel MBA.",
-      "x1": 216,
-      "x2": 657,
-      "y1": 447,
-      "y2": 549
-    },
-    "address": {
-      "content": "Patricia-Reinhardt-Ring 9/4\n45483 Perleberg",
-      "x1": 216,
-      "x2": 509,
-      "y1": 550,
-      "y2": 660
-    },
-    "diagnose": {
-      "content": "Diagnose:  Diabetes mellitus Typ 2",
-      "x1": 316,
-      "x2": 1017,
-      "y1": 1481,
-      "y2": 1541
-    },
-    "organization": {
-      "content": "Holsten Stiftung & Co. KGaA",
-      "x1": 1860,
-      "x2": 2402,
-      "y1": 841,
-      "y2": 896
-    },
-    "organization_address": {
-      "content": "Weinhageallee 362\n83713 Bersenbr\u00fcck",
-      "x1": 1860,
-      "x2": 2204,
-      "y1": 906,
-      "y2": 1008
-    },
-    "organization_contact": {
-      "content": "Mob.    04869 81675",
-      "x1": 1860,
-      "x2": 2223,
-      "y1": 1018,
-      "y2": 1065
-    },
-    "bank_iban": {
-      "content": "IBAN.    DE84479415396026386149",
-      "x1": 1657,
-      "x2": 2302,
-      "y1": 1419,
-      "y2": 1466
-    },
-    "bank_swift": {
-      "content": "BIC.    KFANDE2MKI5",
-      "x1": 1657,
-      "x2": 2057,
-      "y1": 1467,
-      "y2": 1514
-    },
-    "rechnungsnummer": {
-      "content": "R. Nr. 297088",
-      "x1": 1611,
-      "x2": 1858,
-      "y1": 1075,
-      "y2": 1122
-    },
-    "date": {
-      "content": "Datum. 2001-08-27",
-      "x1": 1611,
-      "x2": 1952,
-      "y1": 1132,
-      "y2": 1179
-    },
-    "product_amount": {
-      "x1": 2371.508474576271,
-      "x2": 2661,
-      "y1": 1815,
-      "y2": 2168,
-      "content": ""
-    },
-    "product_table": {
-      "content": [
-        [
-          "Bezeichnung",
-          "Betrag"
-        ],
-        [
-          "Nierensteinentfernung (perkutane Nephrolitholapaxie)",
-          " 3000 \u20ac"
-        ],
-        [
-          "Hormonersatztherapie, pro Monat",
-          " 50 \u20ac"
-        ],
-        [
           "Sehtest",
           " 20 \u20ac"
         ],
         [
-          "Magens\u00e4urehemmer (Packung)",
-          " 15 \u20ac"
+          "Diabetesberatung, je Sitzung",
+          " 40 \u20ac"
         ],
         [
-          "Hustensaft (Packung)",
-          " 10 \u20ac"
+          "Magnetresonanztomographie eines oder mehrerer Gelenke oder Abschnitte von Extremit\u00e4ten",
+          " 321,75 \u20ac"
         ],
         [
-          "Rollstuhl",
-          " 500 \u20ac"
+          "Verbandsmaterial, monatlicher Bedarf",
+          " 20 \u20ac"
+        ],
+        [
+          "Zahnextraktion, einfacher Zahn",
+          " 60 \u20ac"
         ]
       ],
-      "x1": 461,
-      "x2": 2911,
-      "y1": 1810,
-      "y2": 2173
+      "x1": 149,
+      "x2": 1839,
+      "y1": 2067,
+      "y2": 2487
     },
     "total_amount": {
-      "content": "Total Amount:  3595.00 \u20ac",
-      "x1": 1790,
-      "x2": 2256,
-      "y1": 2320,
-      "y2": 2367
+      "content": "Rechnungsbetrag:  4488.56 \u20ac",
+      "x1": 831,
+      "x2": 1529,
+      "y1": 2173,
+      "y2": 2239
     },
     "amount_sentence": {
-      "content": "Gem\u00e4\u00df unserer Preisliste bel\u00e4uft sich der Betrag f\u00fcr die geleisteten \u00e4rztlichen Dien",
-      "x1": 559,
-      "x2": 2015,
-      "y1": 3125,
-      "y2": 3180
+      "content": "Die in Anspruch genommenen \u00e4rztlichen Leistungen erfordern eine Zahlung von 4488.56 \u20ac.",
+      "x1": 860,
+      "x2": 1362,
+      "y1": 3053,
+      "y2": 3153
     }
   },
-  "image3.png": {
-    "title": {
-      "content": "T\u00e4sche Kensy KG",
+  "image1.png": {
+    "INVOICE": {
+      "content": "INVOICE",
       "x1": 689,
-      "x2": 1198,
-      "y1": 321,
-      "y2": 399
+      "x2": 936,
+      "y1": 126,
+      "y2": 192
     },
-    "customer_name": {
-      "content": "Frau\n Valeria Wirth",
-      "x1": 200,
-      "x2": 471,
-      "y1": 436,
-      "y2": 538
-    },
-    "address": {
-      "content": "Tlustekstr. 4\n80144 Rastatt",
-      "x1": 200,
-      "x2": 447,
-      "y1": 539,
-      "y2": 633
-    },
-    "diagnose": {
-      "content": "Diagnose-  Lungenentz\u00fcndung",
-      "x1": 597,
-      "x2": 1215,
-      "y1": 1319,
-      "y2": 1379
-    },
-    "organization": {
-      "content": "T\u00e4sche Kensy KG",
-      "x1": 1390,
-      "x2": 1727,
-      "y1": 486,
-      "y2": 541
-    },
-    "organization_address": {
-      "content": "Sandor-Henk-Allee 0\n13521 Plauen",
-      "x1": 1390,
-      "x2": 1635,
-      "y1": 551,
-      "y2": 645
-    },
-    "organization_contact": {
-      "content": "Contact:    +49(0) 400983049",
-      "x1": 1390,
-      "x2": 1906,
-      "y1": 655,
-      "y2": 710
-    },
-    "bank_iban": {
-      "content": "IBAN.    DE14555621343707150203",
-      "x1": 1481,
-      "x2": 2126,
-      "y1": 1708,
-      "y2": 1755
-    },
-    "bank_swift": {
-      "content": "BIC:    AXJLDER9SHL",
-      "x1": 1481,
-      "x2": 1884,
-      "y1": 1756,
-      "y2": 1803
+    "title": {
+      "content": "Spie\u00df Henck Stiftung & Co. KG",
+      "x1": 1475,
+      "x2": 1698,
+      "y1": 137,
+      "y2": 282
     },
     "rechnungsnummer": {
-      "content": "Rech Nr.  719727",
-      "x1": 1411,
-      "x2": 1722,
-      "y1": 1264,
-      "y2": 1311
+      "content": "Rechnung Nr.  682213",
+      "x1": 426,
+      "x2": 840,
+      "y1": 1061,
+      "y2": 1116
     },
     "date": {
-      "content": "Datum:  2006-10-15",
-      "x1": 1411,
-      "x2": 1763,
-      "y1": 1321,
-      "y2": 1368
+      "content": "Date:  1983-08-26",
+      "x1": 426,
+      "x2": 745,
+      "y1": 1126,
+      "y2": 1173
+    },
+    "customer_name": {
+      "content": "Frau\n Polina Fr\u00f6hlich B.A.",
+      "x1": 1596,
+      "x2": 2039,
+      "y1": 990,
+      "y2": 1092
+    },
+    "address": {
+      "content": "Annaliese-Stumpf-Weg 58\n78842 Euskirchen",
+      "x1": 1596,
+      "x2": 1914,
+      "y1": 1093,
+      "y2": 1195
+    },
+    "bank_iban": {
+      "content": "BAN :    DE38626959107450289945",
+      "x1": 480,
+      "x2": 1125,
+      "y1": 891,
+      "y2": 938
+    },
+    "bank_swift": {
+      "content": "BIC.    IEVODEP1JIU",
+      "x1": 480,
+      "x2": 863,
+      "y1": 939,
+      "y2": 986
+    },
+    "diagnose": {
+      "content": "Diagnose-  Akute Pankreatitis",
+      "x1": 1344,
+      "x2": 1981,
+      "y1": 1686,
+      "y2": 1746
+    },
+    "organization": {
+      "content": "Spie\u00df Henck Stiftung & Co. KG",
+      "x1": 1461,
+      "x2": 2045,
+      "y1": 1755,
+      "y2": 1810
+    },
+    "organization_address": {
+      "content": "Annaliese-Stumpf-Weg 58\n78842 Euskirchen",
+      "x1": 1461,
+      "x2": 1779,
+      "y1": 1820,
+      "y2": 1922
+    },
+    "organization_contact": {
+      "content": "Tele.  +49(0)8343500864",
+      "x1": 1461,
+      "x2": 1906,
+      "y1": 1932,
+      "y2": 1987
     },
     "product_amount": {
-      "x1": 2256.818181818182,
-      "x2": 2645,
-      "y1": 1850,
-      "y2": 2113,
+      "x1": 1825.0425531914893,
+      "x2": 2111,
+      "y1": 2016,
+      "y2": 2436,
       "content": ""
     },
     "product_table": {
@@ -503,125 +245,287 @@
           "Betrag"
         ],
         [
-          "Psychotherapie, je Sitzung",
-          " 80 \u20ac"
+          "H\u00fcftgelenkersatz (H\u00fcft-TEP)",
+          " 10000 \u20ac"
         ],
         [
-          "Geh\u00f6rschutz (Ohrst\u00f6psel)",
+          "Gipsverband anlegen",
+          " 20 \u20ac"
+        ],
+        [
+          "Untersuchung, symptombezogen",
+          " 4,77 \u20ac"
+        ],
+        [
+          "Blutdruckmessung",
+          " 5 \u20ac"
+        ],
+        [
+          "Diabetesberatung, je Sitzung",
+          " 40 \u20ac"
+        ],
+        [
+          "H\u00f6rger\u00e4t",
+          " 1000 \u20ac"
+        ],
+        [
+          "Desinfektionsmittel, monatlicher Bedarf",
+          " 10 \u20ac"
+        ]
+      ],
+      "x1": 321,
+      "x2": 2011,
+      "y1": 1798,
+      "y2": 2228
+    },
+    "total_amount": {
+      "content": "Total Amount:  11079.77 \u20ac",
+      "x1": 1029,
+      "x2": 1651,
+      "y1": 2315,
+      "y2": 2371
+    },
+    "amount_sentence": {
+      "content": "Bitte \u00fcberweisen Sie 11079.77 \u20ac f\u00fcr die erbrachten \u00e4rztlichen Leistungen auf das angegebene Konto.",
+      "x1": 850,
+      "x2": 1271,
+      "y1": 2849,
+      "y2": 2949
+    }
+  },
+  "image2.png": {
+    "INVOICE": {
+      "content": "INVOICE",
+      "x1": 1089,
+      "x2": 1336,
+      "y1": 131,
+      "y2": 197
+    },
+    "title": {
+      "content": "L\u00f6wer AG & Co. KG",
+      "x1": 1126,
+      "x2": 1744,
+      "y1": 162,
+      "y2": 233
+    },
+    "rechnungsnummer": {
+      "content": "Rech Nr.  825041",
+      "x1": 131,
+      "x2": 449,
+      "y1": 925,
+      "y2": 972
+    },
+    "date": {
+      "content": "Date:  1974-05-20",
+      "x1": 131,
+      "x2": 450,
+      "y1": 982,
+      "y2": 1029
+    },
+    "customer_name": {
+      "content": "Frau\n Delia Bien B.Eng.",
+      "x1": 1538,
+      "x2": 1927,
+      "y1": 654,
+      "y2": 765
+    },
+    "address": {
+      "content": "Etzoldplatz 289\n50182 L\u00fcdinghausen",
+      "x1": 1538,
+      "x2": 1908,
+      "y1": 766,
+      "y2": 876
+    },
+    "bank_iban": {
+      "content": "BAN :    DE85950801080280453700",
+      "x1": 491,
+      "x2": 1136,
+      "y1": 342,
+      "y2": 389
+    },
+    "bank_swift": {
+      "content": "BIC Code:    HIQPDEK8516",
+      "x1": 491,
+      "x2": 988,
+      "y1": 390,
+      "y2": 439
+    },
+    "diagnose": {
+      "content": "Diagnose-  Nierenstein",
+      "x1": 823,
+      "x2": 1312,
+      "y1": 1665,
+      "y2": 1725
+    },
+    "organization": {
+      "content": "L\u00f6wer AG & Co. KG",
+      "x1": 1481,
+      "x2": 1855,
+      "y1": 228,
+      "y2": 275
+    },
+    "organization_address": {
+      "content": "Etzoldplatz 289\n50182 L\u00fcdinghausen",
+      "x1": 1481,
+      "x2": 1851,
+      "y1": 285,
+      "y2": 395
+    },
+    "organization_contact": {
+      "content": "Tele.  (02582) 384116",
+      "x1": 1481,
+      "x2": 1870,
+      "y1": 405,
+      "y2": 460
+    },
+    "product_amount": {
+      "x1": 1517.3333333333333,
+      "x2": 1816,
+      "y1": 2070,
+      "y2": 2431,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Brille (Standardfassung)",
+          " 100 \u20ac"
+        ],
+        [
+          "Sonographie, je Organ, bis zu drei",
+          " 26,81 \u20ac"
+        ],
+        [
+          "Augentropfen",
           " 10 \u20ac"
         ],
         [
-          "Kniegelenkersatz (Knie-TEP)",
-          " 8000 \u20ac"
+          "Kaiserschnitt-Geburt",
+          " 2000 \u20ac"
         ],
         [
           "Blutuntersuchung, komplettes Blutbild",
           " 40 \u20ac"
+        ],
+        [
+          "Herzschrittmacher-Implantation",
+          " 5000 \u20ac"
         ]
       ],
-      "x1": 402,
-      "x2": 2852,
-      "y1": 1789,
-      "y2": 2062
+      "x1": 128,
+      "x2": 1818,
+      "y1": 2065,
+      "y2": 2436
     },
     "total_amount": {
-      "content": "Rechnungsbetrag:  8130.00 \u20ac",
-      "x1": 1611,
-      "x2": 2158,
-      "y1": 2537,
-      "y2": 2592
+      "content": "Rechnungsbetrag.  7176.81 \u20ac",
+      "x1": 1099,
+      "x2": 1794,
+      "y1": 2174,
+      "y2": 2240
     },
     "amount_sentence": {
-      "content": "Wir m\u00f6chten Ihnen gerne 8130.00 \u20ac f\u00fcr die erbrachten \u00e4rztlichen Leistungen in Rechnung stellen.",
-      "x1": 385,
-      "x2": 2095,
-      "y1": 3221,
-      "y2": 3276
+      "content": "Bitte begleichen Sie den Betrag von 7176.81 \u20ac f\u00fcr die erbrachten \u00e4rztlichen Leistungen.",
+      "x1": 738,
+      "x2": 943,
+      "y1": 3235,
+      "y2": 3335
     }
   },
-  "image4.png": {
+  "image3.png": {
+    "INVOICE": {
+      "content": "INVOICE",
+      "x1": 629,
+      "x2": 876,
+      "y1": 155,
+      "y2": 221
+    },
     "title": {
-      "content": "H\u00f6vel GbR",
-      "x1": 960,
-      "x2": 1268,
-      "y1": 84,
-      "y2": 150
-    },
-    "customer_name": {
-      "content": "Herr\n Herr S\u00f6nke Lindau MBA.",
-      "x1": 350,
-      "x2": 863,
-      "y1": 609,
-      "y2": 711
-    },
-    "address": {
-      "content": "Blochgasse 16\n94777 Aschaffenburg",
-      "x1": 350,
-      "x2": 727,
-      "y1": 712,
-      "y2": 822
-    },
-    "diagnose": {
-      "content": "Diagnose:  Schlaganfall",
-      "x1": 256,
-      "x2": 732,
-      "y1": 1142,
-      "y2": 1202
-    },
-    "organization": {
-      "content": "H\u00f6vel GbR",
-      "x1": 1292,
-      "x2": 1495,
-      "y1": 1015,
-      "y2": 1062
-    },
-    "organization_address": {
-      "content": "Mahmoud-K\u00e4ster-Allee 31\n46695 Soest",
-      "x1": 1292,
-      "x2": 1515,
-      "y1": 1072,
-      "y2": 1166
-    },
-    "organization_contact": {
-      "content": "Tel:  01360 731341",
-      "x1": 1292,
-      "x2": 1633,
-      "y1": 1176,
-      "y2": 1223
-    },
-    "bank_iban": {
-      "content": "BAN :    DE26990512976904597707",
-      "x1": 1691,
-      "x2": 2336,
-      "y1": 1367,
-      "y2": 1414
-    },
-    "bank_swift": {
-      "content": "BIC Code:    HTUTDEHYV6U",
-      "x1": 1691,
-      "x2": 2215,
-      "y1": 1415,
-      "y2": 1462
+      "content": "Ditschlerin Beckmann GmbH",
+      "x1": 1253,
+      "x2": 2163,
+      "y1": 161,
+      "y2": 232
     },
     "rechnungsnummer": {
-      "content": "Rech Nr.  453115",
-      "x1": 1293,
-      "x2": 1604,
-      "y1": 1355,
-      "y2": 1402
+      "content": "Rechnungsnummer:  993716",
+      "x1": 314,
+      "x2": 854,
+      "y1": 322,
+      "y2": 377
     },
     "date": {
-      "content": "Datum. 1983-06-05",
-      "x1": 1293,
-      "x2": 1634,
-      "y1": 1412,
-      "y2": 1459
+      "content": "Date:  2007-12-27",
+      "x1": 314,
+      "x2": 633,
+      "y1": 387,
+      "y2": 434
+    },
+    "customer_name": {
+      "content": "Frau\n Ing. Nevenka Heuser",
+      "x1": 1437,
+      "x2": 1895,
+      "y1": 981,
+      "y2": 1092
+    },
+    "address": {
+      "content": "Matth\u00e4igasse 83\n81413 Marktheidenfeld",
+      "x1": 1437,
+      "x2": 1840,
+      "y1": 1093,
+      "y2": 1195
+    },
+    "bank_iban": {
+      "content": "BAN :    DE91411132344666187901",
+      "x1": 174,
+      "x2": 819,
+      "y1": 1513,
+      "y2": 1560
+    },
+    "bank_swift": {
+      "content": "Swift.  TVUKDEEQV0P",
+      "x1": 174,
+      "x2": 591,
+      "y1": 1561,
+      "y2": 1610
+    },
+    "diagnose": {
+      "content": "Diagnose-  Hypertonie (Bluthochdruck)",
+      "x1": 1282,
+      "x2": 2119,
+      "y1": 1725,
+      "y2": 1785
+    },
+    "organization": {
+      "content": "Ditschlerin Beckmann GmbH",
+      "x1": 1672,
+      "x2": 2220,
+      "y1": 1363,
+      "y2": 1410
+    },
+    "organization_address": {
+      "content": "Matth\u00e4igasse 83\n81413 Marktheidenfeld",
+      "x1": 1672,
+      "x2": 2075,
+      "y1": 1420,
+      "y2": 1522
+    },
+    "organization_contact": {
+      "content": "Tel:  +49(0)5973074517",
+      "x1": 1672,
+      "x2": 2095,
+      "y1": 1532,
+      "y2": 1587
     },
     "product_amount": {
-      "x1": 2370.6521739130435,
-      "x2": 2795,
-      "y1": 1895,
-      "y2": 2211,
+      "x1": 1731.727272727273,
+      "x2": 1999,
+      "y1": 2004,
+      "y2": 2373,
       "content": ""
     },
     "product_table": {
@@ -629,46 +533,2559 @@
         [
           "Bezeichnung",
           "Betrag"
+        ],
+        [
+          "Blutdruckmessung",
+          " 5 \u20ac"
+        ],
+        [
+          "Schmerzmittel (Packung)",
+          " 5 \u20ac"
+        ],
+        [
+          "Gebissprothese (komplettes Gebiss)",
+          " 2000 \u20ac"
+        ],
+        [
+          "Gelenkpunktion, ein Gelenk",
+          " 50 \u20ac"
         ],
         [
           "Brustvergr\u00f6\u00dferung (Mammaaugmentation)",
           " 4000 \u20ac"
         ],
         [
-          "Gehirn-MRT (Magnetresonanztomographie)",
+          "Gehhilfe (Gehstock)",
+          " 20 \u20ac"
+        ]
+      ],
+      "x1": 474,
+      "x2": 2164,
+      "y1": 1999,
+      "y2": 2378
+    },
+    "total_amount": {
+      "content": "Rechnungsbetrag.  6080.00 \u20ac",
+      "x1": 1665,
+      "x2": 1889,
+      "y1": 2208,
+      "y2": 2320
+    },
+    "amount_sentence": {
+      "content": "Laut unserem Leistungskatalog bel\u00e4uft sich der Betrag f\u00fcr die \u00e4rztlichen Leistungen auf 6080.00 \u20ac.",
+      "x1": 768,
+      "x2": 1021,
+      "y1": 3164,
+      "y2": 3256
+    }
+  },
+  "image4.png": {
+    "INVOICE": {
+      "content": "INVOICE",
+      "x1": 1335,
+      "x2": 1582,
+      "y1": 197,
+      "y2": 263
+    },
+    "title": {
+      "content": "Gumprich Rohleder KG",
+      "x1": 1335,
+      "x2": 2067,
+      "y1": 123,
+      "y2": 206
+    },
+    "Invoice Details": {
+      "content": "Invoice Details",
+      "x1": 346,
+      "x2": 766,
+      "y1": 587,
+      "y2": 653
+    },
+    "rechnungsnummer": {
+      "content": "Rechnungsnummer:  469965",
+      "x1": 346,
+      "x2": 886,
+      "y1": 683,
+      "y2": 738
+    },
+    "date": {
+      "content": "Datum:  1988-06-17",
+      "x1": 346,
+      "x2": 698,
+      "y1": 748,
+      "y2": 795
+    },
+    "Customer details": {
+      "content": "Customer details",
+      "x1": 1471,
+      "x2": 1957,
+      "y1": 1134,
+      "y2": 1200
+    },
+    "customer_name": {
+      "content": "Herr\n Emil Lehmann",
+      "x1": 1471,
+      "x2": 1791,
+      "y1": 1230,
+      "y2": 1332
+    },
+    "address": {
+      "content": "Drubinstr. 433\n00125 Herzberg",
+      "x1": 1471,
+      "x2": 1755,
+      "y1": 1333,
+      "y2": 1435
+    },
+    "Bank Details": {
+      "content": "Bank Details",
+      "x1": 277,
+      "x2": 636,
+      "y1": 874,
+      "y2": 940
+    },
+    "bank_iban": {
+      "content": "Konto Nr.  DE86985208642137280852",
+      "x1": 277,
+      "x2": 963,
+      "y1": 961,
+      "y2": 1008
+    },
+    "bank_swift": {
+      "content": "BIC Code:    VMHADESV2Z7",
+      "x1": 277,
+      "x2": 799,
+      "y1": 1009,
+      "y2": 1056
+    },
+    "diagnose": {
+      "content": "Diagnose:  Nierenstein",
+      "x1": 147,
+      "x2": 636,
+      "y1": 933,
+      "y2": 993
+    },
+    "Organization details": {
+      "content": "Organization details",
+      "x1": 1599,
+      "x2": 2174,
+      "y1": 962,
+      "y2": 1040
+    },
+    "organization": {
+      "content": "Gumprich Rohleder KG",
+      "x1": 1599,
+      "x2": 2041,
+      "y1": 1070,
+      "y2": 1125
+    },
+    "organization_address": {
+      "content": "Drubinstr. 433\n00125 Herzberg",
+      "x1": 1599,
+      "x2": 1883,
+      "y1": 1135,
+      "y2": 1237
+    },
+    "organization_contact": {
+      "content": "Tele.  04632169537",
+      "x1": 1599,
+      "x2": 1951,
+      "y1": 1247,
+      "y2": 1294
+    },
+    "product_amount": {
+      "x1": 1807.0,
+      "x2": 2031,
+      "y1": 1702,
+      "y2": 2369,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Impfung, Standardimpfstoff",
+          " 30 \u20ac"
+        ],
+        [
+          "Blutdruckmessung",
+          " 5 \u20ac"
+        ],
+        [
+          "Inkontinenzhilfen, monatlicher Bedarf",
+          " 50 \u20ac"
+        ],
+        [
+          "Mammographie (Brustuntersuchung)",
+          " 80 \u20ac"
+        ],
+        [
+          "Schrittmacherkontrolle",
+          " 50 \u20ac"
+        ],
+        [
+          "Herzultraschall (Echokardiographie)",
+          " 120 \u20ac"
+        ],
+        [
+          "Augentropfen",
+          " 10 \u20ac"
+        ],
+        [
+          "Injektion, intramuskul\u00e4r",
+          " 10 \u20ac"
+        ],
+        [
+          "Desinfektionsmittel, monatlicher Bedarf",
+          " 10 \u20ac"
+        ],
+        [
+          "Brille (Standardfassung)",
+          " 100 \u20ac"
+        ],
+        [
+          "Antibiotika (Packung)",
+          " 20 \u20ac"
+        ],
+        [
+          "Rollator",
+          " 100 \u20ac"
+        ]
+      ],
+      "x1": 441,
+      "x2": 2131,
+      "y1": 1476,
+      "y2": 2153
+    },
+    "Total Amount": {
+      "content": "Total Amount",
+      "x1": 1657,
+      "x2": 2045,
+      "y1": 2140,
+      "y2": 2206
+    },
+    "total_amount": {
+      "content": "Rechnungsbetrag:  585.00 \u20ac",
+      "x1": 1657,
+      "x2": 1853,
+      "y1": 2256,
+      "y2": 2368
+    },
+    "amount_sentence": {
+      "content": "Der berechnete Betrag f\u00fcr \u00e4rztliche Leistungen bel\u00e4uft sich auf 585.00 \u20ac.",
+      "x1": 923,
+      "x2": 2199,
+      "y1": 2964,
+      "y2": 3019
+    }
+  },
+  "image5.png": {
+    "INVOICE": {
+      "content": "INVOICE",
+      "x1": 788,
+      "x2": 1035,
+      "y1": 105,
+      "y2": 171
+    },
+    "title": {
+      "content": "K\u00f6hler AG & Co. KG",
+      "x1": 1139,
+      "x2": 1772,
+      "y1": 173,
+      "y2": 244
+    },
+    "rechnungsnummer": {
+      "content": "Rechnungsnummer:  127878",
+      "x1": 125,
+      "x2": 665,
+      "y1": 744,
+      "y2": 799
+    },
+    "date": {
+      "content": "Invoice Date.  2003-01-01",
+      "x1": 125,
+      "x2": 581,
+      "y1": 809,
+      "y2": 856
+    },
+    "customer_name": {
+      "content": "Frau\n Ingelore Bolnbach MBA.",
+      "x1": 1251,
+      "x2": 1785,
+      "y1": 362,
+      "y2": 473
+    },
+    "address": {
+      "content": "Maike-Dehmel-Allee 8/8\n88255 Genthin",
+      "x1": 1251,
+      "x2": 1511,
+      "y1": 474,
+      "y2": 568
+    },
+    "bank_iban": {
+      "content": "BAN :    DE88292228810305895072",
+      "x1": 1270,
+      "x2": 1915,
+      "y1": 1070,
+      "y2": 1117
+    },
+    "bank_swift": {
+      "content": "BIC.    RQKXDEFHC7A",
+      "x1": 1270,
+      "x2": 1693,
+      "y1": 1118,
+      "y2": 1167
+    },
+    "diagnose": {
+      "content": "Diagnose-  Brustkrebs",
+      "x1": 472,
+      "x2": 953,
+      "y1": 1725,
+      "y2": 1785
+    },
+    "organization": {
+      "content": "K\u00f6hler AG & Co. KG",
+      "x1": 1219,
+      "x2": 1602,
+      "y1": 1241,
+      "y2": 1288
+    },
+    "organization_address": {
+      "content": "Maike-Dehmel-Allee 8/8\n88255 Genthin",
+      "x1": 1219,
+      "x2": 1479,
+      "y1": 1298,
+      "y2": 1392
+    },
+    "organization_contact": {
+      "content": "Tel:  09513 25752",
+      "x1": 1219,
+      "x2": 1538,
+      "y1": 1402,
+      "y2": 1449
+    },
+    "product_amount": {
+      "x1": 1650.842105263158,
+      "x2": 1810,
+      "y1": 2088,
+      "y2": 2447,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Sonographie, je Organ, bis zu drei",
+          " 26,81 \u20ac"
+        ],
+        [
+          "Kniegelenkersatz (Knie-TEP)",
+          " 8000 \u20ac"
+        ],
+        [
+          "Zahnb\u00fcrste",
+          " 3 \u20ac"
+        ],
+        [
+          "Zahnextraktion, einfacher Zahn",
+          " 60 \u20ac"
+        ],
+        [
+          "Magnetresonanztomographie eines oder mehrerer Gelenke oder Abschnitte von Extremit\u00e4ten",
+          " 321,75 \u20ac"
+        ],
+        [
+          "Heimbeatmungsger\u00e4t",
+          " 2000 \u20ac"
+        ]
+      ],
+      "x1": 207,
+      "x2": 1897,
+      "y1": 2083,
+      "y2": 2452
+    },
+    "total_amount": {
+      "content": "Rechnungsbetrag:  10411.56 \u20ac",
+      "x1": 1172,
+      "x2": 1898,
+      "y1": 2715,
+      "y2": 2781
+    },
+    "amount_sentence": {
+      "content": "Die in Anspruch genommenen \u00e4rztlichen Leistungen erfordern eine Zahlung von 10411.56 \u20ac.",
+      "x1": 960,
+      "x2": 1655,
+      "y1": 3254,
+      "y2": 3354
+    }
+  },
+  "image6.png": {
+    "title": {
+      "content": "Trubin AG",
+      "x1": 1580,
+      "x2": 1901,
+      "y1": 151,
+      "y2": 222
+    },
+    "customer_name": {
+      "content": "Herr\n Meinhard Roskoth",
+      "x1": 209,
+      "x2": 613,
+      "y1": 1020,
+      "y2": 1122
+    },
+    "address": {
+      "content": "Elfriede-Oestrovsky-Ring 5\n30633 Beeskow",
+      "x1": 209,
+      "x2": 492,
+      "y1": 1123,
+      "y2": 1225
+    },
+    "organization": {
+      "content": "Trubin AG",
+      "x1": 1720,
+      "x2": 1914,
+      "y1": 824,
+      "y2": 871
+    },
+    "organization_address": {
+      "content": "Elfriede-Oestrovsky-Ring 5\n30633 Beeskow",
+      "x1": 1720,
+      "x2": 2003,
+      "y1": 881,
+      "y2": 983
+    },
+    "organization_contact": {
+      "content": "Tel:  +49(0) 965856410",
+      "x1": 1720,
+      "x2": 2132,
+      "y1": 993,
+      "y2": 1048
+    },
+    "bank_iban": {
+      "content": "IBAN:  DE98016957933765033543",
+      "x1": 1684,
+      "x2": 2180,
+      "y1": 1277,
+      "y2": 1361
+    },
+    "bank_swift": {
+      "content": "Swift.  XADBDEZIKTK",
+      "x1": 1684,
+      "x2": 2083,
+      "y1": 1362,
+      "y2": 1409
+    },
+    "rechnungsnummer": {
+      "content": "R. Nr. 816084",
+      "x1": 1532,
+      "x2": 1782,
+      "y1": 1299,
+      "y2": 1346
+    },
+    "date": {
+      "content": "Datum. 1981-01-08",
+      "x1": 1532,
+      "x2": 1873,
+      "y1": 1356,
+      "y2": 1403
+    },
+    "diagnose": {
+      "content": "Diagnose:  Multiple Sklerose",
+      "x1": 346,
+      "x2": 960,
+      "y1": 1453,
+      "y2": 1513
+    },
+    "product_amount": {
+      "x1": 1574.0,
+      "x2": 1894,
+      "y1": 1929,
+      "y2": 2439,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Schrittmacherkontrolle",
+          " 50 \u20ac"
+        ],
+        [
+          "Sonographie, je Organ, bis zu drei",
+          " 26,81 \u20ac"
+        ],
+        [
+          "Gebissprothese (komplettes Gebiss)",
+          " 2000 \u20ac"
+        ],
+        [
+          "Zahnpasta",
+          " 3 \u20ac"
+        ],
+        [
+          "Fettabsaugung (Liposuktion)",
+          " 3000 \u20ac"
+        ],
+        [
+          "Zahnf\u00fcllung",
+          " 100 \u20ac"
+        ],
+        [
+          "EKG (Elektrokardiogramm)",
+          " 30 \u20ac"
+        ],
+        [
+          "Rollator",
+          " 100 \u20ac"
+        ],
+        [
+          "Zahnextraktion, einfacher Zahn",
+          " 60 \u20ac"
+        ]
+      ],
+      "x1": 322,
+      "x2": 2012,
+      "y1": 1834,
+      "y2": 2354
+    },
+    "total_amount": {
+      "content": "Rechnungsbetrag:  5369.81 \u20ac",
+      "x1": 1463,
+      "x2": 2161,
+      "y1": 2813,
+      "y2": 2879
+    },
+    "amount_sentence": {
+      "content": "Der Rechnungsbetrag f\u00fcr die erbrachten \u00e4rztlichen Leistungen bel\u00e4uft sich auf 5369.81 \u20ac.",
+      "x1": 432,
+      "x2": 2003,
+      "y1": 2892,
+      "y2": 2947
+    }
+  },
+  "image7.png": {
+    "title": {
+      "content": "Nette Ruppert KG",
+      "x1": 908,
+      "x2": 1462,
+      "y1": 124,
+      "y2": 207
+    },
+    "customer_name": {
+      "content": "Herr\n Abdullah Graf",
+      "x1": 412,
+      "x2": 725,
+      "y1": 542,
+      "y2": 644
+    },
+    "address": {
+      "content": "Evamaria-Hettner-Gasse 1\n57982 L\u00f6rrach",
+      "x1": 412,
+      "x2": 667,
+      "y1": 645,
+      "y2": 739
+    },
+    "organization": {
+      "content": "Nette Ruppert KG",
+      "x1": 1603,
+      "x2": 1936,
+      "y1": 451,
+      "y2": 506
+    },
+    "organization_address": {
+      "content": "Evamaria-Hettner-Gasse 1\n57982 L\u00f6rrach",
+      "x1": 1603,
+      "x2": 1858,
+      "y1": 516,
+      "y2": 610
+    },
+    "organization_contact": {
+      "content": "Tele.  +49(0)9332 352158",
+      "x1": 1603,
+      "x2": 2059,
+      "y1": 620,
+      "y2": 675
+    },
+    "bank_iban": {
+      "content": "Konto Nr.  DE71427617967663929927",
+      "x1": 1698,
+      "x2": 2194,
+      "y1": 1528,
+      "y2": 1612
+    },
+    "bank_swift": {
+      "content": "SWIFT:  GAMFDESCXA1",
+      "x1": 1698,
+      "x2": 2158,
+      "y1": 1613,
+      "y2": 1660
+    },
+    "rechnungsnummer": {
+      "content": "Rech Nr.  988151",
+      "x1": 1672,
+      "x2": 1990,
+      "y1": 398,
+      "y2": 445
+    },
+    "date": {
+      "content": "Date:  1989-05-24",
+      "x1": 1672,
+      "x2": 1991,
+      "y1": 455,
+      "y2": 502
+    },
+    "diagnose": {
+      "content": "Diagnose-  Multiple Sklerose",
+      "x1": 254,
+      "x2": 868,
+      "y1": 1335,
+      "y2": 1395
+    },
+    "product_amount": {
+      "x1": 1861.8000000000002,
+      "x2": 2097,
+      "y1": 1795,
+      "y2": 2374,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "R\u00f6ntgenaufnahme, eine Aufnahme",
+          " 15 \u20ac"
+        ],
+        [
+          "Zahnsp\u00fclung",
+          " 10 \u20ac"
+        ],
+        [
+          "Zahnimplantat",
+          " 1500 \u20ac"
+        ],
+        [
+          "Frakturbehandlung, Gips",
+          " 150 \u20ac"
+        ],
+        [
+          "Kontaktlinsen, monatlicher Bedarf",
+          " 50 \u20ac"
+        ],
+        [
+          "Blutdruckmessung",
+          " 5 \u20ac"
+        ],
+        [
+          "Kieferorthop\u00e4dische Behandlung (Zahnspange)",
+          " 3000 \u20ac"
+        ],
+        [
+          "Wurzelkanalbehandlung, ein Kanal",
+          " 200 \u20ac"
+        ],
+        [
+          "Chirurgische Nahtentfernung",
+          " 20 \u20ac"
+        ],
+        [
+          "Mammographie (Brustuntersuchung)",
+          " 80 \u20ac"
+        ]
+      ],
+      "x1": 448,
+      "x2": 2138,
+      "y1": 1790,
+      "y2": 2379
+    },
+    "total_amount": {
+      "content": "Total Amount:  5030.00 \u20ac",
+      "x1": 1393,
+      "x2": 1987,
+      "y1": 2453,
+      "y2": 2509
+    },
+    "amount_sentence": {
+      "content": "Gem\u00e4\u00df unserer Preisliste bel\u00e4uft sich der Betrag f\u00fcr die geleisteten \u00e4rztlichen Dien",
+      "x1": 376,
+      "x2": 1832,
+      "y1": 3327,
+      "y2": 3382
+    }
+  },
+  "image8.png": {
+    "INVOICE": {
+      "content": "INVOICE",
+      "x1": 1094,
+      "x2": 1341,
+      "y1": 93,
+      "y2": 159
+    },
+    "title": {
+      "content": "Mende GmbH",
+      "x1": 1522,
+      "x2": 1947,
+      "y1": 100,
+      "y2": 171
+    },
+    "rechnungsnummer": {
+      "content": "Rech Nr.  822602",
+      "x1": 242,
+      "x2": 560,
+      "y1": 296,
+      "y2": 343
+    },
+    "date": {
+      "content": "Datum:  1979-10-28",
+      "x1": 242,
+      "x2": 594,
+      "y1": 353,
+      "y2": 400
+    },
+    "customer_name": {
+      "content": "Frau\n Elzbieta Kusch",
+      "x1": 1645,
+      "x2": 1979,
+      "y1": 1081,
+      "y2": 1183
+    },
+    "address": {
+      "content": "Schollplatz 0/1\n92328 Stade",
+      "x1": 1645,
+      "x2": 1870,
+      "y1": 1184,
+      "y2": 1286
+    },
+    "bank_iban": {
+      "content": "Konto Nr.  DE61311017992897330763",
+      "x1": 472,
+      "x2": 1158,
+      "y1": 442,
+      "y2": 489
+    },
+    "bank_swift": {
+      "content": "SWIFT:  SFQJDE324QQ",
+      "x1": 472,
+      "x2": 915,
+      "y1": 490,
+      "y2": 539
+    },
+    "diagnose": {
+      "content": "Diagnose:  Alzheimer-Krankheit",
+      "x1": 379,
+      "x2": 1062,
+      "y1": 1551,
+      "y2": 1611
+    },
+    "organization": {
+      "content": "Mende GmbH",
+      "x1": 1393,
+      "x2": 1649,
+      "y1": 689,
+      "y2": 736
+    },
+    "organization_address": {
+      "content": "Schollplatz 0/1\n92328 Stade",
+      "x1": 1393,
+      "x2": 1618,
+      "y1": 746,
+      "y2": 848
+    },
+    "organization_contact": {
+      "content": "Tele.  +49(0)9748481020",
+      "x1": 1393,
+      "x2": 1838,
+      "y1": 858,
+      "y2": 913
+    },
+    "product_amount": {
+      "x1": 1727.677966101695,
+      "x2": 1927,
+      "y1": 1987,
+      "y2": 2662,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Wurzelkanalbehandlung, ein Kanal",
+          " 200 \u20ac"
+        ],
+        [
+          "Verbandsmaterial, monatlicher Bedarf",
+          " 20 \u20ac"
+        ],
+        [
+          "Glaukomoperation (Gr\u00fcner Star)",
+          " 2000 \u20ac"
+        ],
+        [
+          "Laser-Haarentfernung, pro Sitzung",
+          " 100 \u20ac"
+        ],
+        [
+          "Nierensteinentfernung (perkutane Nephrolitholapaxie)",
+          " 3000 \u20ac"
+        ],
+        [
+          "Fieberthermometer",
+          " 10 \u20ac"
+        ],
+        [
+          "Untersuchung, symptombezogen",
+          " 4,77 \u20ac"
+        ],
+        [
+          "Facelift (Gesichtsstraffung)",
+          " 5000 \u20ac"
+        ],
+        [
+          "Chirurgische Nahtentfernung",
+          " 20 \u20ac"
+        ],
+        [
+          "Kniegelenkersatz (Knie-TEP)",
+          " 8000 \u20ac"
+        ],
+        [
+          "Desinfektionsmittel, monatlicher Bedarf",
+          " 10 \u20ac"
+        ],
+        [
+          "Zahnschiene (Knirscherschiene)",
+          " 200 \u20ac"
+        ]
+      ],
+      "x1": 391,
+      "x2": 2081,
+      "y1": 1982,
+      "y2": 2667
+    },
+    "total_amount": {
+      "content": "Rechnungsbetrag:  18564.77 \u20ac",
+      "x1": 1662,
+      "x2": 1914,
+      "y1": 2306,
+      "y2": 2418
+    },
+    "amount_sentence": {
+      "content": "Der Rechnungsbetrag f\u00fcr die erbrachten \u00e4rztlichen Leistungen bel\u00e4uft sich auf 18564.77 \u20ac.",
+      "x1": 899,
+      "x2": 1174,
+      "y1": 2898,
+      "y2": 2990
+    }
+  },
+  "image9.png": {
+    "INVOICE": {
+      "content": "INVOICE",
+      "x1": 1035,
+      "x2": 1282,
+      "y1": 86,
+      "y2": 152
+    },
+    "title": {
+      "content": "Fliegner KG",
+      "x1": 1480,
+      "x2": 1853,
+      "y1": 146,
+      "y2": 230
+    },
+    "rechnungsnummer": {
+      "content": "R. Nr. 516868",
+      "x1": 155,
+      "x2": 405,
+      "y1": 421,
+      "y2": 468
+    },
+    "date": {
+      "content": "Date:  1988-09-22",
+      "x1": 155,
+      "x2": 474,
+      "y1": 478,
+      "y2": 525
+    },
+    "customer_name": {
+      "content": "Herr\n Lorenzo Sch\u00fcler",
+      "x1": 1271,
+      "x2": 1637,
+      "y1": 1065,
+      "y2": 1167
+    },
+    "address": {
+      "content": "Gnatzstra\u00dfe 669\n06436 Lemgo",
+      "x1": 1271,
+      "x2": 1513,
+      "y1": 1168,
+      "y2": 1270
+    },
+    "bank_iban": {
+      "content": "BAN :    DE06917155619768688750",
+      "x1": 313,
+      "x2": 958,
+      "y1": 597,
+      "y2": 644
+    },
+    "bank_swift": {
+      "content": "BIC.    KCJIDEQHOQR",
+      "x1": 313,
+      "x2": 729,
+      "y1": 645,
+      "y2": 694
+    },
+    "diagnose": {
+      "content": "Diagnose:  Schlaganfall",
+      "x1": 169,
+      "x2": 677,
+      "y1": 1510,
+      "y2": 1570
+    },
+    "organization": {
+      "content": "Fliegner KG",
+      "x1": 491,
+      "x2": 716,
+      "y1": 1240,
+      "y2": 1295
+    },
+    "organization_address": {
+      "content": "Gnatzstra\u00dfe 669\n06436 Lemgo",
+      "x1": 491,
+      "x2": 733,
+      "y1": 1305,
+      "y2": 1407
+    },
+    "organization_contact": {
+      "content": "Tele.  +49(0)1901492888",
+      "x1": 491,
+      "x2": 936,
+      "y1": 1417,
+      "y2": 1472
+    },
+    "product_amount": {
+      "x1": 1554.0425531914893,
+      "x2": 1840,
+      "y1": 2018,
+      "y2": 2438,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Zahnf\u00fcllung",
+          " 100 \u20ac"
+        ],
+        [
+          "Gipsverband anlegen",
+          " 20 \u20ac"
+        ],
+        [
+          "Desinfektionsmittel, monatlicher Bedarf",
+          " 10 \u20ac"
+        ],
+        [
+          "Magenbypass-Operation",
+          " 10000 \u20ac"
+        ],
+        [
+          "Bypass-Operation, Herz",
+          " 15000 \u20ac"
+        ],
+        [
+          "Zahnpasta",
+          " 3 \u20ac"
+        ],
+        [
+          "Hormonersatztherapie, pro Monat",
+          " 50 \u20ac"
+        ]
+      ],
+      "x1": 366,
+      "x2": 2056,
+      "y1": 2013,
+      "y2": 2443
+    },
+    "total_amount": {
+      "content": "Rechnungsbetrag:  25183.00 \u20ac",
+      "x1": 1051,
+      "x2": 1777,
+      "y1": 2672,
+      "y2": 2738
+    },
+    "amount_sentence": {
+      "content": "Gem\u00e4\u00df den erbrachten \u00e4rztlichen Leistungen betr\u00e4gt der Betrag 25183.00 \u20ac.",
+      "x1": 611,
+      "x2": 1956,
+      "y1": 2975,
+      "y2": 3030
+    }
+  },
+  "image10.png": {
+    "INVOICE": {
+      "content": "INVOICE",
+      "x1": 780,
+      "x2": 1027,
+      "y1": 98,
+      "y2": 164
+    },
+    "title": {
+      "content": "Reinhardt KG",
+      "x1": 1670,
+      "x2": 2095,
+      "y1": 161,
+      "y2": 232
+    },
+    "rechnungsnummer": {
+      "content": "R. Nr. 342276",
+      "x1": 281,
+      "x2": 531,
+      "y1": 1246,
+      "y2": 1293
+    },
+    "date": {
+      "content": "Invoice Date.  1991-06-25",
+      "x1": 281,
+      "x2": 737,
+      "y1": 1303,
+      "y2": 1350
+    },
+    "customer_name": {
+      "content": "Herr\n Mirko Martin",
+      "x1": 1677,
+      "x2": 1958,
+      "y1": 1571,
+      "y2": 1673
+    },
+    "address": {
+      "content": "Mangoldstra\u00dfe 1/2\n90471 Mettmann",
+      "x1": 1677,
+      "x2": 1974,
+      "y1": 1674,
+      "y2": 1776
+    },
+    "bank_iban": {
+      "content": "Iban.  DE24221371155181875983",
+      "x1": 267,
+      "x2": 873,
+      "y1": 1148,
+      "y2": 1195
+    },
+    "bank_swift": {
+      "content": "Swift.  TJFLDEIZEX8",
+      "x1": 267,
+      "x2": 644,
+      "y1": 1196,
+      "y2": 1243
+    },
+    "diagnose": {
+      "content": "Diagnose:  Rheumatoide Arthritis",
+      "x1": 267,
+      "x2": 984,
+      "y1": 1567,
+      "y2": 1627
+    },
+    "organization": {
+      "content": "Reinhardt KG",
+      "x1": 1536,
+      "x2": 1792,
+      "y1": 1474,
+      "y2": 1521
+    },
+    "organization_address": {
+      "content": "Mangoldstra\u00dfe 1/2\n90471 Mettmann",
+      "x1": 1536,
+      "x2": 1833,
+      "y1": 1531,
+      "y2": 1633
+    },
+    "organization_contact": {
+      "content": "Tele.  (02152) 99115",
+      "x1": 1536,
+      "x2": 1903,
+      "y1": 1643,
+      "y2": 1698
+    },
+    "product_amount": {
+      "x1": 1620.1176470588234,
+      "x2": 1966,
+      "y1": 2105,
+      "y2": 2495,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Wundsalbe",
+          " 8 \u20ac"
+        ],
+        [
+          "Zahnb\u00fcrste",
+          " 3 \u20ac"
+        ],
+        [
+          "Rollator",
+          " 100 \u20ac"
+        ],
+        [
+          "Operation, kleine Eingriffe",
           " 500 \u20ac"
+        ],
+        [
+          "Notfallbehandlung, ambulant",
+          " 100 \u20ac"
+        ],
+        [
+          "Haartransplantation",
+          " 4000 \u20ac"
+        ],
+        [
+          "Fieberthermometer",
+          " 10 \u20ac"
+        ]
+      ],
+      "x1": 345,
+      "x2": 2035,
+      "y1": 2100,
+      "y2": 2500
+    },
+    "total_amount": {
+      "content": "Rechnungsbetrag:  4721.00 \u20ac",
+      "x1": 1344,
+      "x2": 2042,
+      "y1": 2370,
+      "y2": 2436
+    },
+    "amount_sentence": {
+      "content": "F\u00fcr \u00e4rztliche Leistungen erlauben wir uns, Ihnen 4721.00 \u20ac zu berechnen.",
+      "x1": 1295,
+      "x2": 1733,
+      "y1": 2935,
+      "y2": 3027
+    }
+  },
+  "image11.png": {
+    "INVOICE": {
+      "content": "INVOICE",
+      "x1": 1013,
+      "x2": 1260,
+      "y1": 94,
+      "y2": 160
+    },
+    "title": {
+      "content": "Drub AG",
+      "x1": 530,
+      "x2": 801,
+      "y1": 157,
+      "y2": 228
+    },
+    "rechnungsnummer": {
+      "content": "R. Nr. 237452",
+      "x1": 348,
+      "x2": 598,
+      "y1": 894,
+      "y2": 941
+    },
+    "date": {
+      "content": "Invoice Date.  1994-06-11",
+      "x1": 348,
+      "x2": 804,
+      "y1": 951,
+      "y2": 998
+    },
+    "customer_name": {
+      "content": "Herr\n Hermann J\u00e4kel",
+      "x1": 1210,
+      "x2": 1544,
+      "y1": 776,
+      "y2": 878
+    },
+    "address": {
+      "content": "Calogero-Bl\u00fcmel-Weg 78\n47145 Melsungen",
+      "x1": 1210,
+      "x2": 1525,
+      "y1": 879,
+      "y2": 989
+    },
+    "bank_iban": {
+      "content": "IBAN.    DE18989652728179238081",
+      "x1": 322,
+      "x2": 967,
+      "y1": 1364,
+      "y2": 1411
+    },
+    "bank_swift": {
+      "content": "BIC Code:    VGXHDE8ZN25",
+      "x1": 322,
+      "x2": 839,
+      "y1": 1412,
+      "y2": 1459
+    },
+    "diagnose": {
+      "content": "Diagnose:  Gicht",
+      "x1": 232,
+      "x2": 590,
+      "y1": 1423,
+      "y2": 1483
+    },
+    "organization": {
+      "content": "Drub AG",
+      "x1": 455,
+      "x2": 619,
+      "y1": 1539,
+      "y2": 1586
+    },
+    "organization_address": {
+      "content": "Calogero-Bl\u00fcmel-Weg 78\n47145 Melsungen",
+      "x1": 455,
+      "x2": 770,
+      "y1": 1596,
+      "y2": 1706
+    },
+    "organization_contact": {
+      "content": "Tele.  +49(0)7863 989082",
+      "x1": 455,
+      "x2": 911,
+      "y1": 1716,
+      "y2": 1771
+    },
+    "product_amount": {
+      "x1": 1705.1951219512193,
+      "x2": 2033,
+      "y1": 1898,
+      "y2": 2318,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Gipsverband anlegen",
+          " 20 \u20ac"
+        ],
+        [
+          "Kontaktlinsen, monatlicher Bedarf",
+          " 50 \u20ac"
+        ],
+        [
+          "Bypass-Operation, Herz",
+          " 15000 \u20ac"
+        ],
+        [
+          "Wundversorgung, kleine Wunde",
+          " 10 \u20ac"
+        ],
+        [
+          "Herzschrittmacher-Implantation",
+          " 5000 \u20ac"
+        ],
+        [
+          "Impfung, Standardimpfstoff",
+          " 30 \u20ac"
+        ],
+        [
+          "Laser-Haarentfernung, pro Sitzung",
+          " 100 \u20ac"
+        ]
+      ],
+      "x1": 407,
+      "x2": 2097,
+      "y1": 1893,
+      "y2": 2323
+    },
+    "total_amount": {
+      "content": "Rechnungsbetrag.  20210.00 \u20ac",
+      "x1": 1163,
+      "x2": 1886,
+      "y1": 2514,
+      "y2": 2580
+    },
+    "amount_sentence": {
+      "content": "Gem\u00e4\u00df den erbrachten \u00e4rztlichen Leistungen betr\u00e4gt der Betrag 20210.00 \u20ac.",
+      "x1": 698,
+      "x2": 732,
+      "y1": 3337,
+      "y2": 3429
+    }
+  },
+  "image12.png": {
+    "INVOICE": {
+      "content": "INVOICE",
+      "x1": 573,
+      "x2": 820,
+      "y1": 142,
+      "y2": 208
+    },
+    "title": {
+      "content": "Dowerg GbR",
+      "x1": 737,
+      "x2": 1136,
+      "y1": 131,
+      "y2": 215
+    },
+    "rechnungsnummer": {
+      "content": "R. Nr. 577861",
+      "x1": 261,
+      "x2": 511,
+      "y1": 1368,
+      "y2": 1415
+    },
+    "date": {
+      "content": "Datum:  1996-11-02",
+      "x1": 261,
+      "x2": 613,
+      "y1": 1425,
+      "y2": 1472
+    },
+    "customer_name": {
+      "content": "Herr\n Balthasar K\u00f6hler",
+      "x1": 1673,
+      "x2": 2049,
+      "y1": 1704,
+      "y2": 1806
+    },
+    "address": {
+      "content": "Susanne-Klapp-Weg 234\n97851 Ebersberg",
+      "x1": 1673,
+      "x2": 1977,
+      "y1": 1807,
+      "y2": 1917
+    },
+    "bank_iban": {
+      "content": "Iban.  DE50850416676269556180",
+      "x1": 314,
+      "x2": 920,
+      "y1": 460,
+      "y2": 507
+    },
+    "bank_swift": {
+      "content": "BIC:    DWVSDEAIS89",
+      "x1": 314,
+      "x2": 722,
+      "y1": 508,
+      "y2": 555
+    },
+    "diagnose": {
+      "content": "Diagnose-  Diabetes mellitus Typ 2",
+      "x1": 1071,
+      "x2": 1816,
+      "y1": 1446,
+      "y2": 1506
+    },
+    "organization": {
+      "content": "Dowerg GbR",
+      "x1": 1395,
+      "x2": 1636,
+      "y1": 467,
+      "y2": 522
+    },
+    "organization_address": {
+      "content": "Susanne-Klapp-Weg 234\n97851 Ebersberg",
+      "x1": 1395,
+      "x2": 1699,
+      "y1": 532,
+      "y2": 642
+    },
+    "organization_contact": {
+      "content": "Tele.  09409968017",
+      "x1": 1395,
+      "x2": 1747,
+      "y1": 652,
+      "y2": 699
+    },
+    "product_amount": {
+      "x1": 1786.842105263158,
+      "x2": 1946,
+      "y1": 1982,
+      "y2": 2608,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Magnetresonanztomographie eines oder mehrerer Gelenke oder Abschnitte von Extremit\u00e4ten",
+          " 321,75 \u20ac"
+        ],
+        [
+          "Untersuchung, symptombezogen",
+          " 4,77 \u20ac"
+        ],
+        [
+          "Augentropfen",
+          " 10 \u20ac"
+        ],
+        [
+          "Antiallergikum (Packung)",
+          " 10 \u20ac"
+        ],
+        [
+          "Zahnb\u00fcrste",
+          " 3 \u20ac"
+        ],
+        [
+          "Nierensteinentfernung (perkutane Nephrolitholapaxie)",
+          " 3000 \u20ac"
+        ],
+        [
+          "Bypass-Operation, Herz",
+          " 15000 \u20ac"
         ],
         [
           "Symptombezogene Untersuchung",
           " 10,72 \u20ac"
         ],
         [
+          "Gehirn-MRT (Magnetresonanztomographie)",
+          " 500 \u20ac"
+        ],
+        [
+          "Schilddr\u00fcsentabletten (Packung)",
+          " 10 \u20ac"
+        ],
+        [
+          "Frakturbehandlung, Gips",
+          " 150 \u20ac"
+        ]
+      ],
+      "x1": 128,
+      "x2": 1818,
+      "y1": 1937,
+      "y2": 2573
+    },
+    "total_amount": {
+      "content": "Total Amount:  19020.24 \u20ac",
+      "x1": 1069,
+      "x2": 1691,
+      "y1": 2536,
+      "y2": 2592
+    },
+    "amount_sentence": {
+      "content": "Der Rechnungsbetrag f\u00fcr die erbrachten \u00e4rztlichen Leistungen bel\u00e4uft sich auf 19020.24 \u20ac.",
+      "x1": 701,
+      "x2": 735,
+      "y1": 3210,
+      "y2": 3302
+    }
+  },
+  "image13.png": {
+    "INVOICE": {
+      "content": "INVOICE",
+      "x1": 1341,
+      "x2": 1588,
+      "y1": 75,
+      "y2": 141
+    },
+    "title": {
+      "content": "Dussen van L\u00fcbs Stiftung & Co. KG",
+      "x1": 1144,
+      "x2": 1433,
+      "y1": 183,
+      "y2": 328
+    },
+    "rechnungsnummer": {
+      "content": "Rech Nr.  819684",
+      "x1": 363,
+      "x2": 681,
+      "y1": 941,
+      "y2": 988
+    },
+    "date": {
+      "content": "Datum:  1981-11-14",
+      "x1": 363,
+      "x2": 715,
+      "y1": 998,
+      "y2": 1045
+    },
+    "customer_name": {
+      "content": "Herr\n Hannes Hartung",
+      "x1": 1438,
+      "x2": 1798,
+      "y1": 928,
+      "y2": 1039
+    },
+    "address": {
+      "content": "Jopichweg 3/6\n73638 Kaiserslautern",
+      "x1": 1438,
+      "x2": 1813,
+      "y1": 1040,
+      "y2": 1142
+    },
+    "bank_iban": {
+      "content": "IBAN.    DE62990581713123363387",
+      "x1": 220,
+      "x2": 865,
+      "y1": 803,
+      "y2": 850
+    },
+    "bank_swift": {
+      "content": "BIC.    OMDHDEP6EKB",
+      "x1": 220,
+      "x2": 650,
+      "y1": 851,
+      "y2": 898
+    },
+    "diagnose": {
+      "content": "Diagnose:  Chronisch obstruktive Lungenerkrankung (COPD)",
+      "x1": 456,
+      "x2": 1034,
+      "y1": 1696,
+      "y2": 1847
+    },
+    "organization": {
+      "content": "Dussen van L\u00fcbs Stiftung & Co. KG",
+      "x1": 424,
+      "x2": 1097,
+      "y1": 1233,
+      "y2": 1288
+    },
+    "organization_address": {
+      "content": "Jopichweg 3/6\n73638 Kaiserslautern",
+      "x1": 424,
+      "x2": 799,
+      "y1": 1298,
+      "y2": 1400
+    },
+    "organization_contact": {
+      "content": "Mob.    (00051) 154013",
+      "x1": 424,
+      "x2": 835,
+      "y1": 1410,
+      "y2": 1465
+    },
+    "product_amount": {
+      "x1": 1888.842105263158,
+      "x2": 2048,
+      "y1": 2020,
+      "y2": 2426,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Wundversorgung, kleine Wunde",
+          " 10 \u20ac"
+        ],
+        [
+          "Schrittmacherkontrolle",
+          " 50 \u20ac"
+        ],
+        [
+          "Augentropfen",
+          " 10 \u20ac"
+        ],
+        [
+          "Brustvergr\u00f6\u00dferung (Mammaaugmentation)",
+          " 4000 \u20ac"
+        ],
+        [
+          "Magnetresonanztomographie eines oder mehrerer Gelenke oder Abschnitte von Extremit\u00e4ten",
+          " 321,75 \u20ac"
+        ],
+        [
+          "Fieberthermometer",
+          " 10 \u20ac"
+        ],
+        [
+          "Schilddr\u00fcsentabletten (Packung)",
+          " 10 \u20ac"
+        ]
+      ],
+      "x1": 339,
+      "x2": 2029,
+      "y1": 1843,
+      "y2": 2259
+    },
+    "total_amount": {
+      "content": "Rechnungsbetrag:  4411.75 \u20ac",
+      "x1": 1039,
+      "x2": 1737,
+      "y1": 2195,
+      "y2": 2261
+    },
+    "amount_sentence": {
+      "content": "Der berechnete Betrag f\u00fcr \u00e4rztliche Leistungen bel\u00e4uft sich auf 4411.75 \u20ac.",
+      "x1": 578,
+      "x2": 1876,
+      "y1": 3147,
+      "y2": 3202
+    }
+  },
+  "image14.png": {
+    "title": {
+      "content": "Adler GbR",
+      "x1": 252,
+      "x2": 578,
+      "y1": 124,
+      "y2": 195
+    },
+    "customer_name": {
+      "content": "Frau\n Frau Cordula Oestrovsky",
+      "x1": 266,
+      "x2": 817,
+      "y1": 407,
+      "y2": 518
+    },
+    "address": {
+      "content": "Putzgasse 980\n71024 Saarbr\u00fccken",
+      "x1": 266,
+      "x2": 612,
+      "y1": 519,
+      "y2": 621
+    },
+    "organization": {
+      "content": "Adler GbR",
+      "x1": 1547,
+      "x2": 1744,
+      "y1": 621,
+      "y2": 668
+    },
+    "organization_address": {
+      "content": "Putzgasse 980\n71024 Saarbr\u00fccken",
+      "x1": 1547,
+      "x2": 1893,
+      "y1": 678,
+      "y2": 780
+    },
+    "organization_contact": {
+      "content": "Tel:  +49(0)9094 762770",
+      "x1": 1547,
+      "x2": 1981,
+      "y1": 790,
+      "y2": 845
+    },
+    "bank_iban": {
+      "content": "IBAN.    DE80941315678188263737",
+      "x1": 1452,
+      "x2": 2097,
+      "y1": 1607,
+      "y2": 1654
+    },
+    "bank_swift": {
+      "content": "Swift.  VJJDDE9AU68",
+      "x1": 1452,
+      "x2": 1846,
+      "y1": 1655,
+      "y2": 1702
+    },
+    "rechnungsnummer": {
+      "content": "Rechnungsnummer:  632487",
+      "x1": 1624,
+      "x2": 2164,
+      "y1": 1177,
+      "y2": 1232
+    },
+    "date": {
+      "content": "Invoice Date.  2002-01-25",
+      "x1": 1624,
+      "x2": 2080,
+      "y1": 1242,
+      "y2": 1289
+    },
+    "diagnose": {
+      "content": "Diagnose-  Schilddr\u00fcsenunterfunktion (Hypothyreose)",
+      "x1": 137,
+      "x2": 1294,
+      "y1": 1331,
+      "y2": 1391
+    },
+    "product_amount": {
+      "x1": 1701.8000000000002,
+      "x2": 1937,
+      "y1": 2081,
+      "y2": 2395,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Operation, kleine Eingriffe",
+          " 500 \u20ac"
+        ],
+        [
+          "Kontaktlinsen, monatlicher Bedarf",
+          " 50 \u20ac"
+        ],
+        [
+          "Kieferorthop\u00e4dische Behandlung (Zahnspange)",
+          " 3000 \u20ac"
+        ],
+        [
           "Psychotherapie, je Sitzung",
           " 80 \u20ac"
         ],
         [
-          "H\u00fcftgelenkersatz (H\u00fcft-TEP)",
-          " 10000 \u20ac"
+          "Frakturbehandlung, Gips",
+          " 150 \u20ac"
         ]
       ],
-      "x1": 129,
-      "x2": 2579,
-      "y1": 1827,
-      "y2": 2153
+      "x1": 450,
+      "x2": 2140,
+      "y1": 2076,
+      "y2": 2400
     },
     "total_amount": {
-      "content": "Total Amount:  14590.72 \u20ac",
-      "x1": 1370,
-      "x2": 1858,
-      "y1": 2314,
-      "y2": 2361
+      "content": "Rechnungsbetrag:  3780.00 \u20ac",
+      "x1": 1507,
+      "x2": 2205,
+      "y1": 2274,
+      "y2": 2340
     },
     "amount_sentence": {
-      "content": "Bitte begleichen Sie den Betrag von 14590.72 \u20ac f\u00fcr die erbrachten \u00e4rztlichen Leistungen.",
-      "x1": 135,
-      "x2": 1694,
-      "y1": 2792,
-      "y2": 2847
+      "content": "Gem\u00e4\u00df unserer Preisliste bel\u00e4uft sich der Betrag f\u00fcr die geleisteten \u00e4rztlichen Dien",
+      "x1": 351,
+      "x2": 1807,
+      "y1": 2777,
+      "y2": 2832
+    }
+  },
+  "image15.png": {
+    "INVOICE": {
+      "content": "INVOICE",
+      "x1": 918,
+      "x2": 1165,
+      "y1": 138,
+      "y2": 204
+    },
+    "title": {
+      "content": "Eberth Renner OHG mbH",
+      "x1": 1349,
+      "x2": 2137,
+      "y1": 102,
+      "y2": 173
+    },
+    "rechnungsnummer": {
+      "content": "R. Nr. 282222",
+      "x1": 157,
+      "x2": 407,
+      "y1": 954,
+      "y2": 1001
+    },
+    "date": {
+      "content": "Date:  1974-09-11",
+      "x1": 157,
+      "x2": 476,
+      "y1": 1011,
+      "y2": 1058
+    },
+    "customer_name": {
+      "content": "Frau\n Rita Gude B.Eng.",
+      "x1": 1560,
+      "x2": 1942,
+      "y1": 775,
+      "y2": 886
+    },
+    "address": {
+      "content": "Clarissa-H\u00e4ring-Ring 2/6\n08171 Wiedenbr\u00fcck",
+      "x1": 1560,
+      "x2": 1913,
+      "y1": 887,
+      "y2": 989
+    },
+    "bank_iban": {
+      "content": "Iban.  DE72879367894358424118",
+      "x1": 423,
+      "x2": 1029,
+      "y1": 1510,
+      "y2": 1557
+    },
+    "bank_swift": {
+      "content": "Swift.  VRWCDE349BQ",
+      "x1": 423,
+      "x2": 846,
+      "y1": 1558,
+      "y2": 1607
+    },
+    "diagnose": {
+      "content": "Diagnose-  Nierenstein",
+      "x1": 310,
+      "x2": 799,
+      "y1": 1090,
+      "y2": 1150
+    },
+    "organization": {
+      "content": "Eberth Renner OHG mbH",
+      "x1": 1478,
+      "x2": 1954,
+      "y1": 1567,
+      "y2": 1614
+    },
+    "organization_address": {
+      "content": "Clarissa-H\u00e4ring-Ring 2/6\n08171 Wiedenbr\u00fcck",
+      "x1": 1478,
+      "x2": 1831,
+      "y1": 1624,
+      "y2": 1726
+    },
+    "organization_contact": {
+      "content": "Tel:  (05845) 264346",
+      "x1": 1478,
+      "x2": 1845,
+      "y1": 1736,
+      "y2": 1791
+    },
+    "product_amount": {
+      "x1": 1618.0,
+      "x2": 1842,
+      "y1": 1961,
+      "y2": 2571,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Kniegelenkersatz (Knie-TEP)",
+          " 8000 \u20ac"
+        ],
+        [
+          "Laser-Haarentfernung, pro Sitzung",
+          " 100 \u20ac"
+        ],
+        [
+          "Allgemeine \u00e4rztliche Beratung",
+          " 25 \u20ac"
+        ],
+        [
+          "H\u00f6rtest",
+          " 30 \u20ac"
+        ],
+        [
+          "Nierensteinentfernung (perkutane Nephrolitholapaxie)",
+          " 3000 \u20ac"
+        ],
+        [
+          "Mundwasser",
+          " 5 \u20ac"
+        ],
+        [
+          "Kieferorthop\u00e4dische Behandlung (Zahnspange)",
+          " 3000 \u20ac"
+        ],
+        [
+          "Operation, kleine Eingriffe",
+          " 500 \u20ac"
+        ],
+        [
+          "Zahnpasta",
+          " 3 \u20ac"
+        ],
+        [
+          "Magenbypass-Operation",
+          " 10000 \u20ac"
+        ],
+        [
+          "Zahnb\u00fcrste",
+          " 3 \u20ac"
+        ]
+      ],
+      "x1": 170,
+      "x2": 1860,
+      "y1": 1796,
+      "y2": 2416
+    },
+    "total_amount": {
+      "content": "Rechnungsbetrag:  24666.00 \u20ac",
+      "x1": 1448,
+      "x2": 2174,
+      "y1": 2665,
+      "y2": 2731
+    },
+    "amount_sentence": {
+      "content": "Der Rechnungsbetrag f\u00fcr die erbrachten \u00e4rztlichen Leistungen bel\u00e4uft sich auf 24666.00 \u20ac.",
+      "x1": 1033,
+      "x2": 1520,
+      "y1": 3247,
+      "y2": 3339
+    }
+  },
+  "image16.png": {
+    "INVOICE": {
+      "content": "INVOICE",
+      "x1": 1675,
+      "x2": 1922,
+      "y1": 230,
+      "y2": 296
+    },
+    "title": {
+      "content": "Bl\u00fcmel Etzold e.V.",
+      "x1": 1342,
+      "x2": 1912,
+      "y1": 238,
+      "y2": 309
+    },
+    "Invoice Details": {
+      "content": "Invoice Details",
+      "x1": 338,
+      "x2": 758,
+      "y1": 607,
+      "y2": 673
+    },
+    "rechnungsnummer": {
+      "content": "Rech Nr.  789627",
+      "x1": 338,
+      "x2": 656,
+      "y1": 703,
+      "y2": 750
+    },
+    "date": {
+      "content": "Invoice Date.  2014-10-08",
+      "x1": 338,
+      "x2": 794,
+      "y1": 760,
+      "y2": 807
+    },
+    "Customer details": {
+      "content": "Customer details",
+      "x1": 1729,
+      "x2": 2215,
+      "y1": 879,
+      "y2": 945
+    },
+    "customer_name": {
+      "content": "Herr\n Arno Bender",
+      "x1": 1729,
+      "x2": 2016,
+      "y1": 975,
+      "y2": 1077
+    },
+    "address": {
+      "content": "Konstanze-Budig-Allee 02\n66895 Rehau",
+      "x1": 1729,
+      "x2": 1967,
+      "y1": 1078,
+      "y2": 1180
+    },
+    "Bank Details": {
+      "content": "Bank Details",
+      "x1": 398,
+      "x2": 757,
+      "y1": 746,
+      "y2": 812
+    },
+    "bank_iban": {
+      "content": "IBAN:  DE07864327368660123801",
+      "x1": 398,
+      "x2": 1021,
+      "y1": 833,
+      "y2": 880
+    },
+    "bank_swift": {
+      "content": "BIC:    IPIWDEPI8QN",
+      "x1": 398,
+      "x2": 783,
+      "y1": 881,
+      "y2": 930
+    },
+    "diagnose": {
+      "content": "Diagnose:  Schilddr\u00fcsenunterfunktion (Hypothyreose)",
+      "x1": 441,
+      "x2": 770,
+      "y1": 1320,
+      "y2": 1430
+    },
+    "Organization details": {
+      "content": "Organization details",
+      "x1": 1734,
+      "x2": 2309,
+      "y1": 641,
+      "y2": 719
+    },
+    "organization": {
+      "content": "Bl\u00fcmel Etzold e.V.",
+      "x1": 1734,
+      "x2": 2079,
+      "y1": 749,
+      "y2": 796
+    },
+    "organization_address": {
+      "content": "Konstanze-Budig-Allee 02\n66895 Rehau",
+      "x1": 1734,
+      "x2": 1972,
+      "y1": 806,
+      "y2": 908
+    },
+    "organization_contact": {
+      "content": "Mob.    +49(0)3518 29335",
+      "x1": 1734,
+      "x2": 2190,
+      "y1": 918,
+      "y2": 973
+    },
+    "product_amount": {
+      "x1": 1759.4705882352941,
+      "x2": 2023,
+      "y1": 1734,
+      "y2": 2250,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Diabetesberatung, je Sitzung",
+          " 40 \u20ac"
+        ],
+        [
+          "Ultraschall, Bauchraum",
+          " 70 \u20ac"
+        ],
+        [
+          "Wundsalbe",
+          " 8 \u20ac"
+        ],
+        [
+          "Impfung, Standardimpfstoff",
+          " 30 \u20ac"
+        ],
+        [
+          "Desinfektionsmittel, monatlicher Bedarf",
+          " 10 \u20ac"
+        ],
+        [
+          "H\u00fcftgelenkersatz (H\u00fcft-TEP)",
+          " 10000 \u20ac"
+        ],
+        [
+          "Facelift (Gesichtsstraffung)",
+          " 5000 \u20ac"
+        ],
+        [
+          "Kieferorthop\u00e4dische Behandlung (Zahnspange)",
+          " 3000 \u20ac"
+        ],
+        [
+          "Brustvergr\u00f6\u00dferung (Mammaaugmentation)",
+          " 4000 \u20ac"
+        ]
+      ],
+      "x1": 234,
+      "x2": 1924,
+      "y1": 1428,
+      "y2": 1954
+    },
+    "Total Amount": {
+      "content": "Total Amount",
+      "x1": 1695,
+      "x2": 2083,
+      "y1": 2036,
+      "y2": 2102
+    },
+    "total_amount": {
+      "content": "Total Amount:  22158.00 \u20ac",
+      "x1": 1695,
+      "x2": 1947,
+      "y1": 2152,
+      "y2": 2254
+    },
+    "amount_sentence": {
+      "content": "Die in Anspruch genommenen \u00e4rztlichen Leistungen erfordern eine Zahlung von 22158.00 \u20ac.",
+      "x1": 774,
+      "x2": 983,
+      "y1": 3044,
+      "y2": 3136
+    }
+  },
+  "image17.png": {
+    "INVOICE": {
+      "content": "INVOICE",
+      "x1": 1264,
+      "x2": 1511,
+      "y1": 205,
+      "y2": 271
+    },
+    "title": {
+      "content": "Drewes AG",
+      "x1": 579,
+      "x2": 932,
+      "y1": 108,
+      "y2": 179
+    },
+    "Invoice Details": {
+      "content": "Invoice Details",
+      "x1": 158,
+      "x2": 578,
+      "y1": 703,
+      "y2": 769
+    },
+    "rechnungsnummer": {
+      "content": "Rechnung Nr.  238477",
+      "x1": 158,
+      "x2": 572,
+      "y1": 799,
+      "y2": 854
+    },
+    "date": {
+      "content": "Invoice Date.  1985-09-23",
+      "x1": 158,
+      "x2": 614,
+      "y1": 864,
+      "y2": 911
+    },
+    "Customer details": {
+      "content": "Customer details",
+      "x1": 1549,
+      "x2": 2035,
+      "y1": 1273,
+      "y2": 1339
+    },
+    "customer_name": {
+      "content": "Herr\n Lambert Christoph",
+      "x1": 1549,
+      "x2": 1964,
+      "y1": 1369,
+      "y2": 1480
+    },
+    "address": {
+      "content": "Mijo-Kitzmann-Stra\u00dfe 874\n91129 Oschatz",
+      "x1": 1549,
+      "x2": 1816,
+      "y1": 1481,
+      "y2": 1583
+    },
+    "Bank Details": {
+      "content": "Bank Details",
+      "x1": 163,
+      "x2": 522,
+      "y1": 639,
+      "y2": 705
+    },
+    "bank_iban": {
+      "content": "Iban.  DE15878149465983491515",
+      "x1": 163,
+      "x2": 769,
+      "y1": 726,
+      "y2": 773
+    },
+    "bank_swift": {
+      "content": "BIC:    MOQLDERWJS2",
+      "x1": 163,
+      "x2": 594,
+      "y1": 774,
+      "y2": 823
+    },
+    "diagnose": {
+      "content": "Diagnose:  Brustkrebs",
+      "x1": 203,
+      "x2": 684,
+      "y1": 1033,
+      "y2": 1093
+    },
+    "Organization details": {
+      "content": "Organization details",
+      "x1": 1736,
+      "x2": 2311,
+      "y1": 1140,
+      "y2": 1218
+    },
+    "organization": {
+      "content": "Drewes AG",
+      "x1": 1736,
+      "x2": 1949,
+      "y1": 1248,
+      "y2": 1295
+    },
+    "organization_address": {
+      "content": "Mijo-Kitzmann-Stra\u00dfe 874\n91129 Oschatz",
+      "x1": 1736,
+      "x2": 2003,
+      "y1": 1305,
+      "y2": 1407
+    },
+    "organization_contact": {
+      "content": "Tel:  09274 02577",
+      "x1": 1736,
+      "x2": 2055,
+      "y1": 1417,
+      "y2": 1464
+    },
+    "product_amount": {
+      "x1": 1775.0,
+      "x2": 1999,
+      "y1": 1673,
+      "y2": 2124,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Fieberthermometer",
+          " 10 \u20ac"
+        ],
+        [
+          "Wundsalbe",
+          " 8 \u20ac"
+        ],
+        [
+          "Antiallergikum (Packung)",
+          " 10 \u20ac"
+        ],
+        [
+          "Nierensteinentfernung (perkutane Nephrolitholapaxie)",
+          " 3000 \u20ac"
+        ],
+        [
+          "Kaiserschnitt-Geburt",
+          " 2000 \u20ac"
+        ],
+        [
+          "H\u00fcftgelenkersatz (H\u00fcft-TEP)",
+          " 10000 \u20ac"
+        ],
+        [
+          "Laser-Augenoperation (LASIK), pro Auge",
+          " 2000 \u20ac"
+        ],
+        [
+          "\u00dcbungsbehandlung, je Sitzung",
+          " 5 \u20ac"
+        ]
+      ],
+      "x1": 313,
+      "x2": 2003,
+      "y1": 1316,
+      "y2": 1777
+    },
+    "Total Amount": {
+      "content": "Total Amount",
+      "x1": 1373,
+      "x2": 1761,
+      "y1": 1808,
+      "y2": 1874
+    },
+    "total_amount": {
+      "content": "Rechnungsbetrag:  17033.00 \u20ac",
+      "x1": 1373,
+      "x2": 2099,
+      "y1": 1924,
+      "y2": 1990
+    },
+    "amount_sentence": {
+      "content": "F\u00fcr \u00e4rztliche Leistungen erlauben wir uns, Ihnen 17033.00 \u20ac zu berechnen.",
+      "x1": 1078,
+      "x2": 1276,
+      "y1": 2913,
+      "y2": 3005
+    }
+  },
+  "image18.png": {
+    "title": {
+      "content": "R\u00e4del Pieper e.V.",
+      "x1": 574,
+      "x2": 1109,
+      "y1": 181,
+      "y2": 264
+    },
+    "customer_name": {
+      "content": "Frau\n Henrike Trommler",
+      "x1": 192,
+      "x2": 593,
+      "y1": 281,
+      "y2": 383
+    },
+    "address": {
+      "content": "Alfredo-Hornich-Platz 9\n00395 Lemgo",
+      "x1": 192,
+      "x2": 434,
+      "y1": 384,
+      "y2": 486
+    },
+    "organization": {
+      "content": "R\u00e4del Pieper e.V.",
+      "x1": 1633,
+      "x2": 1956,
+      "y1": 264,
+      "y2": 319
+    },
+    "organization_address": {
+      "content": "Alfredo-Hornich-Platz 9\n00395 Lemgo",
+      "x1": 1633,
+      "x2": 1875,
+      "y1": 329,
+      "y2": 431
+    },
+    "organization_contact": {
+      "content": "Mob.    0343669503",
+      "x1": 1633,
+      "x2": 1985,
+      "y1": 441,
+      "y2": 488
+    },
+    "bank_iban": {
+      "content": "Iban.  DE51162546554042631833",
+      "x1": 1519,
+      "x2": 2125,
+      "y1": 1735,
+      "y2": 1782
+    },
+    "bank_swift": {
+      "content": "BIC.    PDOEDE3191U",
+      "x1": 1519,
+      "x2": 1928,
+      "y1": 1783,
+      "y2": 1830
+    },
+    "rechnungsnummer": {
+      "content": "Rechnung Nr.  504887",
+      "x1": 1724,
+      "x2": 2138,
+      "y1": 458,
+      "y2": 513
+    },
+    "date": {
+      "content": "Invoice Date.  1997-05-08",
+      "x1": 1724,
+      "x2": 2180,
+      "y1": 523,
+      "y2": 570
+    },
+    "diagnose": {
+      "content": "Diagnose:  Parkinson-Krankheit",
+      "x1": 131,
+      "x2": 814,
+      "y1": 1343,
+      "y2": 1403
+    },
+    "product_amount": {
+      "x1": 1642.5813953488373,
+      "x2": 1877,
+      "y1": 1957,
+      "y2": 2316,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Zahnschiene (Knirscherschiene)",
+          " 200 \u20ac"
+        ],
+        [
+          "Zahnreinigung",
+          " 80 \u20ac"
+        ],
+        [
+          "Mundwasser",
+          " 5 \u20ac"
+        ],
+        [
+          "Wurzelkanalbehandlung, ein Kanal",
+          " 200 \u20ac"
+        ],
+        [
+          "Inkontinenzhilfen, monatlicher Bedarf",
+          " 50 \u20ac"
+        ],
+        [
+          "R\u00f6ntgenaufnahme, eine Aufnahme",
+          " 15 \u20ac"
+        ]
+      ],
+      "x1": 144,
+      "x2": 1834,
+      "y1": 1952,
+      "y2": 2321
+    },
+    "total_amount": {
+      "content": "Rechnungsbetrag.  550.00 \u20ac",
+      "x1": 1478,
+      "x2": 2145,
+      "y1": 2409,
+      "y2": 2475
+    },
+    "amount_sentence": {
+      "content": "F\u00fcr \u00e4rztliche Leistungen erlauben wir uns, Ihnen 550.00 \u20ac zu berechnen.",
+      "x1": 133,
+      "x2": 1406,
+      "y1": 3143,
+      "y2": 3198
+    }
+  },
+  "image19.png": {
+    "INVOICE": {
+      "content": "INVOICE",
+      "x1": 1429,
+      "x2": 1676,
+      "y1": 90,
+      "y2": 156
+    },
+    "title": {
+      "content": "auch Schlauchin Winkler Stiftung & Co. KG",
+      "x1": 1418,
+      "x2": 1973,
+      "y1": 139,
+      "y2": 284
+    },
+    "rechnungsnummer": {
+      "content": "Rechnungsnummer:  125302",
+      "x1": 470,
+      "x2": 1010,
+      "y1": 1498,
+      "y2": 1553
+    },
+    "date": {
+      "content": "Datum:  1995-10-04",
+      "x1": 470,
+      "x2": 822,
+      "y1": 1563,
+      "y2": 1610
+    },
+    "customer_name": {
+      "content": "Herr\n Alois Martin",
+      "x1": 1461,
+      "x2": 1733,
+      "y1": 1513,
+      "y2": 1615
+    },
+    "address": {
+      "content": "Bozena-Hendriks-Weg 240\n20382 Freudenstadt",
+      "x1": 1461,
+      "x2": 1815,
+      "y1": 1616,
+      "y2": 1718
+    },
+    "bank_iban": {
+      "content": "Iban.  DE03695883490789898431",
+      "x1": 361,
+      "x2": 967,
+      "y1": 1181,
+      "y2": 1228
+    },
+    "bank_swift": {
+      "content": "SWIFT:  XXCYDEZF8T0",
+      "x1": 361,
+      "x2": 800,
+      "y1": 1229,
+      "y2": 1276
+    },
+    "diagnose": {
+      "content": "Diagnose:  Herzinfarkt (Myokardinfarkt)",
+      "x1": 240,
+      "x2": 1085,
+      "y1": 1169,
+      "y2": 1229
+    },
+    "organization": {
+      "content": "auch Schlauchin Winkler Stiftung & Co. KG",
+      "x1": 1627,
+      "x2": 1962,
+      "y1": 479,
+      "y2": 571
+    },
+    "organization_address": {
+      "content": "Bozena-Hendriks-Weg 240\n20382 Freudenstadt",
+      "x1": 1627,
+      "x2": 1981,
+      "y1": 581,
+      "y2": 683
+    },
+    "organization_contact": {
+      "content": "Mob.    +49(0)8670313586",
+      "x1": 1627,
+      "x2": 2094,
+      "y1": 693,
+      "y2": 748
+    },
+    "product_amount": {
+      "x1": 1842.4418604651164,
+      "x2": 2155,
+      "y1": 1859,
+      "y2": 2175,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Symptombezogene Untersuchung",
+          " 10,72 \u20ac"
+        ],
+        [
+          "H\u00f6rger\u00e4t",
+          " 1000 \u20ac"
+        ],
+        [
+          "Herzultraschall (Echokardiographie)",
+          " 120 \u20ac"
+        ],
+        [
+          "Zahnsp\u00fclung",
+          " 10 \u20ac"
+        ],
+        [
+          "Untersuchung, symptombezogen",
+          " 4,77 \u20ac"
+        ]
+      ],
+      "x1": 323,
+      "x2": 2013,
+      "y1": 1854,
+      "y2": 2180
+    },
+    "total_amount": {
+      "content": "Total Amount:  1145.49 \u20ac",
+      "x1": 1334,
+      "x2": 1928,
+      "y1": 2391,
+      "y2": 2447
+    },
+    "amount_sentence": {
+      "content": "Bitte \u00fcberweisen Sie 1145.49 \u20ac f\u00fcr die erbrachten \u00e4rztlichen Leistungen auf das angegebene Konto.",
+      "x1": 1275,
+      "x2": 2148,
+      "y1": 3058,
+      "y2": 3150
     }
   }
 }

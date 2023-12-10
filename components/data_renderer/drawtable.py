@@ -109,7 +109,7 @@ class Drawtable:
                 if self.xend is not None and self.xend > image_width: raise ValueError(
                     "xend must be lesser than image_width")
                 self.new_img = True
-                self.__test_back = Image.new('RGBA', (image_width, image_height), (255, 255, 255, 255))
+                self.__test_back = Image.new('RGBA', (image_width, image_height), (255, 255, 255, 0))
                 self.__draw = ImageDraw.Draw(self.__test_back)
                 if self.xend is None: self.xend = image_width - self.x_init
                 width = self.xend - self.x_init
