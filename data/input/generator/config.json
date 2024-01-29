@@ -1,6 +1,6 @@
 {
   "invoice": {
-    "gpt_enabled": false,
+    "gpt_enabled": true,
     "gpt_config": {
       "gpt_keys": [
         "amount_sentence",
@@ -10,15 +10,20 @@
         "product_name": "product_amount"
       },
       "queries": {
-        "amount_sentence": "Generate 10 sentences similar to \"Für ärztliche Leistungen erlauben wir uns, Ihnen\t28,78 EUR\tzu berechnen.\" but instead of amount 28,78 EUR use <amount> tag",
-        "product_name": "Can you please write 100 medical services and their approximate prices (no real time prices just approximate values in €) in german language.\nSome examples are: \n1. Übungsbehandlung, je Sitzung : 5 €\n2. Untersuchung, symptombezogen : 4,77 €\n3. Symptombezogene Untersuchung : 10,72 €\n4. Magnetresonanztomographie eines oder mehrerer Gelenke oder Abschnitte von Extremitäten : 321,75 €\n5. Sonographie, je Organ, bis zu drei : 26,81 €"
+        "amount_sentence": "Generate 10 sentences similar to \"Für ärztliche Leistungen erlauben wir uns, Ihnen\t28,78 EUR\tzu berechnen.\" but instead of amount 28,78 EUR use <amount> tag. Only write answer, please do not write any other sentences.",
+        "product_name": "Can you please write 10 medical services and their approximate prices (no real time prices just approximate values in €) in german language. Only write answer, please do not write any other sentences.\nSome examples are: \n[Übungsbehandlung je Sitzung, 5 €]\n [Untersuchung symptombezogen, 4,77 €]\n[Symptombezogene Untersuchung, 10,72 €]\n[Magnetresonanztomographie eines oder mehrerer Gelenke oder Abschnitte von Extremitäten, 321,75 €]\n[Sonographie je Organ bis zu drei, 26,81 €]"
       },
       "gpt_output": {
-        "amount_sentence": [],
-        "product_name": {
-          "product_name": [],
-          "product_amount": []
-        }
+        "amount_sentence": [
+          "Sentence1",
+          "Sentence2"
+        ],
+        "product_name": [
+          [
+            "product_name",
+            "product_amount"
+          ]
+        ]
       }
     },
     "faker_keys": {
@@ -35,60 +40,64 @@
     },
     "calculate_keys": [
       "total_amount",
-      "title",
       "amount_sentence",
       "logo_image"
-    ]
+    ],
+    "same_keys": {
+      "title": "organization"
+    }
   },
   "resume": {
-    "gpt_enabled": false,
+    "gpt_enabled": true,
     "gpt_config": {
       "gpt_keys": [
-        "resume"
+        "resume_query"
       ],
       "gpt_key_pairs": {
       },
       "queries": {
-        "resume": "Can you create 5 CVs of different IT roles with experience and return the output in JSON format?\nThe main key sections can be Summary, Experience, Projects, Education, Skills, Certification, and others if required in a CV? Please return the output in following format:\n {\n        \"summary\": \"String\",\n        \"experience\": [{\"position\": \"String\",\"company\": \"String\", \"company_location\": \"String\", \"experience_dates\": \"String\", \"responsibilities\": []}],\n        \"projects\": [{ \"project_title\": \"String\", \"project_dates\": \"String\", \"project_description\": \"String\"}],\n        \"education\": [{\"degree\": \"String\", \"school\": \"String\", \"school_location\": \"String\", \"graduation_date\": \"String\"}],\n        \"skill\": [\"String\"],\n        \"certifications\": [{\"certificate_name\": \"String\", \"date_earned\": \"String\"}],\n        \"language\": []\n      }"
+        "resume_query": "Can you create 1 CVs of different IT roles with experience and return the output in JSON format?\nThe main key sections can be Summary, Experience, Projects, Education, Skills, Certification, and others if required in a CV? Only write answer, please do not write any other sentences."
       },
       "gpt_output": {
-        "summary": "String",
-        "experience": [
-          {
-            "position": "String",
-            "company": "String",
-            "company_location": "String",
-            "experience_dates": "String",
-            "responsibilities": [
-              "String"
-            ]
-          }
-        ],
-        "projects": [
-          {
-            "project_title": "String",
-            "project_dates": "String",
-            "project_description": "String"
-          }
-        ],
-        "education": [
-          {
-            "degree": "String",
-            "school": "String",
-            "school_location": "String",
-            "graduation_date": "String"
-          }
-        ],
-        "skill": [
-          "String"
-        ],
-        "certifications": [
-          {
-            "certificate_name": "String",
-            "date_earned": "String"
-          }
-        ],
-        "language": []
+        "resume_query": {
+          "summary": "String",
+          "experience": [
+            {
+              "position": "String",
+              "company": "String",
+              "company_location": "String",
+              "experience_dates": "String",
+              "responsibilities": [
+                "String"
+              ]
+            }
+          ],
+          "projects": [
+            {
+              "project_title": "String",
+              "project_dates": "String",
+              "project_description": "String"
+            }
+          ],
+          "education": [
+            {
+              "degree": "String",
+              "school": "String",
+              "school_location": "String",
+              "graduation_date": "String"
+            }
+          ],
+          "skills": [
+            "String"
+          ],
+          "certifications": [
+            {
+              "certificate_name": "String",
+              "date_earned": "String"
+            }
+          ],
+          "language": []
+        }
       }
     },
     "faker_keys": {
@@ -101,6 +110,7 @@
     },
     "calculate_keys": [
       "profile_image"
-    ]
+    ],
+    "same_keys": {}
   }
 }

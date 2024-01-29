@@ -19,8 +19,8 @@ def generate_gpt_data(config_data, data_fields, doc_format):
         for key in config_data["gpt_keys"]:
             if key in data_fields:
                 query = config_data["queries"][key]
-                isKeyPair = key in config_data["gpt_key_pairs"]
-                data[doc_format][key] = gptService.generate_gpt_sentence(key, query, isKeyPair)
+                data[doc_format] = gptService.generate_gpt_data(data[doc_format], key, query,
+                                                                config_data["gpt_output"][key])
         helper.write_json(data, RESPONSE_FILE_PATH)
     else:
         gpt_response = helper.read_json("data/input/renderer/gpt_response.json")

@@ -35,11 +35,12 @@
       "school": true,
       "school_location": true,
       "graduation_date": true,
-      "skill": true,
+      "skills": true,
       "certificate_name": true,
       "date_earned": true,
       "language": true,
-      "profile_image": true
+      "profile_image": true,
+      "resume_query": true
     }
   },
   "count": 10,

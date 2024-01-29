@@ -3,7 +3,9 @@ import textwrap
 import PIL
 from PIL import Image, ImageDraw, ImageFont
 
-
+"""
+Credits: Name: Dhanush, Email: dhanushnayak.pythonnotebook@gmail.com"
+"""
 class Drawtable:
     """
     Use to create or draw table using PILLOW
@@ -123,9 +125,6 @@ class Drawtable:
 
     def __repr__(self):
         return "Drawtable"
-
-    def __author__(self):
-        return ""
 
     def __str__(self):
         return """

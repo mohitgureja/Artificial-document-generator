@@ -49,7 +49,6 @@ def generate_textimage(data, fields, style_config_data, page_config, position_co
 
     top_margin = page_matrix[0][0][1][1]
     l = len(page_matrix[0])
-    y2_prev = [top_margin] * l
     x1_used_col = [0] * l
     rendered_data = []
     overlap_area = {}
@@ -143,14 +142,12 @@ def generate_textimage(data, fields, style_config_data, page_config, position_co
                 max_try_position -= 1
             row, column = random.choice(block["block_position"])
             if (row, column) not in tried_block:
-                print(x1, y1, x2, y2)
                 diff_x = x2 - x1
                 diff_y = y2 - y1
                 x1 = random.randint(page_matrix[row][column][0][0], page_matrix[row][column][1][0])
                 y1 = random.randint(page_matrix[row][column][0][1], page_matrix[row][column][1][1])
                 x2 = x1 + diff_x
                 y2 = y1 + diff_y
-                print(x1, y1, x2, y2)
         return x1, y1, x2, y2
 
     # Image size
@@ -173,9 +170,7 @@ def generate_textimage(data, fields, style_config_data, page_config, position_co
 
         # If block is an image
         if block["is_image"]:
-            print(block)
             img_path = data[block["data_field"]]
-            print(img_path)
             logo = Image.open(img_path)
 
             mode = logo.mode
@@ -190,7 +185,6 @@ def generate_textimage(data, fields, style_config_data, page_config, position_co
                 # Convert image2 to mode RGB before pasting
                 logo = logo.convert('RGB')
             bbox = logo.getbbox()
-            print(bbox)
             x1, y1, x2, y2 = test_layout(x1, y1, x1 + bbox[2] - bbox[0], y1 + bbox[3] - bbox[1], row,
                                          column, logo, block, len(block["block_position"]))
 
@@ -207,20 +201,16 @@ def generate_textimage(data, fields, style_config_data, page_config, position_co
             ground_truth = tableService.get_updated_ground_truth(b_box_old, b_box_new, tb_fields, ground_truth)
 
             img.paste(cropped, (x1, y1, x2, y2), cropped)
+        # If block has data fields
         elif "data_fields" in block:
             img_new, b_box, ground_truth = get_block_image(block, data, fields, ground_truth, style_config_data, x1, y1,
                                                            page_config)
-            print(block)
             cropped = img_new.crop(b_box)
             cropped = get_bordered_image(cropped, block, style_config_data)
             x2, y2 = create_b_box(cropped, x1, y1)
-            print(x1, y1, x2, y2)
             x1, y1, x2, y2 = test_layout(x1, y1, x2, y2, row, column, cropped, block,
                                          len(block["block_position"]))
             mode = cropped.mode
-            print(mode)
-            print(x1, y1, x2, y2)
-            print(cropped.getbbox(), img.getbbox())
             # Handle each mode separately
             if mode == 'P':
                 # Convert image2 to mode RGB before pasting
@@ -263,6 +253,7 @@ def get_block_image(block, data, fields, ground_truth, style_config_data, x1, y1
     width_field = 0
     block_data = False
 
+    # If block has a header key
     if block["is_key"]:
         keyname = block["keyname"]
         field_style_config = style_config_data[keyname.lower()]
@@ -275,7 +266,9 @@ def get_block_image(block, data, fields, ground_truth, style_config_data, x1, y1
         h += font.getsize(keyname)[1]
         img_draw.line([(x1, y1 + h + 2), (x1 + width, y1 + h + 2)], fill="black", width=3)
         h += 10
-        if keyname.lower() in data and all(isinstance(item, dict) for item in data[keyname.lower()]):
+
+        if keyname.lower() in data and data[keyname.lower()] and all(
+                isinstance(item, dict) for item in data[keyname.lower()]):
             data = data[block["keyname"].lower()]
             l = len(data)
             # Ground Truth Data for block heading
@@ -290,6 +283,7 @@ def get_block_image(block, data, fields, ground_truth, style_config_data, x1, y1
 
     col_range = block["block_range"]
 
+    # Get pixels upto which data rendering is allowed
     pixels = (sum(page_config["columns"]["size"][:col_range]) * page_config["width"]) / 100
 
     for i in range(0, l):
@@ -317,7 +311,7 @@ def get_block_image(block, data, fields, ground_truth, style_config_data, x1, y1
             font = get_font(field_style_config)
 
             # If field value is a list of strings
-            if field["is_list"]:
+            if isinstance(text, list):
                 text = "\n".join(text)
 
             if direction == "down":
@@ -333,6 +327,8 @@ def get_block_image(block, data, fields, ground_truth, style_config_data, x1, y1
 
             # Renders text line by line on the canvas
             for text_line in split_text:
+                if not text_line:
+                    text_line = "Default"
                 diff = pixels - x1
                 text_width_pixels = img_draw.textsize(text_line, font)[0]
                 text_width = len(text_line)

@@ -2,23 +2,16 @@ import os
 import random
 import re
 
-HERR_IMAGE_FILEPATH = "data/input/generator/person/herr"
-FRAU_IMAGE_FILEPATH = "data/input/generator/person/frau"
+HERR_IMAGE_FILEPATH = "data/input/resources/person/herr"
+FRAU_IMAGE_FILEPATH = "data/input/resources/person/frau"
 
 NAME = "name"
-
 TOTAL_AMOUNT = "total_amount"
-
 AMOUNT_SENTENCE = "amount_sentence"
-
 PRODUCT_NAME = "product_name"
-
 PRODUCT_AMOUNT = "product_amount"
-
 TITLE = "title"
-
 ORGANIZATION = "organization"
-
 PROFILE_IMAGE = "profile_image"
 
 
@@ -51,7 +44,6 @@ def update_profile_image(fake_data):
                 filepath = HERR_IMAGE_FILEPATH
             images = os.listdir(filepath)
             sample = random.choice(images)
-            print(sample)
             filepath = filepath + "/" + sample
             fake_data[PROFILE_IMAGE] = filepath
     return fake_data
@@ -65,33 +57,6 @@ def update_logo_image(fake_data):
     fake_data["logo_image"] = filepath
     return fake_data
 
-
-def transform_data(fake_data, gen_config_data):
-    """
-    Transform generated data according to the need of the output
-    :param fake_data:
-    :return:
-    """
-    dependent_fields = gen_config_data["calculate_keys"]
-    # If product key pairs exists in generated data
-    # Returns random samples of product name and amount
-    if TOTAL_AMOUNT in dependent_fields:
-        fake_data = update_total_amount(fake_data)
-
-    # If organization exists in the generated data
-    if TITLE in dependent_fields:
-        fake_data = update_title(fake_data)
-
-    # If amount sentence exists in the generated data
-    if AMOUNT_SENTENCE in dependent_fields:
-        fake_data = update_amount_sentence(fake_data)
-
-    if PROFILE_IMAGE in dependent_fields:
-        fake_data = update_profile_image(fake_data)
-
-    if "logo_image" in dependent_fields:
-        fake_data = update_logo_image(fake_data)
-    return fake_data
 
 
 def update_amount_sentence(fake_data):
@@ -124,4 +89,37 @@ def update_total_amount(fake_data):
         for val in amount_list:
             total += float(val[:-2].strip().replace(',', '.'))
         fake_data[TOTAL_AMOUNT] = "{:.2f}".format(total) + " €"
+    return fake_data
+
+
+def get_same_data(fake_data, same_fields):
+    for k, v in same_fields.items():
+        fake_data[k] = fake_data[v]
+    return fake_data
+
+
+def transform_data(fake_data, gen_config_data):
+    """
+    Transform generated data according to the need of the output
+    :param fake_data:
+    :return:
+    """
+    same_fields = gen_config_data["same_keys"]
+    fake_data = get_same_data(fake_data, same_fields)
+
+    dependent_fields = gen_config_data["calculate_keys"]
+    # If product key pairs exists in generated data
+    # Returns random samples of product name and amount
+    if TOTAL_AMOUNT in dependent_fields:
+        fake_data = update_total_amount(fake_data)
+
+    # If amount sentence exists in the generated data
+    if AMOUNT_SENTENCE in dependent_fields:
+        fake_data = update_amount_sentence(fake_data)
+
+    if PROFILE_IMAGE in dependent_fields:
+        fake_data = update_profile_image(fake_data)
+
+    if "logo_image" in dependent_fields:
+        fake_data = update_logo_image(fake_data)
     return fake_data

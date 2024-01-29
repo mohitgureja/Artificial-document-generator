@@ -1,12 +1,4 @@
-from enum import Enum
-
 from pydantic import BaseModel
-
-
-# @dataclass
-# class ProductData(BaseModel):
-#     product_name: bool | None = None
-#     product_amount: int | None = None
 
 # @dataclass
 class InvoiceData(BaseModel):
@@ -58,19 +50,30 @@ class ResumeData(BaseModel):
     school: bool = False,
     school_location: bool = False,
     graduation_date: bool = False,
-    skill: bool = False,
+    skills: bool = False,
     certificate_name: bool = False,
     date_earned: bool = False,
-    language: bool = False
-    profile_image: bool = False
+    language: bool = False,
+    profile_image: bool = False,
+    resume_query: bool = False
 
     def get_variables(self):
         return vars(self)
 
     def set_variables(self):
-        # if self.product_name and self.product_amount:
-        #     self.total_amount = True
         return True
+
+
+def get_invoice_params(request_body):
+    request_body.invoice_params.set_variables()
+    params = request_body.invoice_params.get_variables()
+    return {k: v for k, v in params.items() if v is True}
+
+
+def get_resume_params(request_body):
+    request_body.resume_params.set_variables()
+    params = request_body.resume_params.get_variables()
+    return {k: v for k, v in params.items() if v is True}
 
 
 # @dataclass
@@ -78,11 +81,13 @@ class RequestBody(BaseModel):
     invoice_params: InvoiceData | None = None
     resume_params: ResumeData | None = None
     count: int
+    augmentation: bool = False
     groundtruth_type: str
     groundtruth_format: str
     countries: list[str]
 
 
-class Params(Enum):
-    invoice = "invoice"
-    resume = "resume"
+params_method = {
+    "invoice": get_invoice_params,
+    "resume": get_resume_params
+}

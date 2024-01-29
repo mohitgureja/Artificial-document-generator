@@ -1,4 +1,4 @@
-from components.orchestrator.models import Params
+from components.orchestrator.models import params_method
 
 
 def get_generator_config(data):
@@ -11,30 +11,23 @@ def get_renderer_config(data):
     return config_params
 
 
-def get_invoice_params(request_body):
-    request_body.invoice_params.set_variables()
-    params = request_body.invoice_params.get_variables()
-    return {k: v for k, v in params.items() if v is True}
+def is_augment_required(data):
+    return data.augmentation
 
 
-def get_resume_params(request_body):
-    request_body.resume_params.set_variables()
-    params = request_body.resume_params.get_variables()
-    return {k: v for k, v in params.items() if v is True}
-
-
-params_method = {
-    Params.invoice: get_invoice_params,
-    Params.resume: get_resume_params
-}
-
-
-# TODO: Test the enum code
 def transform_input(request_body, doc_format):
-    param = None
+    params = None
     try:
-        param = Params(doc_format)
-    except ValueError:
-        print("Invalid document format in the Param enumeration")
-    params = params_method[param](request_body)
+        params = params_method[doc_format](request_body)
+    except KeyError:
+        message = f'Invalid document format in the Param enumeration: "{doc_format}"'
+        print("%s" % message)
+        raise ValueError(message)
     return params, get_generator_config(request_body), get_renderer_config(request_body)
+
+
+def get_response(image_filepath, groundtruth_filepath, augment_image_filepath):
+    response = {"Generated images": image_filepath, "Ground truth data": groundtruth_filepath}
+    if augment_image_filepath:
+        response["Augmented images"] = augment_image_filepath
+    return response
