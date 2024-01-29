@@ -10,6 +10,8 @@ def get_renderer_config(data):
     config_params = {"count": data.count, "groundtruth_type": data.groundtruth_type}
     return config_params
 
+def is_rendering_required(data):
+    return data.data_rendering
 
 def is_augment_required(data):
     return data.augmentation
@@ -26,8 +28,13 @@ def transform_input(request_body, doc_format):
     return params, get_generator_config(request_body), get_renderer_config(request_body)
 
 
-def get_response(image_filepath, groundtruth_filepath, augment_image_filepath):
-    response = {"Generated images": image_filepath, "Ground truth data": groundtruth_filepath}
+def get_response(image_filepath, groundtruth_filepath, augment_image_filepath, doc_filepath):
+    response = {"Generated data": doc_filepath}
+    if image_filepath:
+        response["Generated images"] = image_filepath
+    if groundtruth_filepath:
+        response["Ground truth data"] = groundtruth_filepath
     if augment_image_filepath:
         response["Augmented images"] = augment_image_filepath
+
     return response

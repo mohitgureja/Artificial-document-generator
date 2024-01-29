@@ -2180,11 +2180,11 @@
       "language_block": {
         "has_table": false,
         "is_image": false,
-        "keyname": "Languages",
+        "keyname": "Language",
         "is_key": true,
         "is_header": false,
         "data_fields": {
-          "language": {
+          "languages": {
             "priority": 1,
             "key": false,
             "is_list": true,
@@ -2751,11 +2751,11 @@
       "language_block": {
         "has_table": false,
         "is_image": false,
-        "keyname": "Languages",
+        "keyname": "Language",
         "is_key": true,
         "is_header": false,
         "data_fields": {
-          "language": {
+          "languages": {
             "priority": 1,
             "key": false,
             "is_list": true,

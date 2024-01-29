@@ -53,7 +53,7 @@ class ResumeData(BaseModel):
     skills: bool = False,
     certificate_name: bool = False,
     date_earned: bool = False,
-    language: bool = False,
+    languages: bool = False,
     profile_image: bool = False,
     resume_query: bool = False
 
@@ -82,6 +82,7 @@ class RequestBody(BaseModel):
     resume_params: ResumeData | None = None
     count: int
     augmentation: bool = False
+    data_rendering: bool = False
     groundtruth_type: str
     groundtruth_format: str
     countries: list[str]

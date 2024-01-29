@@ -294,7 +294,7 @@
       "font_color": "black",
       "textWrap": false
     },
-    "languages": {
+    "language": {
       "width": 150,
       "height": null,
       "font_size": 60,
@@ -494,7 +494,7 @@
       "font_color": "blue",
       "textWrap": false
     },
-    "language": {
+    "languages": {
       "width": 70,
       "height": null,
       "font_size": 40,

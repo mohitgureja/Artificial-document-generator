@@ -20,11 +20,13 @@ def orchestrate(request_data, doc_format):
     doc_filepath = generator.generate_data(data_field_names, generator_config, doc_format)
 
     # Generate fake documents according to the configurations
-    groundtruth_filepath, image_filepath = renderer.generate_documents(doc_filepath, renderer_config,
-                                                                       data_field_names,
-                                                                       doc_format)
+    groundtruth_filepath, image_filepath = None, None
+    if helper.is_rendering_required(request_data):
+        groundtruth_filepath, image_filepath = renderer.generate_documents(doc_filepath, renderer_config,
+                                                                           data_field_names,
+                                                                           doc_format)
     # Data Augmentation
     augment_image_filepath = None
-    if helper.is_augment_required(request_data): augment_image_filepath = augment.augment_dataset(image_filepath, )
+    if helper.is_augment_required(request_data): augment_image_filepath = augment.augment_dataset(image_filepath)
 
-    return helper.get_response(image_filepath, groundtruth_filepath, augment_image_filepath)
+    return helper.get_response(image_filepath, groundtruth_filepath, augment_image_filepath, doc_filepath)

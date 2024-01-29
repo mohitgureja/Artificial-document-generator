@@ -38,12 +38,14 @@
       "skills": true,
       "certificate_name": true,
       "date_earned": true,
-      "language": true,
+      "languages": true,
       "profile_image": true,
       "resume_query": true
     }
   },
   "count": 10,
+  "data_rendering": false,
+  "augmentation": false,
   "groundtruth_format": "json",
   "groundtruth_type": "block",
   "countries": [

@@ -17,6 +17,8 @@ def get_random_template(style_config_data, page_config_data, position_config_dat
 
 
 def generate_documents(data_filepath, config_params, fields, doc_format):
+    print("\n------------------- Starting data rendering -------------------\n")
+
     # Read JSON Data file for documents data
     doc_data = helper.read_json(data_filepath)
     style_config_data = helper.read_json(STYLE_CONFIG_FILE_PATH)

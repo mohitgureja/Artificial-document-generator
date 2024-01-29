@@ -1,6 +1,6 @@
 {
   "invoice": {
-    "gpt_enabled": true,
+    "gpt_enabled": false,
     "gpt_config": {
       "gpt_keys": [
         "amount_sentence",
@@ -96,7 +96,7 @@
               "date_earned": "String"
             }
           ],
-          "language": []
+          "languages": []
         }
       }
     },

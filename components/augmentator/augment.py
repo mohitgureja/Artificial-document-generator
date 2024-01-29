@@ -18,7 +18,8 @@ pipelines = [pipeline_archetype1, pipeline_archetype2, pipeline_archetype3, pipe
 # augment_filepath = "/Users/ssdn/PycharmProjects/Artificial-document-generator/data/output/images/resume/augmented/"
 
 def augment_dataset(directory_path):
-    print("Starting Augmentation")
+    print("\n------------------- Starting Augmentation -------------------\n")
+    print("It might take a few minutes.")
     augment_filepath = directory_path + "augmented"
     image_files = glob.glob(os.path.join(directory_path, "*.png"))
     count = 0

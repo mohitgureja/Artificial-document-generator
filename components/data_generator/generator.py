@@ -15,6 +15,8 @@ def generate_gpt_data(config_data, data_fields, doc_format):
     """
     data = {doc_format: {}}
     if config_data["gpt_enabled"]:
+        print("Generating data from GPT\n")
+        print("It might take a few minutes.")
         config_data = config_data["gpt_config"]
         for key in config_data["gpt_keys"]:
             if key in data_fields:
@@ -23,6 +25,7 @@ def generate_gpt_data(config_data, data_fields, doc_format):
                                                                 config_data["gpt_output"][key])
         helper.write_json(data, RESPONSE_FILE_PATH)
     else:
+        print("Getting already generated data from gpt response file")
         gpt_response = helper.read_json("data/input/renderer/gpt_response.json")
         for key in gpt_response[doc_format].keys():
             # if key in data_fields:
@@ -42,6 +45,8 @@ def generate_data(data_field_names, config_params, doc_format):
     :param config_params:
     :return:
     """
+    print("\n------------------- Starting data generation -------------------\n")
+
     # JSON Data file for configurations
     gen_config_data = helper.read_json(DATA_GEN_CONFIG)
     gen_config_data = gen_config_data[doc_format]
