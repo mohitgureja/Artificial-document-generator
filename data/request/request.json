@@ -1,0 +1,54 @@
+{
+  "invoice": {
+    "invoice_params": {
+      "address": true,
+      "rechnungsnummer": true,
+      "product_name": true,
+      "product_amount": true,
+      "customer_name": true,
+      "organization": true,
+      "amount_sentence": true,
+      "bank_iban": true,
+      "bank_swift": true,
+      "organization_address": true,
+      "organization_contact": true,
+      "date": true,
+      "diagnose": true
+    }
+  },
+  "resume": {
+    "resume_params": {
+      "name": true,
+      "address": true,
+      "email": true,
+      "phone_number": true,
+      "summary": true,
+      "position": true,
+      "company": true,
+      "company_location": true,
+      "experience_dates": true,
+      "responsibilities": true,
+      "project_title": true,
+      "project_dates": true,
+      "project_description": true,
+      "degree": true,
+      "school": true,
+      "school_location": true,
+      "graduation_date": true,
+      "skills": true,
+      "certificate_name": true,
+      "date_earned": true,
+      "languages": true,
+      "profile_image": true,
+      "resume_query": true
+    }
+  },
+  "count": 10,
+  "data_rendering": false,
+  "augmentation": false,
+  "groundtruth_format": "json",
+  "groundtruth_type": "block",
+  "countries": [
+    "de_DE"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "gpt_enabled": false,
+  "gpt_config": {
+    "gpt_keys": [
+      "resume_query"
+    ],
+    "gpt_key_pairs": {
+    },
+    "queries": {
+      "resume_query": "Can you create 1 CVs of different IT roles with experience and return the output in JSON format?\nThe main key sections can be Summary, Experience, Projects, Education, Skills, Certification, and others if required in a CV? Only write answer, please do not write any other sentences."
+    },
+    "gpt_output": {
+      "resume_query": {
+        "summary": "String",
+        "experience": [
+          {
+            "position": "String",
+            "company": "String",
+            "company_location": "String",
+            "experience_dates": "String",
+            "responsibilities": [
+              "String"
+            ]
+          }
+        ],
+        "projects": [
+          {
+            "project_title": "String",
+            "project_dates": "String",
+            "project_description": "String"
+          }
+        ],
+        "education": [
+          {
+            "degree": "String",
+            "school": "String",
+            "school_location": "String",
+            "graduation_date": "String"
+          }
+        ],
+        "skills": [
+          "String"
+        ],
+        "certifications": [
+          {
+            "certificate_name": "String",
+            "date_earned": "String"
+          }
+        ],
+        "languages": []
+      }
+    }
+  },
+  "faker_keys": {
+    "name": "name",
+    "address": "address",
+    "email": "email",
+    "phone_number": "phone_number",
+    "company_location": "location1",
+    "school_location": "location2"
+  },
+  "calculate_keys": [
+    "profile_image"
+  ],
+  "duplicate_keys": {}
+}

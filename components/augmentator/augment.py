@@ -20,7 +20,10 @@ pipelines = [pipeline_archetype1, pipeline_archetype2, pipeline_archetype3, pipe
 def augment_dataset(directory_path):
     print("\n------------------- Starting Augmentation -------------------\n")
     print("It might take a few minutes.")
-    augment_filepath = directory_path + "augmented"
+    augment_filepath = os.path.dirname(os.path.normpath(directory_path)) + os.path.sep + "augmented"
+    if not os.path.exists(augment_filepath):
+        os.makedirs(augment_filepath)
+
     image_files = glob.glob(os.path.join(directory_path, "*.png"))
     count = 0
     for img in image_files:

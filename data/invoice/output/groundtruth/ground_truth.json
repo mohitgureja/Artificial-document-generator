@@ -1,0 +1,138 @@
+{
+  "image0.png": {
+    "title": {
+      "content": "M\u00fchle Gunpf Stiftung & Co. KGaA",
+      "x1": 584,
+      "x2": 1643,
+      "y1": 141,
+      "y2": 225
+    },
+    "customer_name": {
+      "content": "Frau\n Dipl.-Ing. Inken Hoffmann MBA.",
+      "x1": 474,
+      "x2": 1162,
+      "y1": 718,
+      "y2": 829
+    },
+    "address": {
+      "content": "Jenny-F\u00f6rster-Allee 28\n83216 Roth",
+      "x1": 474,
+      "x2": 679,
+      "y1": 830,
+      "y2": 932
+    },
+    "organization": {
+      "content": "M\u00fchle Gunpf Stiftung & Co. KGaA",
+      "x1": 1592,
+      "x2": 2230,
+      "y1": 313,
+      "y2": 368
+    },
+    "organization_address": {
+      "content": "Jenny-F\u00f6rster-Allee 28\n83216 Roth",
+      "x1": 1592,
+      "x2": 1797,
+      "y1": 378,
+      "y2": 480
+    },
+    "organization_contact": {
+      "content": "Mob.    05574 995005",
+      "x1": 1592,
+      "x2": 1977,
+      "y1": 490,
+      "y2": 537
+    },
+    "bank_iban": {
+      "content": "Konto Nr.  DE51878520533018482286",
+      "x1": 1558,
+      "x2": 2244,
+      "y1": 1604,
+      "y2": 1651
+    },
+    "bank_swift": {
+      "content": "BIC.    JHEODE65S4X",
+      "x1": 1558,
+      "x2": 1963,
+      "y1": 1652,
+      "y2": 1699
+    },
+    "rechnungsnummer": {
+      "content": "R. Nr. 629725",
+      "x1": 1429,
+      "x2": 1679,
+      "y1": 1486,
+      "y2": 1533
+    },
+    "date": {
+      "content": "Datum. 1990-01-30",
+      "x1": 1429,
+      "x2": 1770,
+      "y1": 1543,
+      "y2": 1590
+    },
+    "diagnose": {
+      "content": "Diagnose-  Asthma",
+      "x1": 198,
+      "x2": 606,
+      "y1": 1689,
+      "y2": 1749
+    },
+    "product_amount": {
+      "x1": 1643.0,
+      "x2": 1867,
+      "y1": 1950,
+      "y2": 2319,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Psychologische Beratungssitzung",
+          "50 \u20ac"
+        ],
+        [
+          "Zahnreinigung",
+          "60 \u20ac"
+        ],
+        [
+          "Endoskopie des Magens",
+          "200 \u20ac"
+        ],
+        [
+          "Ultraschalluntersuchung der Schilddr\u00fcse",
+          "80 \u20ac"
+        ],
+        [
+          "Blutuntersuchung auf Vitaminmangel",
+          "30 \u20ac"
+        ],
+        [
+          "Radiologie-Untersuchung der Lunge",
+          "100 \u20ac"
+        ]
+      ],
+      "x1": 439,
+      "x2": 2129,
+      "y1": 1945,
+      "y2": 2324
+    },
+    "total_amount": {
+      "content": "Rechnungsbetrag.  520.00 \u20ac",
+      "x1": 1716,
+      "x2": 1912,
+      "y1": 2410,
+      "y2": 2522
+    },
+    "amount_sentence": {
+      "content": "Die Kosten f\u00fcr \u00e4rztliche Behandlungen belaufen sich auf 520.00 \u20ac EUR.",
+      "x1": 179,
+      "x2": 1440,
+      "y1": 2779,
+      "y2": 2834
+    }
+  }
+}

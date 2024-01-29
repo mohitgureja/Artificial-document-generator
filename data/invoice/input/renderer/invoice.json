@@ -1,0 +1,34 @@
+[
+  {
+    "address": "Jenny-F\u00f6rster-Allee 28\n83216 Roth",
+    "rechnungsnummer": 629725,
+    "customer_name": "Frau\n Dipl.-Ing. Inken Hoffmann MBA.",
+    "organization": "M\u00fchle Gunpf Stiftung & Co. KGaA",
+    "organization_address": "Jenny-F\u00f6rster-Allee 28\n83216 Roth",
+    "organization_contact": "05574 995005",
+    "bank_iban": "DE51878520533018482286",
+    "bank_swift": "JHEODE65S4X",
+    "date": "1990-01-30",
+    "diagnose": "Asthma",
+    "amount_sentence": "Die Kosten f\u00fcr \u00e4rztliche Behandlungen belaufen sich auf 520.00 \u20ac EUR.",
+    "product_name": [
+      "Psychologische Beratungssitzung",
+      "Zahnreinigung",
+      "Endoskopie des Magens",
+      "Ultraschalluntersuchung der Schilddr\u00fcse",
+      "Blutuntersuchung auf Vitaminmangel",
+      "Radiologie-Untersuchung der Lunge"
+    ],
+    "title": "M\u00fchle Gunpf Stiftung & Co. KGaA",
+    "product_amount": [
+      "50 \u20ac",
+      "60 \u20ac",
+      "200 \u20ac",
+      "80 \u20ac",
+      "30 \u20ac",
+      "100 \u20ac"
+    ],
+    "total_amount": "520.00 \u20ac",
+    "logo_image": "data/invoice/input/resources/Logo/adidas_trifold_logo.png"
+  }
+]

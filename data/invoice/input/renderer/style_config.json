@@ -1,0 +1,224 @@
+{
+  "border": {
+    "border_size": 10
+  },
+  "address": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 1,
+    "font": "fonts/arial.ttf",
+    "font_color": "black",
+    "textWrap": true
+  },
+  "bank_iban": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 1,
+    "font": "fonts/arial.ttf",
+    "font_color": "black",
+    "textWrap": true
+  },
+  "organization details": {
+    "width": 150,
+    "height": null,
+    "font_size": 60,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "bank details": {
+    "width": 150,
+    "height": null,
+    "font_size": 60,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "customer details": {
+    "width": 150,
+    "height": null,
+    "font_size": 60,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "invoice details": {
+    "width": 150,
+    "height": null,
+    "font_size": 60,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "black"
+  },
+  "total amount": {
+    "width": 150,
+    "height": null,
+    "font_size": 60,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "bank_swift": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 1,
+    "font": "fonts/arial.ttf",
+    "font_color": "black",
+    "textWrap": true
+  },
+  "rechnungsnummer": {
+    "width": 200,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "blue"
+  },
+  "customer_name": {
+    "width": 70,
+    "height": null,
+    "font_size": 45,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "diagnose": {
+    "width": 70,
+    "height": null,
+    "font_size": 45,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "blue",
+    "textWrap": false
+  },
+  "date": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/arial.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "organization_contact": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/arial.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "organization_address": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/arial.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "title": {
+    "width": 150,
+    "height": null,
+    "font_size": 66,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "invoice": {
+    "width": 150,
+    "height": null,
+    "font_size": 60,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "image": {
+    "width": 150,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "organization": {
+    "width": 150,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "product_name": {
+    "width": 700,
+    "height": null,
+    "font_size": 38,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/arial.ttf",
+    "font_color": "black",
+    "textWrap": true
+  },
+  "product_amount": {
+    "width": 200,
+    "height": null,
+    "font_size": 38,
+    "margin-left": 100,
+    "margin-top": 10,
+    "font": "fonts/arial.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "total_amount": {
+    "width": 200,
+    "height": null,
+    "font_size": 50,
+    "margin-left": 100,
+    "margin-top": 30,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "black",
+    "bold": true,
+    "textWrap": false
+  },
+  "amount_sentence": {
+    "width": 500,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 100,
+    "margin-top": 10,
+    "font": "fonts/arial.ttf",
+    "font_color": "black",
+    "textWrap": true
+  }
+}

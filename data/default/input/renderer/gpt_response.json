@@ -1,0 +1,56 @@
+{
+  "amount_sentence": [
+    "F\u00fcr \u00e4rztliche Leistungen erlauben wir uns, Ihnen <amount> EUR zu berechnen.",
+    "Wir berechnen Ihnen <amount> EUR f\u00fcr die erbrachten \u00e4rztlichen Leistungen.",
+    "Die Inanspruchnahme \u00e4rztlicher Leistungen kostet <amount> EUR.",
+    "Wir stellen Ihnen <amount> EUR f\u00fcr die \u00e4rztlichen Leistungen in Rechnung.",
+    "F\u00fcr erhaltene \u00e4rztliche Behandlungen betr\u00e4gt der Betrag <amount> EUR.",
+    "Der Preis f\u00fcr \u00e4rztliche Leistungen bel\u00e4uft sich auf <amount> EUR.",
+    "Um die \u00e4rztlichen Leistungen in Anspruch zu nehmen, m\u00fcssen Sie <amount> EUR bezahlen.",
+    "F\u00fcr die erhaltene \u00e4rztliche Versorgung berechnen wir Ihnen <amount> EUR.",
+    "Der Betrag von <amount> EUR wird f\u00fcr \u00e4rztliche Leistungen in Rechnung gestellt.",
+    "Die Kosten f\u00fcr \u00e4rztliche Behandlungen belaufen sich auf <amount> EUR."
+  ],
+  "product_name": [
+    [
+      "Implantation einer Herzschrittmacher-Elektrode",
+      "500 \u20ac"
+    ],
+    [
+      "Chirurgische Entfernung eines Muttermals",
+      "150 \u20ac"
+    ],
+    [
+      "Zahnreinigung",
+      "60 \u20ac"
+    ],
+    [
+      "Ultraschalluntersuchung der Schilddr\u00fcse",
+      "80 \u20ac"
+    ],
+    [
+      "Endoskopie des Magens",
+      "200 \u20ac"
+    ],
+    [
+      "Radiologie-Untersuchung der Lunge",
+      "100 \u20ac"
+    ],
+    [
+      "Blutuntersuchung auf Vitaminmangel",
+      "30 \u20ac"
+    ],
+    [
+      "Physiotherapie pro Sitzung",
+      "20 \u20ac"
+    ],
+    [
+      "Psychologische Beratungssitzung",
+      "50 \u20ac"
+    ],
+    [
+      "MRT-Untersuchung des Kopfes",
+      "250 \u20ac"
+    ]
+  ]
+}

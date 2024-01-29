@@ -1,0 +1,271 @@
+{
+  "image0.png": {
+    "name": {
+      "content": "Frau\n Pascale Birnbaum",
+      "x1": 863,
+      "x2": 1399,
+      "y1": 165,
+      "y2": 297
+    },
+    "address": {
+      "content": "Margareta-Girschner-Stra\u00dfe 0\n65104 Worbis",
+      "x1": 1670,
+      "x2": 1948,
+      "y1": 108,
+      "y2": 219
+    },
+    "email": {
+      "content": "stephanie59@example.net",
+      "x1": 1670,
+      "x2": 2143,
+      "y1": 220,
+      "y2": 275
+    },
+    "phone_number": {
+      "content": "+49(0)8046 458190",
+      "x1": 1670,
+      "x2": 2016,
+      "y1": 285,
+      "y2": 340
+    },
+    "summary": {
+      "content": "Experienced software developer with a strong background in full-stack development. Proficient in multiple programming languages and technologies. Proven ability to design and implement software solutions that meet business needs.",
+      "x1": 206,
+      "x2": 2207,
+      "y1": 310,
+      "y2": 410
+    },
+    "Experience": [
+      {
+        "content": "Experience",
+        "x1": 131,
+        "x2": 450,
+        "y1": 791,
+        "y2": 868
+      },
+      {
+        "position": {
+          "content": "Senior Software Engineer",
+          "x1": 131,
+          "x2": 616,
+          "y1": 898,
+          "y2": 953
+        },
+        "company": {
+          "content": "CodeCrafters Inc.",
+          "x1": 131,
+          "x2": 442,
+          "y1": 963,
+          "y2": 1010
+        },
+        "company_location": {
+          "content": "City, State",
+          "x1": 131,
+          "x2": 315,
+          "y1": 1020,
+          "y2": 1075
+        },
+        "experience_dates": {
+          "content": "July 2016 - Present",
+          "x1": 131,
+          "x2": 473,
+          "y1": 1085,
+          "y2": 1140
+        },
+        "responsibilities": {
+          "content": "Led the development of complex web applications, resulting in a 30% increase in user engagement.\nDesigned and implemented RESTful APIs for seamless integration with third-party services.\nMentored junior developers, fostering their professional growth and skill development.\nParticipated in code reviews and ensured code quality and adherence to best practices.",
+          "x1": 131,
+          "x2": 1666,
+          "y1": 1150,
+          "y2": 1370
+        }
+      },
+      {
+        "position": {
+          "content": "Software Developer",
+          "x1": 131,
+          "x2": 503,
+          "y1": 1410,
+          "y2": 1465
+        },
+        "company": {
+          "content": "TechSolutions Hub",
+          "x1": 131,
+          "x2": 467,
+          "y1": 1475,
+          "y2": 1522
+        },
+        "company_location": {
+          "content": "City, State",
+          "x1": 131,
+          "x2": 315,
+          "y1": 1532,
+          "y2": 1587
+        },
+        "experience_dates": {
+          "content": "May 2013 - June 2016",
+          "x1": 131,
+          "x2": 525,
+          "y1": 1597,
+          "y2": 1652
+        },
+        "responsibilities": {
+          "content": "Developed and maintained software applications, enhancing overall system performance.\nCollaborated with cross-functional teams to gather and analyze requirements for software projects.\nContributed to the design and architecture of software solutions, optimizing scalability.\nTroubleshooted and resolved software defects and issues in a timely manner.",
+          "x1": 131,
+          "x2": 1491,
+          "y1": 1662,
+          "y2": 1882
+        }
+      }
+    ],
+    "Education": [
+      {
+        "content": "Education",
+        "x1": 124,
+        "x2": 415,
+        "y1": 2464,
+        "y2": 2530
+      },
+      {
+        "degree": {
+          "content": "Bachelor of Science in Computer Science",
+          "x1": 124,
+          "x2": 858,
+          "y1": 2560,
+          "y2": 2615
+        },
+        "school": {
+          "content": "Tech University",
+          "x1": 124,
+          "x2": 398,
+          "y1": 2625,
+          "y2": 2680
+        },
+        "school_location": {
+          "content": "City, State",
+          "x1": 124,
+          "x2": 308,
+          "y1": 2690,
+          "y2": 2745
+        },
+        "graduation_date": {
+          "content": "May 2013",
+          "x1": 124,
+          "x2": 298,
+          "y1": 2755,
+          "y2": 2810
+        }
+      }
+    ],
+    "Project": [
+      {
+        "content": "Project",
+        "x1": 217,
+        "x2": 420,
+        "y1": 2014,
+        "y2": 2092
+      },
+      {
+        "project_title": {
+          "content": "E-commerce Platform Redesign",
+          "x1": 217,
+          "x2": 819,
+          "y1": 2122,
+          "y2": 2177
+        },
+        "project_dates": {
+          "content": "2018 - 2019",
+          "x1": 217,
+          "x2": 428,
+          "y1": 2187,
+          "y2": 2234
+        },
+        "project_description": {
+          "content": "Led a team in redesigning the e-commerce platform, resulting in a more user-friendly interface and increased sales.",
+          "x1": 217,
+          "x2": 2239,
+          "y1": 2244,
+          "y2": 2299
+        }
+      },
+      {
+        "project_title": {
+          "content": "Mobile App Development",
+          "x1": 217,
+          "x2": 690,
+          "y1": 2339,
+          "y2": 2394
+        },
+        "project_dates": {
+          "content": "2016 - 2017",
+          "x1": 217,
+          "x2": 428,
+          "y1": 2404,
+          "y2": 2451
+        },
+        "project_description": {
+          "content": "Developed a mobile app that received 100,000+ downloads and a 4.5-star rating on app stores.",
+          "x1": 217,
+          "x2": 1888,
+          "y1": 2461,
+          "y2": 2516
+        }
+      }
+    ],
+    "Skill": {
+      "content": "Skill",
+      "x1": 1643,
+      "x2": 1767,
+      "y1": 2538,
+      "y2": 2604
+    },
+    "skills": {
+      "content": "Java\nPython\nJavaScript\nC#\nSQL\nHTML/CSS\nReact.js\nNode.js\nExpress.js\nMySQL\nMongoDB\nGit\nVisual Studio Code\nEclipse\nPostman\nProblem Solving\nCommunication\nTeam Collaboration\nAdaptability",
+      "x1": 1643,
+      "x2": 1850,
+      "y1": 2634,
+      "y2": 3609
+    },
+    "Certification": [
+      {
+        "content": "Certification",
+        "x1": 143,
+        "x2": 493,
+        "y1": 3100,
+        "y2": 3166
+      },
+      {
+        "certificate_name": {
+          "content": "Certified ScrumMaster (CSM)",
+          "x1": 143,
+          "x2": 694,
+          "y1": 3196,
+          "y2": 3251
+        },
+        "date_earned": {
+          "content": "January 2018",
+          "x1": 143,
+          "x2": 383,
+          "y1": 3261,
+          "y2": 3316
+        }
+      },
+      {
+        "certificate_name": {
+          "content": "AWS Certified Developer - Associate",
+          "x1": 143,
+          "x2": 834,
+          "y1": 3356,
+          "y2": 3411
+        },
+        "date_earned": {
+          "content": "October 2015",
+          "x1": 143,
+          "x2": 383,
+          "y1": 3421,
+          "y2": 3468
+        }
+      }
+    ]
+  }
+}

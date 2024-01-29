@@ -1,0 +1,161 @@
+{
+  "image0.png": {
+    "INVOICE": {
+      "content": "INVOICE",
+      "x1": 1159,
+      "x2": 1406,
+      "y1": 152,
+      "y2": 218
+    },
+    "title": {
+      "content": "Vollbrecht Seifert GmbH & Co. KG",
+      "x1": 1564,
+      "x2": 2069,
+      "y1": 132,
+      "y2": 264
+    },
+    "rechnungsnummer": {
+      "content": "R. Nr. 635008",
+      "x1": 490,
+      "x2": 740,
+      "y1": 1455,
+      "y2": 1502
+    },
+    "date": {
+      "content": "Datum:  1999-05-16",
+      "x1": 490,
+      "x2": 842,
+      "y1": 1512,
+      "y2": 1559
+    },
+    "customer_name": {
+      "content": "Frau\n Anna-Lena Jockel",
+      "x1": 1546,
+      "x2": 1943,
+      "y1": 1655,
+      "y2": 1757
+    },
+    "address": {
+      "content": "D\u00f6rrweg 9/0\n25285 Zerbst",
+      "x1": 1546,
+      "x2": 1779,
+      "y1": 1758,
+      "y2": 1860
+    },
+    "bank_iban": {
+      "content": "Iban.  DE93162116901658543734",
+      "x1": 388,
+      "x2": 994,
+      "y1": 1118,
+      "y2": 1165
+    },
+    "bank_swift": {
+      "content": "BIC Code:    LRXNDEWBO96",
+      "x1": 388,
+      "x2": 919,
+      "y1": 1166,
+      "y2": 1213
+    },
+    "diagnose": {
+      "content": "Diagnose:  Rheumatoide Arthritis",
+      "x1": 855,
+      "x2": 1572,
+      "y1": 1496,
+      "y2": 1556
+    },
+    "organization": {
+      "content": "Vollbrecht Seifert GmbH & Co. KG",
+      "x1": 1725,
+      "x2": 1860,
+      "y1": 885,
+      "y2": 969
+    },
+    "organization_address": {
+      "content": "D\u00f6rrweg 9/0\n25285 Zerbst",
+      "x1": 1725,
+      "x2": 1958,
+      "y1": 979,
+      "y2": 1081
+    },
+    "organization_contact": {
+      "content": "Tel:  02135 22173",
+      "x1": 1725,
+      "x2": 2044,
+      "y1": 1091,
+      "y2": 1138
+    },
+    "product_amount": {
+      "x1": 1981.1538461538462,
+      "x2": 2175,
+      "y1": 1939,
+      "y2": 2520,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Ultraschalluntersuchung der Schilddr\u00fcse",
+          "80 \u20ac"
+        ],
+        [
+          "Psychologische Beratungssitzung",
+          "50 \u20ac"
+        ],
+        [
+          "Implantation einer Herzschrittmacher-Elektrode",
+          "500 \u20ac"
+        ],
+        [
+          "Radiologie-Untersuchung der Lunge",
+          "100 \u20ac"
+        ],
+        [
+          "MRT-Untersuchung des Kopfes",
+          "250 \u20ac"
+        ],
+        [
+          "Endoskopie des Magens",
+          "200 \u20ac"
+        ],
+        [
+          "Zahnreinigung",
+          "60 \u20ac"
+        ],
+        [
+          "Physiotherapie pro Sitzung",
+          "20 \u20ac"
+        ],
+        [
+          "Blutuntersuchung auf Vitaminmangel",
+          "30 \u20ac"
+        ],
+        [
+          "Chirurgische Entfernung eines Muttermals",
+          "150 \u20ac"
+        ]
+      ],
+      "x1": 368,
+      "x2": 2058,
+      "y1": 1813,
+      "y2": 2404
+    },
+    "total_amount": {
+      "content": "Rechnungsbetrag.  1440.00 \u20ac",
+      "x1": 1734,
+      "x2": 1958,
+      "y1": 2274,
+      "y2": 2386
+    },
+    "amount_sentence": {
+      "content": "Der Preis f\u00fcr \u00e4rztliche Leistungen bel\u00e4uft sich auf 1440.00 \u20ac EUR.",
+      "x1": 1193,
+      "x2": 1323,
+      "y1": 3265,
+      "y2": 3357
+    }
+  }
+}

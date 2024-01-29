@@ -14,6 +14,8 @@ def is_rendering_required(data):
     return data.data_rendering
 
 def is_augment_required(data):
+    if not is_rendering_required(data):
+        return False
     return data.augmentation
 
 

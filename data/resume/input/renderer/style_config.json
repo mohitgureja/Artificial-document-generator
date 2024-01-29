@@ -1,0 +1,282 @@
+{
+  "name": {
+    "width": 150,
+    "height": null,
+    "font_size": 60,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "title": {
+    "width": 150,
+    "height": null,
+    "font_size": 60,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "experience": {
+    "width": 150,
+    "height": null,
+    "font_size": 60,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "education": {
+    "width": 150,
+    "height": null,
+    "font_size": 60,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "skill": {
+    "width": 150,
+    "height": null,
+    "font_size": 60,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "project": {
+    "width": 150,
+    "height": null,
+    "font_size": 60,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "certification": {
+    "width": 150,
+    "height": null,
+    "font_size": 60,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "language": {
+    "width": 150,
+    "height": null,
+    "font_size": 60,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "address": {
+    "width": 70,
+    "height": null,
+    "font_size": 45,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/arial.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "email": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 1,
+    "font": "fonts/arial.ttf",
+    "font_color": "black",
+    "textWrap": true
+  },
+  "phone_number": {
+    "width": 150,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "summary": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/arial.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "position": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "blue",
+    "textWrap": false
+  },
+  "company": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/arial.ttf",
+    "font_color": "blue",
+    "textWrap": false
+  },
+  "company_location": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/arial.ttf",
+    "font_color": "blue",
+    "textWrap": false
+  },
+  "experience_dates": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/arial.ttf",
+    "font_color": "blue",
+    "textWrap": false
+  },
+  "responsibilities": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/arial.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "project_title": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "project_dates": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/arial.ttf",
+    "font_color": "blue",
+    "textWrap": false
+  },
+  "project_description": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/arial.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "degree": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/arial.ttf",
+    "font_color": "blue",
+    "textWrap": false
+  },
+  "school": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/arial.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "school_location": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/arial.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "graduation_date": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/arial.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "skills": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/arial.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "certificate_name": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/Arial Bold.ttf",
+    "font_color": "black",
+    "textWrap": false
+  },
+  "date_earned": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/arial.ttf",
+    "font_color": "blue",
+    "textWrap": false
+  },
+  "languages": {
+    "width": 70,
+    "height": null,
+    "font_size": 40,
+    "margin-left": 10,
+    "margin-top": 10,
+    "font": "fonts/arial.ttf",
+    "font_color": "black",
+    "textWrap": false
+  }
+}
