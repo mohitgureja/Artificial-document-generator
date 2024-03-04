@@ -1,4 +1,7 @@
+from typing import Optional
+
 from pydantic import BaseModel
+
 
 # @dataclass
 class InvoiceData(BaseModel):
@@ -78,11 +81,12 @@ def get_resume_params(request_body):
 
 # @dataclass
 class RequestBody(BaseModel):
-    invoice_params: InvoiceData | None = None
-    resume_params: ResumeData | None = None
+    invoice_params: Optional[InvoiceData] = None
+    resume_params: Optional[ResumeData] = None
     count: int
     augmentation: bool = False
     data_rendering: bool = False
+    gpt_enabled: bool = False
     groundtruth_type: str
     groundtruth_format: str
     countries: list[str]

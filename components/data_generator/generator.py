@@ -1,3 +1,5 @@
+from loguru import logger
+
 from components.data_generator import data_service, faker_wrapper, helper, gpt_service
 
 doc = "default"
@@ -6,7 +8,7 @@ write_data_filepath = f"data/{doc}/input/renderer/"
 response_file_path = f"data/{doc}/input/renderer/gpt_response.json"
 
 
-def generate_gpt_data(config_data, data_fields):
+def generate_gpt_data(config_data, data_fields, config_params):
     """
     Generate data for field variables using GPT model
     :param data_fields:
@@ -14,19 +16,18 @@ def generate_gpt_data(config_data, data_fields):
     :return:
     """
     data = {}
-    if config_data["gpt_enabled"]:
-        print("Generating data from GPT\n")
-        print("It might take a few minutes.")
+    if config_params["gpt_enabled"]:
+        logger.info("Generating data from GPT\n")
+        logger.info("It might take a few minutes.")
         config_data = config_data["gpt_config"]
         for key in config_data["gpt_keys"]:
             if key in data_fields:
                 query = config_data["queries"][key]
                 data = gpt_service.generate_gpt_data(data, key, query,
                                                      config_data["gpt_output"][key])
-        print(response_file_path)
         helper.write_json(data, response_file_path)
     else:
-        print("Getting already generated data from gpt response file")
+        logger.info("Getting already generated data from gpt response file")
         gpt_response = helper.read_json(response_file_path)
         for key in gpt_response.keys():
             # if key in data_fields:
@@ -42,7 +43,7 @@ def generate_data(data_field_names, config_params, doc_format):
     :param config_params:
     :return:
     """
-    print("\n------------------- Starting data generation -------------------\n")
+    logger.info("\n------------------- Starting data generation -------------------\n")
     global data_gen_config, write_data_filepath, response_file_path
     data_gen_config = f"data/{doc_format}/input/generator/config.json"
     write_data_filepath = f"data/{doc_format}/input/renderer/"
@@ -56,7 +57,7 @@ def generate_data(data_field_names, config_params, doc_format):
 
     # Generate gpt sentences for fields
     data_field_keys = data_field_names.keys()
-    gpt_data = generate_gpt_data(gen_config_data, data_field_keys)
+    gpt_data = generate_gpt_data(gen_config_data, data_field_keys, config_params)
 
     # Total number of data person
     for i in range(config_params["count"]):

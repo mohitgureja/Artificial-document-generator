@@ -1,87 +1,94 @@
 {
   "image0.png": {
+    "INVOICE": {
+      "content": "INVOICE",
+      "x1": 1410,
+      "x2": 1657,
+      "y1": 111,
+      "y2": 177
+    },
     "title": {
-      "content": "M\u00fchle Gunpf Stiftung & Co. KGaA",
-      "x1": 584,
-      "x2": 1643,
-      "y1": 141,
-      "y2": 225
-    },
-    "customer_name": {
-      "content": "Frau\n Dipl.-Ing. Inken Hoffmann MBA.",
-      "x1": 474,
-      "x2": 1162,
-      "y1": 718,
-      "y2": 829
-    },
-    "address": {
-      "content": "Jenny-F\u00f6rster-Allee 28\n83216 Roth",
-      "x1": 474,
-      "x2": 679,
-      "y1": 830,
-      "y2": 932
-    },
-    "organization": {
-      "content": "M\u00fchle Gunpf Stiftung & Co. KGaA",
-      "x1": 1592,
-      "x2": 2230,
-      "y1": 313,
-      "y2": 368
-    },
-    "organization_address": {
-      "content": "Jenny-F\u00f6rster-Allee 28\n83216 Roth",
-      "x1": 1592,
-      "x2": 1797,
-      "y1": 378,
-      "y2": 480
-    },
-    "organization_contact": {
-      "content": "Mob.    05574 995005",
-      "x1": 1592,
-      "x2": 1977,
-      "y1": 490,
-      "y2": 537
-    },
-    "bank_iban": {
-      "content": "Konto Nr.  DE51878520533018482286",
-      "x1": 1558,
-      "x2": 2244,
-      "y1": 1604,
-      "y2": 1651
-    },
-    "bank_swift": {
-      "content": "BIC.    JHEODE65S4X",
-      "x1": 1558,
-      "x2": 1963,
-      "y1": 1652,
-      "y2": 1699
+      "content": "Zahn KGaA",
+      "x1": 1896,
+      "x2": 2255,
+      "y1": 86,
+      "y2": 157
     },
     "rechnungsnummer": {
-      "content": "R. Nr. 629725",
-      "x1": 1429,
-      "x2": 1679,
-      "y1": 1486,
-      "y2": 1533
+      "content": "Rechnungsnummer:  244418",
+      "x1": 388,
+      "x2": 928,
+      "y1": 853,
+      "y2": 908
     },
     "date": {
-      "content": "Datum. 1990-01-30",
-      "x1": 1429,
-      "x2": 1770,
-      "y1": 1543,
-      "y2": 1590
+      "content": "Date:  1994-12-08",
+      "x1": 388,
+      "x2": 707,
+      "y1": 918,
+      "y2": 965
+    },
+    "customer_name": {
+      "content": "Bernhardine Riehl",
+      "x1": 1410,
+      "x2": 1799,
+      "y1": 1084,
+      "y2": 1135
+    },
+    "address": {
+      "content": "Trubplatz 9\n63988 Kitzingen",
+      "x1": 1410,
+      "x2": 1695,
+      "y1": 1136,
+      "y2": 1246
+    },
+    "bank_iban": {
+      "content": "IBAN.    DE13499345721193370588",
+      "x1": 388,
+      "x2": 1033,
+      "y1": 1316,
+      "y2": 1363
+    },
+    "bank_swift": {
+      "content": "Swift.  NZKRDEF16BP",
+      "x1": 388,
+      "x2": 795,
+      "y1": 1364,
+      "y2": 1411
     },
     "diagnose": {
-      "content": "Diagnose-  Asthma",
-      "x1": 198,
-      "x2": 606,
-      "y1": 1689,
-      "y2": 1749
+      "content": "Diagnose-  Nierenstein",
+      "x1": 388,
+      "x2": 877,
+      "y1": 1530,
+      "y2": 1590
+    },
+    "organization": {
+      "content": "Zahn KGaA",
+      "x1": 1410,
+      "x2": 1626,
+      "y1": 1538,
+      "y2": 1585
+    },
+    "organization_address": {
+      "content": "Trubplatz 9\n63988 Kitzingen",
+      "x1": 1410,
+      "x2": 1695,
+      "y1": 1595,
+      "y2": 1705
+    },
+    "organization_contact": {
+      "content": "Tel:  (00541) 32274",
+      "x1": 1410,
+      "x2": 1755,
+      "y1": 1715,
+      "y2": 1770
     },
     "product_amount": {
-      "x1": 1643.0,
-      "x2": 1867,
-      "y1": 1950,
-      "y2": 2319,
+      "x1": 1767.5454545454545,
+      "x2": 2073,
+      "y1": 1829,
+      "y2": 2296,
       "content": ""
     },
     "product_table": {
@@ -91,48 +98,1431 @@
           "Betrag"
         ],
         [
-          "Psychologische Beratungssitzung",
-          "50 \u20ac"
-        ],
-        [
-          "Zahnreinigung",
-          "60 \u20ac"
-        ],
-        [
-          "Endoskopie des Magens",
-          "200 \u20ac"
-        ],
-        [
-          "Ultraschalluntersuchung der Schilddr\u00fcse",
+          "Mammographie",
           "80 \u20ac"
         ],
         [
-          "Blutuntersuchung auf Vitaminmangel",
+          "Ultraschall der Schilddr\u00fcse",
+          "40 \u20ac"
+        ],
+        [
+          "R\u00f6ntgenaufnahme",
           "30 \u20ac"
         ],
         [
-          "Radiologie-Untersuchung der Lunge",
-          "100 \u20ac"
+          "Zahnreinigung",
+          "70 \u20ac"
+        ],
+        [
+          "Hautbiopsie",
+          "60 \u20ac"
+        ],
+        [
+          "Blutuntersuchung",
+          "15 \u20ac"
+        ],
+        [
+          "Lungenfunktionstest",
+          "50 \u20ac"
+        ],
+        [
+          "Physiotherapie pro Sitzung",
+          "40 \u20ac"
         ]
       ],
-      "x1": 439,
-      "x2": 2129,
-      "y1": 1945,
-      "y2": 2324
+      "x1": 170,
+      "x2": 1860,
+      "y1": 1824,
+      "y2": 2301
     },
     "total_amount": {
-      "content": "Rechnungsbetrag.  520.00 \u20ac",
-      "x1": 1716,
-      "x2": 1912,
-      "y1": 2410,
-      "y2": 2522
+      "content": "Rechnungsbetrag:  385.00 \u20ac",
+      "x1": 1410,
+      "x2": 1606,
+      "y1": 2544,
+      "y2": 2656
     },
     "amount_sentence": {
-      "content": "Die Kosten f\u00fcr \u00e4rztliche Behandlungen belaufen sich auf 520.00 \u20ac EUR.",
-      "x1": 179,
-      "x2": 1440,
-      "y1": 2779,
-      "y2": 2834
+      "content": "F\u00fcr p\u00e4dagogische Weiterbildungen erlauben wir uns, Ihnen 385.00 \u20ac zu berechnen.",
+      "x1": 870,
+      "x2": 1068,
+      "y1": 2876,
+      "y2": 2968
+    }
+  },
+  "image1.png": {
+    "INVOICE": {
+      "content": "INVOICE",
+      "x1": 1414,
+      "x2": 1661,
+      "y1": 155,
+      "y2": 221
+    },
+    "title": {
+      "content": "Langern",
+      "x1": 647,
+      "x2": 907,
+      "y1": 367,
+      "y2": 451
+    },
+    "Invoice Details": {
+      "content": "Invoice Details",
+      "x1": 325,
+      "x2": 745,
+      "y1": 865,
+      "y2": 931
+    },
+    "rechnungsnummer": {
+      "content": "R. Nr. 855940",
+      "x1": 325,
+      "x2": 575,
+      "y1": 961,
+      "y2": 1008
+    },
+    "date": {
+      "content": "Datum:  2002-10-24",
+      "x1": 325,
+      "x2": 677,
+      "y1": 1018,
+      "y2": 1065
+    },
+    "Customer details": {
+      "content": "Customer details",
+      "x1": 1414,
+      "x2": 1900,
+      "y1": 476,
+      "y2": 542
+    },
+    "customer_name": {
+      "content": "Felicia Pechel",
+      "x1": 1414,
+      "x2": 1713,
+      "y1": 572,
+      "y2": 623
+    },
+    "address": {
+      "content": "Dowergallee 86\n07042 Dresden",
+      "x1": 1414,
+      "x2": 1685,
+      "y1": 624,
+      "y2": 726
+    },
+    "Bank Details": {
+      "content": "Bank Details",
+      "x1": 325,
+      "x2": 684,
+      "y1": 563,
+      "y2": 629
+    },
+    "bank_iban": {
+      "content": "IBAN.    DE17520043009468178548",
+      "x1": 325,
+      "x2": 970,
+      "y1": 650,
+      "y2": 697
+    },
+    "bank_swift": {
+      "content": "Swift.  PTJIDEM1KCO",
+      "x1": 325,
+      "x2": 725,
+      "y1": 698,
+      "y2": 745
+    },
+    "diagnose": {
+      "content": "Diagnose-  Nierenstein",
+      "x1": 325,
+      "x2": 814,
+      "y1": 1231,
+      "y2": 1291
+    },
+    "Organization details": {
+      "content": "Organization details",
+      "x1": 1414,
+      "x2": 1989,
+      "y1": 793,
+      "y2": 871
+    },
+    "organization": {
+      "content": "Langern",
+      "x1": 1414,
+      "x2": 1570,
+      "y1": 901,
+      "y2": 956
+    },
+    "organization_address": {
+      "content": "Dowergallee 86\n07042 Dresden",
+      "x1": 1414,
+      "x2": 1685,
+      "y1": 966,
+      "y2": 1068
+    },
+    "organization_contact": {
+      "content": "Contact:    +49(0)1603 593916",
+      "x1": 1414,
+      "x2": 1952,
+      "y1": 1078,
+      "y2": 1133
+    },
+    "product_amount": {
+      "x1": 1704.5454545454545,
+      "x2": 2010,
+      "y1": 1692,
+      "y2": 2204,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "EKG",
+          "25 \u20ac"
+        ],
+        [
+          "Lungenfunktionstest",
+          "50 \u20ac"
+        ],
+        [
+          "R\u00f6ntgenaufnahme",
+          "30 \u20ac"
+        ],
+        [
+          "Zahnreinigung",
+          "70 \u20ac"
+        ],
+        [
+          "Hautbiopsie",
+          "60 \u20ac"
+        ],
+        [
+          "Physiotherapie pro Sitzung",
+          "40 \u20ac"
+        ],
+        [
+          "Ultraschall der Schilddr\u00fcse",
+          "40 \u20ac"
+        ],
+        [
+          "Blutuntersuchung",
+          "15 \u20ac"
+        ],
+        [
+          "Augenuntersuchung",
+          "20 \u20ac"
+        ]
+      ],
+      "x1": 445,
+      "x2": 2135,
+      "y1": 1687,
+      "y2": 2209
+    },
+    "Total Amount": {
+      "content": "Total Amount",
+      "x1": 1414,
+      "x2": 1802,
+      "y1": 2255,
+      "y2": 2321
+    },
+    "total_amount": {
+      "content": "Rechnungsbetrag.  350.00 \u20ac",
+      "x1": 1414,
+      "x2": 1443,
+      "y1": 2371,
+      "y2": 2483
+    },
+    "amount_sentence": {
+      "content": "F\u00fcr p\u00e4dagogische Weiterbildungen erlauben wir uns, Ihnen 350.00 \u20ac zu berechnen.",
+      "x1": 647,
+      "x2": 1173,
+      "y1": 2808,
+      "y2": 2900
+    }
+  },
+  "image2.png": {
+    "title": {
+      "content": "Ruppersberger",
+      "x1": 1567,
+      "x2": 2042,
+      "y1": 135,
+      "y2": 219
+    },
+    "customer_name": {
+      "content": "Yusuf Kramer B.Eng.",
+      "x1": 442,
+      "x2": 895,
+      "y1": 1050,
+      "y2": 1110
+    },
+    "address": {
+      "content": "Reingard-Mitschke-Platz 284\n99520 Gro\u00dfenhain",
+      "x1": 442,
+      "x2": 772,
+      "y1": 1111,
+      "y2": 1213
+    },
+    "organization": {
+      "content": "Ruppersberger",
+      "x1": 1567,
+      "x2": 1853,
+      "y1": 1047,
+      "y2": 1102
+    },
+    "organization_address": {
+      "content": "Reingard-Mitschke-Platz 284\n99520 Gro\u00dfenhain",
+      "x1": 1567,
+      "x2": 1897,
+      "y1": 1112,
+      "y2": 1214
+    },
+    "organization_contact": {
+      "content": "Tele.  +49(0)8896 652197",
+      "x1": 1567,
+      "x2": 2023,
+      "y1": 1224,
+      "y2": 1279
+    },
+    "bank_iban": {
+      "content": "Konto Nr.  DE11786900991466776389",
+      "x1": 1567,
+      "x2": 2253,
+      "y1": 1529,
+      "y2": 1576
+    },
+    "bank_swift": {
+      "content": "Swift.  GVOODE2QGJ1",
+      "x1": 1567,
+      "x2": 1989,
+      "y1": 1577,
+      "y2": 1626
+    },
+    "rechnungsnummer": {
+      "content": "Rechnungsnummer:  590657",
+      "x1": 1567,
+      "x2": 2107,
+      "y1": 370,
+      "y2": 425
+    },
+    "date": {
+      "content": "Date:  2018-08-01",
+      "x1": 1567,
+      "x2": 1886,
+      "y1": 435,
+      "y2": 482
+    },
+    "diagnose": {
+      "content": "Diagnose-  Nierenstein",
+      "x1": 442,
+      "x2": 931,
+      "y1": 1660,
+      "y2": 1720
+    },
+    "product_amount": {
+      "x1": 1821.5454545454545,
+      "x2": 2127,
+      "y1": 1963,
+      "y2": 2422,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "R\u00f6ntgenaufnahme",
+          "30 \u20ac"
+        ],
+        [
+          "Physiotherapie pro Sitzung",
+          "40 \u20ac"
+        ],
+        [
+          "Lungenfunktionstest",
+          "50 \u20ac"
+        ],
+        [
+          "Blutuntersuchung",
+          "15 \u20ac"
+        ],
+        [
+          "Hautbiopsie",
+          "60 \u20ac"
+        ],
+        [
+          "Zahnreinigung",
+          "70 \u20ac"
+        ],
+        [
+          "EKG",
+          "25 \u20ac"
+        ],
+        [
+          "Ultraschall der Schilddr\u00fcse",
+          "40 \u20ac"
+        ]
+      ],
+      "x1": 268,
+      "x2": 1958,
+      "y1": 1958,
+      "y2": 2427
+    },
+    "total_amount": {
+      "content": "Rechnungsbetrag:  330.00 \u20ac",
+      "x1": 1567,
+      "x2": 2237,
+      "y1": 2515,
+      "y2": 2581
+    },
+    "amount_sentence": {
+      "content": "F\u00fcr steuerrechtliche Beratungen erlauben wir uns, Ihnen 330.00 \u20ac zu berechnen.",
+      "x1": 442,
+      "x2": 1858,
+      "y1": 3014,
+      "y2": 3069
+    }
+  },
+  "image3.png": {
+    "INVOICE": {
+      "content": "INVOICE",
+      "x1": 515,
+      "x2": 762,
+      "y1": 163,
+      "y2": 229
+    },
+    "title": {
+      "content": "Rosemann Stiftung & Co. KGaA",
+      "x1": 1220,
+      "x2": 1528,
+      "y1": 100,
+      "y2": 245
+    },
+    "rechnungsnummer": {
+      "content": "Rechnung Nr.  797489",
+      "x1": 441,
+      "x2": 855,
+      "y1": 901,
+      "y2": 956
+    },
+    "date": {
+      "content": "Invoice Date.  1996-09-06",
+      "x1": 441,
+      "x2": 897,
+      "y1": 966,
+      "y2": 1013
+    },
+    "customer_name": {
+      "content": "Beatrix Wohlgemut",
+      "x1": 1220,
+      "x2": 1630,
+      "y1": 1065,
+      "y2": 1125
+    },
+    "address": {
+      "content": "Wellergasse 9\n01023 Gelnhausen",
+      "x1": 1220,
+      "x2": 1555,
+      "y1": 1126,
+      "y2": 1228
+    },
+    "bank_iban": {
+      "content": "Iban.  DE39446244478091867072",
+      "x1": 441,
+      "x2": 1047,
+      "y1": 1138,
+      "y2": 1185
+    },
+    "bank_swift": {
+      "content": "BIC.    SHHDDEMN4H3",
+      "x1": 441,
+      "x2": 868,
+      "y1": 1186,
+      "y2": 1233
+    },
+    "diagnose": {
+      "content": "Diagnose:  Chronisch obstruktive Lungenerkrankung (COPD)",
+      "x1": 441,
+      "x2": 1019,
+      "y1": 1266,
+      "y2": 1376
+    },
+    "organization": {
+      "content": "Rosemann Stiftung & Co. KGaA",
+      "x1": 1220,
+      "x2": 1820,
+      "y1": 1296,
+      "y2": 1351
+    },
+    "organization_address": {
+      "content": "Wellergasse 9\n01023 Gelnhausen",
+      "x1": 1220,
+      "x2": 1555,
+      "y1": 1361,
+      "y2": 1463
+    },
+    "organization_contact": {
+      "content": "Tel:  +49(0)7506457097",
+      "x1": 1220,
+      "x2": 1643,
+      "y1": 1473,
+      "y2": 1528
+    },
+    "product_amount": {
+      "x1": 1820.5454545454545,
+      "x2": 2126,
+      "y1": 1938,
+      "y2": 2503,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Blutuntersuchung",
+          "15 \u20ac"
+        ],
+        [
+          "Ultraschall der Schilddr\u00fcse",
+          "40 \u20ac"
+        ],
+        [
+          "EKG",
+          "25 \u20ac"
+        ],
+        [
+          "R\u00f6ntgenaufnahme",
+          "30 \u20ac"
+        ],
+        [
+          "Lungenfunktionstest",
+          "50 \u20ac"
+        ],
+        [
+          "Augenuntersuchung",
+          "20 \u20ac"
+        ],
+        [
+          "Hautbiopsie",
+          "60 \u20ac"
+        ],
+        [
+          "Zahnreinigung",
+          "70 \u20ac"
+        ],
+        [
+          "Physiotherapie pro Sitzung",
+          "40 \u20ac"
+        ],
+        [
+          "Mammographie",
+          "80 \u20ac"
+        ]
+      ],
+      "x1": 233,
+      "x2": 1923,
+      "y1": 1933,
+      "y2": 2508
+    },
+    "total_amount": {
+      "content": "Rechnungsbetrag.  430.00 \u20ac",
+      "x1": 1220,
+      "x2": 1887,
+      "y1": 2620,
+      "y2": 2686
+    },
+    "amount_sentence": {
+      "content": "F\u00fcr p\u00e4dagogische Weiterbildungen erlauben wir uns, Ihnen 430.00 \u20ac zu berechnen.",
+      "x1": 515,
+      "x2": 713,
+      "y1": 2862,
+      "y2": 2954
+    }
+  },
+  "image4.png": {
+    "title": {
+      "content": "Schmidtke",
+      "x1": 795,
+      "x2": 1129,
+      "y1": 119,
+      "y2": 190
+    },
+    "customer_name": {
+      "content": "Nico Heinrich MBA.",
+      "x1": 413,
+      "x2": 834,
+      "y1": 479,
+      "y2": 530
+    },
+    "address": {
+      "content": "Hofmanngasse 3\n72853 Schl\u00fcchtern",
+      "x1": 413,
+      "x2": 744,
+      "y1": 531,
+      "y2": 633
+    },
+    "organization": {
+      "content": "Schmidtke",
+      "x1": 1396,
+      "x2": 1597,
+      "y1": 453,
+      "y2": 500
+    },
+    "organization_address": {
+      "content": "Hofmanngasse 3\n72853 Schl\u00fcchtern",
+      "x1": 1396,
+      "x2": 1727,
+      "y1": 510,
+      "y2": 612
+    },
+    "organization_contact": {
+      "content": "Tel:  (05287) 09303",
+      "x1": 1396,
+      "x2": 1741,
+      "y1": 622,
+      "y2": 677
+    },
+    "bank_iban": {
+      "content": "IBAN.    DE47630568517339680196",
+      "x1": 1396,
+      "x2": 1892,
+      "y1": 1613,
+      "y2": 1697
+    },
+    "bank_swift": {
+      "content": "BIC:    SKQRDEJJ0ST",
+      "x1": 1396,
+      "x2": 1801,
+      "y1": 1698,
+      "y2": 1747
+    },
+    "rechnungsnummer": {
+      "content": "R. Nr. 269430",
+      "x1": 1396,
+      "x2": 1646,
+      "y1": 809,
+      "y2": 856
+    },
+    "date": {
+      "content": "Datum. 1974-08-21",
+      "x1": 1396,
+      "x2": 1737,
+      "y1": 866,
+      "y2": 913
+    },
+    "diagnose": {
+      "content": "Diagnose:  Asthma",
+      "x1": 413,
+      "x2": 821,
+      "y1": 1383,
+      "y2": 1443
+    },
+    "product_amount": {
+      "x1": 1792.5454545454545,
+      "x2": 2098,
+      "y1": 2089,
+      "y2": 2556,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Lungenfunktionstest",
+          "50 \u20ac"
+        ],
+        [
+          "Ultraschall der Schilddr\u00fcse",
+          "40 \u20ac"
+        ],
+        [
+          "Physiotherapie pro Sitzung",
+          "40 \u20ac"
+        ],
+        [
+          "Zahnreinigung",
+          "70 \u20ac"
+        ],
+        [
+          "Hautbiopsie",
+          "60 \u20ac"
+        ],
+        [
+          "Blutuntersuchung",
+          "15 \u20ac"
+        ],
+        [
+          "Mammographie",
+          "80 \u20ac"
+        ],
+        [
+          "R\u00f6ntgenaufnahme",
+          "30 \u20ac"
+        ]
+      ],
+      "x1": 347,
+      "x2": 2037,
+      "y1": 2084,
+      "y2": 2561
+    },
+    "total_amount": {
+      "content": "Rechnungsbetrag.  385.00 \u20ac",
+      "x1": 1396,
+      "x2": 2063,
+      "y1": 2750,
+      "y2": 2816
+    },
+    "amount_sentence": {
+      "content": "F\u00fcr technische Reparaturen erlauben wir uns, Ihnen 385.00 \u20ac zu berechnen.",
+      "x1": 413,
+      "x2": 1754,
+      "y1": 3085,
+      "y2": 3140
+    }
+  },
+  "image5.png": {
+    "title": {
+      "content": "Rudolph Stiftung & Co. KGaA",
+      "x1": 759,
+      "x2": 1683,
+      "y1": 168,
+      "y2": 252
+    },
+    "customer_name": {
+      "content": "Dipl.-Ing. Franca Hande B.Sc.",
+      "x1": 241,
+      "x2": 872,
+      "y1": 549,
+      "y2": 609
+    },
+    "address": {
+      "content": "Eigenwilligring 9\n75121 Griesbach Rottal",
+      "x1": 241,
+      "x2": 658,
+      "y1": 610,
+      "y2": 712
+    },
+    "organization": {
+      "content": "Rudolph Stiftung & Co. KGaA",
+      "x1": 1379,
+      "x2": 1936,
+      "y1": 910,
+      "y2": 965
+    },
+    "organization_address": {
+      "content": "Eigenwilligring 9\n75121 Griesbach Rottal",
+      "x1": 1379,
+      "x2": 1796,
+      "y1": 975,
+      "y2": 1077
+    },
+    "organization_contact": {
+      "content": "Mob.    0457829242",
+      "x1": 1379,
+      "x2": 1731,
+      "y1": 1087,
+      "y2": 1134
+    },
+    "bank_iban": {
+      "content": "Iban.  DE45996132109747059567",
+      "x1": 1379,
+      "x2": 1985,
+      "y1": 1638,
+      "y2": 1685
+    },
+    "bank_swift": {
+      "content": "BIC Code:    BIXLDEA0JPI",
+      "x1": 1379,
+      "x2": 1857,
+      "y1": 1686,
+      "y2": 1733
+    },
+    "rechnungsnummer": {
+      "content": "Rechnungsnummer:  497982",
+      "x1": 1379,
+      "x2": 1919,
+      "y1": 347,
+      "y2": 402
+    },
+    "date": {
+      "content": "Invoice Date.  2003-06-24",
+      "x1": 1379,
+      "x2": 1835,
+      "y1": 412,
+      "y2": 459
+    },
+    "diagnose": {
+      "content": "Diagnose:  Osteoporose",
+      "x1": 241,
+      "x2": 760,
+      "y1": 1160,
+      "y2": 1220
+    },
+    "product_amount": {
+      "x1": 1620.5454545454545,
+      "x2": 1926,
+      "y1": 1857,
+      "y2": 2422,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Blutuntersuchung",
+          "15 \u20ac"
+        ],
+        [
+          "Ultraschall der Schilddr\u00fcse",
+          "40 \u20ac"
+        ],
+        [
+          "EKG",
+          "25 \u20ac"
+        ],
+        [
+          "R\u00f6ntgenaufnahme",
+          "30 \u20ac"
+        ],
+        [
+          "Lungenfunktionstest",
+          "50 \u20ac"
+        ],
+        [
+          "Augenuntersuchung",
+          "20 \u20ac"
+        ],
+        [
+          "Hautbiopsie",
+          "60 \u20ac"
+        ],
+        [
+          "Zahnreinigung",
+          "70 \u20ac"
+        ],
+        [
+          "Physiotherapie pro Sitzung",
+          "40 \u20ac"
+        ],
+        [
+          "Mammographie",
+          "80 \u20ac"
+        ]
+      ],
+      "x1": 204,
+      "x2": 1894,
+      "y1": 1852,
+      "y2": 2427
+    },
+    "total_amount": {
+      "content": "Total Amount:  430.00 \u20ac",
+      "x1": 1379,
+      "x2": 1945,
+      "y1": 2816,
+      "y2": 2872
+    },
+    "amount_sentence": {
+      "content": "F\u00fcr p\u00e4dagogische Weiterbildungen erlauben wir uns, Ihnen 430.00 \u20ac zu berechnen.",
+      "x1": 241,
+      "x2": 1706,
+      "y1": 3302,
+      "y2": 3357
+    }
+  },
+  "image6.png": {
+    "INVOICE": {
+      "content": "INVOICE",
+      "x1": 1645,
+      "x2": 1892,
+      "y1": 87,
+      "y2": 153
+    },
+    "title": {
+      "content": "Schacht Kade GmbH & Co. KG",
+      "x1": 1645,
+      "x2": 2605,
+      "y1": 183,
+      "y2": 254
+    },
+    "rechnungsnummer": {
+      "content": "R. Nr. 942922",
+      "x1": 470,
+      "x2": 720,
+      "y1": 305,
+      "y2": 352
+    },
+    "date": {
+      "content": "Datum. 2021-05-10",
+      "x1": 470,
+      "x2": 811,
+      "y1": 362,
+      "y2": 409
+    },
+    "customer_name": {
+      "content": "Karl-August Schmiedt",
+      "x1": 1270,
+      "x2": 1743,
+      "y1": 952,
+      "y2": 1012
+    },
+    "address": {
+      "content": "Baldur-Ullmann-Weg 794\n87970 Eisleben",
+      "x1": 1270,
+      "x2": 1544,
+      "y1": 1013,
+      "y2": 1115
+    },
+    "bank_iban": {
+      "content": "Iban.  DE31068053914069453425",
+      "x1": 470,
+      "x2": 1076,
+      "y1": 1032,
+      "y2": 1079
+    },
+    "bank_swift": {
+      "content": "BIC Code:    IQPKDEJYANF",
+      "x1": 470,
+      "x2": 977,
+      "y1": 1080,
+      "y2": 1129
+    },
+    "diagnose": {
+      "content": "Diagnose-  Lungenentz\u00fcndung",
+      "x1": 470,
+      "x2": 1125,
+      "y1": 1345,
+      "y2": 1405
+    },
+    "organization": {
+      "content": "Schacht Kade GmbH & Co. KG",
+      "x1": 1270,
+      "x2": 1849,
+      "y1": 1595,
+      "y2": 1642
+    },
+    "organization_address": {
+      "content": "Baldur-Ullmann-Weg 794\n87970 Eisleben",
+      "x1": 1270,
+      "x2": 1544,
+      "y1": 1652,
+      "y2": 1754
+    },
+    "organization_contact": {
+      "content": "Mob.    +49(0)6120112440",
+      "x1": 1270,
+      "x2": 1737,
+      "y1": 1764,
+      "y2": 1819
+    },
+    "product_amount": {
+      "x1": 1849.5454545454545,
+      "x2": 2155,
+      "y1": 1899,
+      "y2": 2464,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Mammographie",
+          "80 \u20ac"
+        ],
+        [
+          "Ultraschall der Schilddr\u00fcse",
+          "40 \u20ac"
+        ],
+        [
+          "Physiotherapie pro Sitzung",
+          "40 \u20ac"
+        ],
+        [
+          "Lungenfunktionstest",
+          "50 \u20ac"
+        ],
+        [
+          "R\u00f6ntgenaufnahme",
+          "30 \u20ac"
+        ],
+        [
+          "Hautbiopsie",
+          "60 \u20ac"
+        ],
+        [
+          "EKG",
+          "25 \u20ac"
+        ],
+        [
+          "Zahnreinigung",
+          "70 \u20ac"
+        ],
+        [
+          "Blutuntersuchung",
+          "15 \u20ac"
+        ],
+        [
+          "Augenuntersuchung",
+          "20 \u20ac"
+        ]
+      ],
+      "x1": 226,
+      "x2": 1916,
+      "y1": 1894,
+      "y2": 2469
+    },
+    "total_amount": {
+      "content": "Rechnungsbetrag.  430.00 \u20ac",
+      "x1": 1270,
+      "x2": 1466,
+      "y1": 2795,
+      "y2": 2907
+    },
+    "amount_sentence": {
+      "content": "F\u00fcr steuerrechtliche Beratungen erlauben wir uns, Ihnen 430.00 \u20ac zu berechnen.",
+      "x1": 676,
+      "x2": 2092,
+      "y1": 3026,
+      "y2": 3081
+    }
+  },
+  "image7.png": {
+    "INVOICE": {
+      "content": "INVOICE",
+      "x1": 1049,
+      "x2": 1296,
+      "y1": 106,
+      "y2": 172
+    },
+    "title": {
+      "content": "Oestrovsky",
+      "x1": 632,
+      "x2": 993,
+      "y1": 95,
+      "y2": 179
+    },
+    "rechnungsnummer": {
+      "content": "Rechnungsnummer:  624926",
+      "x1": 224,
+      "x2": 764,
+      "y1": 975,
+      "y2": 1030
+    },
+    "date": {
+      "content": "Invoice Date.  1989-12-03",
+      "x1": 224,
+      "x2": 680,
+      "y1": 1040,
+      "y2": 1087
+    },
+    "customer_name": {
+      "content": "Dr. Andreas Junk MBA.",
+      "x1": 1049,
+      "x2": 1552,
+      "y1": 937,
+      "y2": 988
+    },
+    "address": {
+      "content": "Notburga-Gotthard-Stra\u00dfe 6\n66731 Saulgau",
+      "x1": 1049,
+      "x2": 1316,
+      "y1": 989,
+      "y2": 1099
+    },
+    "bank_iban": {
+      "content": "IBAN:  DE71636144423500966390",
+      "x1": 224,
+      "x2": 847,
+      "y1": 237,
+      "y2": 284
+    },
+    "bank_swift": {
+      "content": "BIC:    PMLMDEW0B3J",
+      "x1": 224,
+      "x2": 646,
+      "y1": 285,
+      "y2": 332
+    },
+    "diagnose": {
+      "content": "Diagnose-  Magengeschw\u00fcr",
+      "x1": 224,
+      "x2": 575,
+      "y1": 1415,
+      "y2": 1525
+    },
+    "organization": {
+      "content": "Oestrovsky",
+      "x1": 224,
+      "x2": 440,
+      "y1": 1677,
+      "y2": 1732
+    },
+    "organization_address": {
+      "content": "Notburga-Gotthard-Stra\u00dfe 6\n66731 Saulgau",
+      "x1": 224,
+      "x2": 491,
+      "y1": 1742,
+      "y2": 1852
+    },
+    "organization_contact": {
+      "content": "Mob.    05499 186016",
+      "x1": 224,
+      "x2": 609,
+      "y1": 1862,
+      "y2": 1909
+    },
+    "product_amount": {
+      "x1": 1603.5454545454545,
+      "x2": 1909,
+      "y1": 2017,
+      "y2": 2476,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Ultraschall der Schilddr\u00fcse",
+          "40 \u20ac"
+        ],
+        [
+          "Blutuntersuchung",
+          "15 \u20ac"
+        ],
+        [
+          "Mammographie",
+          "80 \u20ac"
+        ],
+        [
+          "Zahnreinigung",
+          "70 \u20ac"
+        ],
+        [
+          "Physiotherapie pro Sitzung",
+          "40 \u20ac"
+        ],
+        [
+          "EKG",
+          "25 \u20ac"
+        ],
+        [
+          "Lungenfunktionstest",
+          "50 \u20ac"
+        ],
+        [
+          "R\u00f6ntgenaufnahme",
+          "30 \u20ac"
+        ]
+      ],
+      "x1": 453,
+      "x2": 2143,
+      "y1": 1821,
+      "y2": 2290
+    },
+    "total_amount": {
+      "content": "Total Amount:  350.00 \u20ac",
+      "x1": 1049,
+      "x2": 1615,
+      "y1": 2665,
+      "y2": 2721
+    },
+    "amount_sentence": {
+      "content": "F\u00fcr \u00e4rztliche Leistungen erlauben wir uns, Ihnen 350.00 \u20ac zu berechnen.",
+      "x1": 632,
+      "x2": 830,
+      "y1": 3008,
+      "y2": 3100
+    }
+  },
+  "image8.png": {
+    "title": {
+      "content": "Reichmann KG",
+      "x1": 545,
+      "x2": 1018,
+      "y1": 173,
+      "y2": 244
+    },
+    "customer_name": {
+      "content": "Friedl Hein",
+      "x1": 189,
+      "x2": 423,
+      "y1": 553,
+      "y2": 604
+    },
+    "address": {
+      "content": "Maya-Stroh-Allee 05\n16249 Wolfratshausen",
+      "x1": 189,
+      "x2": 586,
+      "y1": 605,
+      "y2": 707
+    },
+    "organization": {
+      "content": "Reichmann KG",
+      "x1": 1599,
+      "x2": 1884,
+      "y1": 526,
+      "y2": 573
+    },
+    "organization_address": {
+      "content": "Maya-Stroh-Allee 05\n16249 Wolfratshausen",
+      "x1": 1599,
+      "x2": 1996,
+      "y1": 583,
+      "y2": 685
+    },
+    "organization_contact": {
+      "content": "Mob.    +49(0)5801183546",
+      "x1": 1599,
+      "x2": 2066,
+      "y1": 695,
+      "y2": 750
+    },
+    "bank_iban": {
+      "content": "Iban.  DE32929033163647133717",
+      "x1": 1599,
+      "x2": 2095,
+      "y1": 1669,
+      "y2": 1753
+    },
+    "bank_swift": {
+      "content": "BIC Code:    RVGRDERIMQA",
+      "x1": 1599,
+      "x2": 2130,
+      "y1": 1754,
+      "y2": 1803
+    },
+    "rechnungsnummer": {
+      "content": "Rech Nr.  980987",
+      "x1": 1599,
+      "x2": 1917,
+      "y1": 1060,
+      "y2": 1107
+    },
+    "date": {
+      "content": "Datum:  2019-09-29",
+      "x1": 1599,
+      "x2": 1951,
+      "y1": 1117,
+      "y2": 1164
+    },
+    "diagnose": {
+      "content": "Diagnose-  Hypertonie (Bluthochdruck)",
+      "x1": 189,
+      "x2": 1026,
+      "y1": 1759,
+      "y2": 1819
+    },
+    "product_amount": {
+      "x1": 1568.5454545454545,
+      "x2": 1874,
+      "y1": 2027,
+      "y2": 2335,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "Augenuntersuchung",
+          "20 \u20ac"
+        ],
+        [
+          "Mammographie",
+          "80 \u20ac"
+        ],
+        [
+          "Ultraschall der Schilddr\u00fcse",
+          "40 \u20ac"
+        ],
+        [
+          "Hautbiopsie",
+          "60 \u20ac"
+        ],
+        [
+          "Blutuntersuchung",
+          "15 \u20ac"
+        ]
+      ],
+      "x1": 203,
+      "x2": 1893,
+      "y1": 2022,
+      "y2": 2340
+    },
+    "total_amount": {
+      "content": "Rechnungsbetrag:  215.00 \u20ac",
+      "x1": 1599,
+      "x2": 1795,
+      "y1": 2795,
+      "y2": 2907
+    },
+    "amount_sentence": {
+      "content": "F\u00fcr physiotherapeutische Ma\u00dfnahmen erlauben wir uns, Ihnen 215.00 \u20ac zu berechnen.",
+      "x1": 189,
+      "x2": 1717,
+      "y1": 3318,
+      "y2": 3373
+    }
+  },
+  "image9.png": {
+    "title": {
+      "content": "Walter Stiftung & Co. KGaA",
+      "x1": 287,
+      "x2": 1147,
+      "y1": 165,
+      "y2": 249
+    },
+    "customer_name": {
+      "content": "Univ.Prof. Waldtraut Naser",
+      "x1": 287,
+      "x2": 861,
+      "y1": 343,
+      "y2": 394
+    },
+    "address": {
+      "content": "Meike-Bohnbach-Platz 574\n19071 G\u00fcstrow",
+      "x1": 287,
+      "x2": 556,
+      "y1": 395,
+      "y2": 489
+    },
+    "organization": {
+      "content": "Walter Stiftung & Co. KGaA",
+      "x1": 1664,
+      "x2": 2183,
+      "y1": 797,
+      "y2": 852
+    },
+    "organization_address": {
+      "content": "Meike-Bohnbach-Platz 574\n19071 G\u00fcstrow",
+      "x1": 1664,
+      "x2": 1933,
+      "y1": 862,
+      "y2": 956
+    },
+    "organization_contact": {
+      "content": "Tele.  09636 475296",
+      "x1": 1664,
+      "x2": 2027,
+      "y1": 966,
+      "y2": 1013
+    },
+    "bank_iban": {
+      "content": "IBAN:  DE28742330672695512854",
+      "x1": 1664,
+      "x2": 2160,
+      "y1": 1125,
+      "y2": 1209
+    },
+    "bank_swift": {
+      "content": "Swift.  SMBJDE9611Q",
+      "x1": 1664,
+      "x2": 2066,
+      "y1": 1210,
+      "y2": 1259
+    },
+    "rechnungsnummer": {
+      "content": "Rechnungsnummer:  879455",
+      "x1": 1664,
+      "x2": 2204,
+      "y1": 1456,
+      "y2": 1511
+    },
+    "date": {
+      "content": "Date:  2003-12-04",
+      "x1": 1664,
+      "x2": 1983,
+      "y1": 1521,
+      "y2": 1568
+    },
+    "diagnose": {
+      "content": "Diagnose-  Magengeschw\u00fcr",
+      "x1": 287,
+      "x2": 881,
+      "y1": 1505,
+      "y2": 1565
+    },
+    "product_amount": {
+      "x1": 1657.0,
+      "x2": 1972,
+      "y1": 2045,
+      "y2": 2512,
+      "content": ""
+    },
+    "product_table": {
+      "content": [
+        [
+          "Bezeichnung",
+          "Betrag"
+        ],
+        [
+          "R\u00f6ntgenaufnahme",
+          "30 \u20ac"
+        ],
+        [
+          "Hautbiopsie",
+          "60 \u20ac"
+        ],
+        [
+          "Mammographie",
+          "80 \u20ac"
+        ],
+        [
+          "Physiotherapie pro Sitzung",
+          "40 \u20ac"
+        ],
+        [
+          "Augenuntersuchung",
+          "20 \u20ac"
+        ],
+        [
+          "Zahnreinigung",
+          "70 \u20ac"
+        ],
+        [
+          "Blutuntersuchung",
+          "15 \u20ac"
+        ],
+        [
+          "EKG",
+          "25 \u20ac"
+        ]
+      ],
+      "x1": 143,
+      "x2": 1833,
+      "y1": 2040,
+      "y2": 2517
+    },
+    "total_amount": {
+      "content": "Rechnungsbetrag:  340.00 \u20ac",
+      "x1": 1664,
+      "x2": 2334,
+      "y1": 2551,
+      "y2": 2617
+    },
+    "amount_sentence": {
+      "content": "F\u00fcr \u00e4rztliche Leistungen erlauben wir uns, Ihnen 340.00 \u20ac zu berechnen.",
+      "x1": 287,
+      "x2": 1560,
+      "y1": 2660,
+      "y2": 2715
     }
   }
 }

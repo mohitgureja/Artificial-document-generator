@@ -1,6 +1,8 @@
 import os
 import random
 
+from loguru import logger
+
 from components.data_renderer import image_service, helper
 
 doc = "default"
@@ -18,7 +20,7 @@ def get_random_template(page_config_data, position_config_data):
 
 
 def generate_documents(data_filepath, config_params, fields, doc_format):
-    print("\n------------------- Starting data rendering -------------------\n")
+    logger.info("\n------------------- Starting data rendering -------------------\n")
 
     global style_config_file_path, ground_truth_file_path, image_file_path, position_config_file_path, page_config_file_path
     style_config_file_path = f"data/{doc_format}/input/renderer/style_config.json"

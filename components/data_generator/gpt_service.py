@@ -2,6 +2,7 @@ import ast
 import os
 
 import openai
+from loguru import logger
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
@@ -35,7 +36,7 @@ def generate_gpt_data(data, key, query, output_format):
 
     count = 0
     while not get_instance(output_format) == get_instance(content):
-        print("GPT response is not in desired output format. Trying again!")
+        logger.warning("GPT response is not in desired output format. Trying again!")
         if count > 5:
             break
         content = call_gpt(query)
@@ -60,9 +61,8 @@ def call_gpt(query):
         presence_penalty=0
     )
     content = response["choices"][0]["message"]["content"]
-    print(content)
     try:
         content = ast.literal_eval(content)
     except SyntaxError:
-        print("GPT response is in string format.")
+        logger.error("GPT response is in string format.")
     return content

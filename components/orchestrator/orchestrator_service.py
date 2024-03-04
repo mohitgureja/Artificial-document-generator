@@ -3,13 +3,15 @@ from components.data_generator import generator
 from components.data_renderer import renderer
 from components.orchestrator import helper
 
-"""
-    :param request_data: 
-    :return: 
-"""
-
 
 def orchestrate(request_data, doc_format):
+    """
+    Starting point of the request
+    Delegates the workflow to the required component
+    :param request_data: Request body
+    :param doc_format: Document category
+    :return: JSON response with filepaths of generated data
+    """
     # Transform data and configurations separately for different modules
     data_fields, generator_config, renderer_config = helper.transform_input(request_data, doc_format)
 
@@ -19,7 +21,7 @@ def orchestrate(request_data, doc_format):
     # Generate fake data according to the configurations
     doc_filepath = generator.generate_data(data_field_names, generator_config, doc_format)
 
-    # Generate fake documents according to the configurations
+    # Generate fake documents according to the generated data and configurations
     groundtruth_filepath, image_filepath = None, None
     if helper.is_rendering_required(request_data):
         groundtruth_filepath, image_filepath = renderer.generate_documents(doc_filepath, renderer_config,

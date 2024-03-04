@@ -7,4 +7,5 @@ openai==0.27.8
 augraphy==8.2.4
 matplotlib~=3.7.2
 opencv-python~=4.8.0.76
-llvmlite==0.41.0
+llvmlite==0.42.0
+loguru==0.7.2

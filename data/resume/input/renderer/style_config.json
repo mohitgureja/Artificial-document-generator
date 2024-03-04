@@ -49,7 +49,7 @@
     "font_color": "black",
     "textWrap": false
   },
-  "project": {
+  "projects": {
     "width": 150,
     "height": null,
     "font_size": 60,
@@ -59,7 +59,7 @@
     "font_color": "black",
     "textWrap": false
   },
-  "certification": {
+  "certifications": {
     "width": 150,
     "height": null,
     "font_size": 60,

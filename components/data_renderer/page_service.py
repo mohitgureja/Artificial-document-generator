@@ -1,4 +1,9 @@
 def create_page_matrix(config):
+    """
+    Divide the page into grid with rows and columns
+    :param config: page configurations
+    :return: Grid bounding boxes with rows and columns
+    """
     width_img, height_img = config["width"], config["height"]
     row_size, column_size = config["rows"]["n"], config["columns"]["n"]
     # If rows and columns are of equal size(in percentage)

@@ -1141,7 +1141,7 @@
       "is_image": false,
       "is_header": false,
       "is_key": true,
-      "border_block": true,
+      "border_block": false,
       "keyname": "INVOICE",
       "data_fields": {
       },
@@ -1164,7 +1164,7 @@
       "is_header": true,
       "is_key": false,
       "keyname": "Title",
-      "border_block": true,
+      "border_block": false,
       "data_fields": {
         "title": {
           "priority": 1,
@@ -1236,7 +1236,7 @@
       "has_table": false,
       "is_header": false,
       "is_key": false,
-      "border_block": true,
+      "border_block": false,
       "keyname": "Customer details",
       "data_fields": {
         "customer_name": {
@@ -1270,7 +1270,7 @@
       "has_table": false,
       "is_header": false,
       "is_key": false,
-      "border_block": true,
+      "border_block": false,
       "keyname": "Bank Details",
       "data_fields": {
         "bank_iban": {
@@ -1325,7 +1325,7 @@
       "is_key": false,
       "keyname": "Diagnose",
       "is_header": false,
-      "border_block": true,
+      "border_block": false,
       "data_fields": {
         "diagnose": {
           "priority": 1,
@@ -1353,7 +1353,7 @@
       "has_table": false,
       "is_header": false,
       "is_key": false,
-      "border_block": true,
+      "border_block": false,
       "keyname": "Organization details",
       "data_fields": {
         "organization": {
@@ -1485,7 +1485,7 @@
       "is_key": false,
       "keyname": "Details",
       "is_header": false,
-      "border_block": true,
+      "border_block": false,
       "data_fields": {
         "amount_sentence": {
           "priority": 1,
@@ -1538,7 +1538,7 @@
       "is_image": false,
       "is_header": false,
       "is_key": true,
-      "border_block": true,
+      "border_block": false,
       "keyname": "INVOICE",
       "data_fields": {
       },
@@ -1551,6 +1551,10 @@
         [
           0,
           2
+        ],
+        [
+          0,
+          3
         ]
       ],
       "block_range": 4
@@ -1580,6 +1584,10 @@
         [
           0,
           2
+        ],
+        [
+          0,
+          3
         ]
       ],
       "block_range": 4
@@ -1589,7 +1597,7 @@
       "has_table": false,
       "is_header": false,
       "is_key": false,
-      "border_block": true,
+      "border_block": false,
       "keyname": "Invoice Details",
       "data_fields": {
         "rechnungsnummer": {
@@ -1667,7 +1675,7 @@
       "has_table": false,
       "is_header": false,
       "is_key": false,
-      "border_block": true,
+      "border_block": false,
       "keyname": "Bank Details",
       "data_fields": {
         "bank_iban": {
@@ -1722,7 +1730,7 @@
       "is_key": false,
       "keyname": "Diagnose",
       "is_header": false,
-      "border_block": true,
+      "border_block": false,
       "data_fields": {
         "diagnose": {
           "priority": 1,
@@ -1750,7 +1758,7 @@
       "has_table": false,
       "is_header": false,
       "is_key": false,
-      "border_block": true,
+      "border_block": false,
       "keyname": "Organization details",
       "data_fields": {
         "organization": {
@@ -1802,6 +1810,7 @@
       "has_table": true,
       "is_header": false,
       "is_key": false,
+      "border_block": true,
       "keyname": "Products",
       "tableName": "product_table",
       "table_data_fields": {
@@ -1842,7 +1851,7 @@
       "has_table": false,
       "is_header": false,
       "is_key": false,
-      "border_block": true,
+      "border_block": false,
       "keyname": "Product text",
       "direction": "down",
       "block_position": [
@@ -1882,7 +1891,7 @@
       "is_key": false,
       "keyname": "Details",
       "is_header": false,
-      "border_block": true,
+      "border_block": false,
       "data_fields": {
         "amount_sentence": {
           "priority": 1,

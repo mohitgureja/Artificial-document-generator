@@ -1,5 +1,5 @@
 {
-  "gpt_enabled": false,
+  "gpt_enabled": true,
   "gpt_config": {
     "gpt_keys": [
       "amount_sentence",

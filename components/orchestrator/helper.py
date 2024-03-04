@@ -1,8 +1,10 @@
+from loguru import logger
+
 from components.orchestrator.models import params_method
 
 
 def get_generator_config(data):
-    config_params = {"count": data.count, "countries": data.countries}
+    config_params = {"count": data.count, "countries": data.countries, "gpt_enabled": data.gpt_enabled}
     return config_params
 
 
@@ -25,7 +27,7 @@ def transform_input(request_body, doc_format):
         params = params_method[doc_format](request_body)
     except KeyError:
         message = f'Invalid document format in the Param enumeration: "{doc_format}"'
-        print("%s" % message)
+        logger.error("%s" % message)
         raise ValueError(message)
     return params, get_generator_config(request_body), get_renderer_config(request_body)
 
