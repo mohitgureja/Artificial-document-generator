@@ -1,0 +1,42 @@
+[
+  {
+    "address": "D\u00f6rrweg 9/0\n25285 Zerbst",
+    "rechnungsnummer": 635008,
+    "customer_name": "Frau\n Anna-Lena Jockel",
+    "organization": "Vollbrecht Seifert GmbH & Co. KG",
+    "organization_address": "D\u00f6rrweg 9/0\n25285 Zerbst",
+    "organization_contact": "02135 22173",
+    "bank_iban": "DE93162116901658543734",
+    "bank_swift": "LRXNDEWBO96",
+    "date": "1999-05-16",
+    "diagnose": "Rheumatoide Arthritis",
+    "amount_sentence": "Der Preis f\u00fcr \u00e4rztliche Leistungen bel\u00e4uft sich auf 1440.00 \u20ac EUR.",
+    "product_name": [
+      "Ultraschalluntersuchung der Schilddr\u00fcse",
+      "Psychologische Beratungssitzung",
+      "Implantation einer Herzschrittmacher-Elektrode",
+      "Radiologie-Untersuchung der Lunge",
+      "MRT-Untersuchung des Kopfes",
+      "Endoskopie des Magens",
+      "Zahnreinigung",
+      "Physiotherapie pro Sitzung",
+      "Blutuntersuchung auf Vitaminmangel",
+      "Chirurgische Entfernung eines Muttermals"
+    ],
+    "title": "Vollbrecht Seifert GmbH & Co. KG",
+    "product_amount": [
+      "80 \u20ac",
+      "50 \u20ac",
+      "500 \u20ac",
+      "100 \u20ac",
+      "250 \u20ac",
+      "200 \u20ac",
+      "60 \u20ac",
+      "20 \u20ac",
+      "30 \u20ac",
+      "150 \u20ac"
+    ],
+    "total_amount": "1440.00 \u20ac",
+    "logo_image": "data/input/resources/Logo/adidas_trifold_logo.png"
+  }
+]

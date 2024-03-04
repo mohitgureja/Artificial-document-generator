@@ -1,0 +1,56 @@
+{
+  "amount_sentence": [
+    "F\u00fcr \u00e4rztliche Leistungen erlauben wir uns, Ihnen <amount> zu berechnen.",
+    "F\u00fcr kosmetische Behandlungen erlauben wir uns, Ihnen <amount> zu berechnen.",
+    "F\u00fcr technische Reparaturen erlauben wir uns, Ihnen <amount> zu berechnen.",
+    "F\u00fcr juristische Beratungen erlauben wir uns, Ihnen <amount> zu berechnen.",
+    "F\u00fcr p\u00e4dagogische Weiterbildungen erlauben wir uns, Ihnen <amount> zu berechnen.",
+    "F\u00fcr hausmeisterliche Dienstleistungen erlauben wir uns, Ihnen <amount> zu berechnen.",
+    "F\u00fcr gastronomische Spezialit\u00e4ten erlauben wir uns, Ihnen <amount> zu berechnen.",
+    "F\u00fcr handwerkliche Arbeiten erlauben wir uns, Ihnen <amount> zu berechnen.",
+    "F\u00fcr physiotherapeutische Ma\u00dfnahmen erlauben wir uns, Ihnen <amount> zu berechnen.",
+    "F\u00fcr steuerrechtliche Beratungen erlauben wir uns, Ihnen <amount> zu berechnen."
+  ],
+  "product_name": [
+    [
+      "Blutuntersuchung",
+      "15 \u20ac"
+    ],
+    [
+      "Ultraschall der Schilddr\u00fcse",
+      "40 \u20ac"
+    ],
+    [
+      "EKG",
+      "25 \u20ac"
+    ],
+    [
+      "R\u00f6ntgenaufnahme",
+      "30 \u20ac"
+    ],
+    [
+      "Lungenfunktionstest",
+      "50 \u20ac"
+    ],
+    [
+      "Augenuntersuchung",
+      "20 \u20ac"
+    ],
+    [
+      "Hautbiopsie",
+      "60 \u20ac"
+    ],
+    [
+      "Zahnreinigung",
+      "70 \u20ac"
+    ],
+    [
+      "Physiotherapie pro Sitzung",
+      "40 \u20ac"
+    ],
+    [
+      "Mammographie",
+      "80 \u20ac"
+    ]
+  ]
+}

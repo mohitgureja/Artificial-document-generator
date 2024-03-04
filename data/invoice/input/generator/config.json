@@ -1,0 +1,48 @@
+{
+  "gpt_enabled": true,
+  "gpt_config": {
+    "gpt_keys": [
+      "amount_sentence",
+      "product_name"
+    ],
+    "gpt_key_pairs": {
+      "product_name": "product_amount"
+    },
+    "queries": {
+      "amount_sentence": "Generate 10 sentences similar to \"Für ärztliche Leistungen erlauben wir uns, Ihnen\t28,78 EUR\tzu berechnen.\" but instead of amount 28,78 EUR use <amount> tag. Only write answer, please do not write any other sentences.",
+      "product_name": "Can you please write 10 medical services and their approximate prices (no real time prices just approximate values in €) in german language. Only write answer, please do not write any other sentences.\nSome examples are: \n[Übungsbehandlung je Sitzung, 5 €]\n [Untersuchung symptombezogen, 4,77 €]\n[Symptombezogene Untersuchung, 10,72 €]\n[Magnetresonanztomographie eines oder mehrerer Gelenke oder Abschnitte von Extremitäten, 321,75 €]\n[Sonographie je Organ bis zu drei, 26,81 €]"
+    },
+    "gpt_output": {
+      "amount_sentence": [
+        "Sentence1",
+        "Sentence2"
+      ],
+      "product_name": [
+        [
+          "product_name",
+          "product_amount"
+        ]
+      ]
+    }
+  },
+  "faker_keys": {
+    "address": "address",
+    "rechnungsnummer": "number6",
+    "customer_name": "name",
+    "organization": "company1",
+    "bank_iban": "iban",
+    "bank_swift": "swift",
+    "organization_address": "address",
+    "organization_contact": "phone_number",
+    "date": "date",
+    "diagnose": "diagnose"
+  },
+  "calculate_keys": [
+    "total_amount",
+    "amount_sentence",
+    "logo_image"
+  ],
+  "duplicate_keys": {
+    "title": "organization"
+  }
+}

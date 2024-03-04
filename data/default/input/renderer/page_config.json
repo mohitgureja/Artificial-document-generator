@@ -1,0 +1,148 @@
+{
+  "1": {
+    "width": 2480,
+    "height": 3508,
+    "rows": {
+      "n": 8,
+      "are_equal": false,
+      "size": [
+        5,
+        25,
+        20,
+        10,
+        15,
+        5,
+        15,
+        5
+      ]
+    },
+    "columns": {
+      "n": 5,
+      "are_equal": false,
+      "size": [
+        20,
+        35,
+        15,
+        20,
+        10
+      ]
+    },
+    "has_margins": true,
+    "header_line": true,
+    "horizontal-margin": 5,
+    "vertical-margin": 2,
+    "max_vertical_distance": 3
+  },
+  "2": {
+    "width": 2480,
+    "height": 3508,
+    "rows": {
+      "n": 7,
+      "are_equal": false,
+      "size": [
+        5,
+        25,
+        20,
+        10,
+        15,
+        5,
+        15,
+        5
+      ]
+    },
+    "columns": {
+      "n": 5,
+      "are_equal": false,
+      "size": [
+        20,
+        35,
+        15,
+        20,
+        10
+      ]
+    },
+    "has_margins": true,
+    "header_line": true,
+    "horizontal-margin": 5,
+    "vertical-margin": 2,
+    "max_vertical_distance": 5
+  },
+  "3": {
+    "width": 2480,
+    "height": 3508,
+    "rows": {
+      "n": 8,
+      "are_equal": true
+    },
+    "columns": {
+      "n": 5,
+      "are_equal": false,
+      "size": [
+        20,
+        35,
+        15,
+        20,
+        10
+      ]
+    },
+    "has_margins": true,
+    "header_line": true,
+    "horizontal-margin": 5,
+    "vertical-margin": 2,
+    "max_vertical_distance": 3
+  },
+  "4": {
+    "width": 2480,
+    "height": 3508,
+    "rows": {
+      "n": 8,
+      "are_equal": false,
+      "size": [
+        5,
+        25,
+        20,
+        10,
+        15,
+        5,
+        15,
+        5
+      ]
+    },
+    "columns": {
+      "n": 5,
+      "are_equal": true
+    },
+    "has_margins": true,
+    "header_line": true,
+    "horizontal-margin": 5,
+    "vertical-margin": 2,
+    "max_vertical_distance": 3
+  },
+  "5": {
+    "width": 2480,
+    "height": 3508,
+    "rows": {
+      "n": 8,
+      "are_equal": false,
+      "size": [
+        5,
+        25,
+        20,
+        10,
+        15,
+        5,
+        15,
+        5
+      ]
+    },
+    "columns": {
+      "n": 5,
+      "are_equal": true
+    },
+    "has_margins": true,
+    "header_line": true,
+    "horizontal-margin": 5,
+    "vertical-margin": 2,
+    "max_vertical_distance": 3
+  }
+}

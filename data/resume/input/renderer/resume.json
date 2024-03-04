@@ -1,0 +1,362 @@
+[
+  {
+    "name": "Frau\n Isa Gnatz",
+    "address": "Michel-Sauer-Gasse 737\n64060 Cuxhaven",
+    "email": "soedinggabriele@example.net",
+    "phone_number": "(06519) 01243",
+    "company_location": "Uelzen, Bremen",
+    "school_location": "Stendal, Bremen",
+    "summary": "Experienced IT professional with a strong background in software development and project management. Skilled in various programming languages and frameworks, with a focus on Java and Python. Excellent problem-solving and communication skills, with a proven ability to lead and collaborate in cross-functional teams.",
+    "experience": [
+      {
+        "position": "Software Engineer",
+        "company": "ABC Tech",
+        "company_location": "New York",
+        "experience_dates": "Jan 2018 - present",
+        "responsibilities": [
+          "Developed and maintained enterprise-level software applications using Java and Spring framework.",
+          "Collaborated with cross-functional teams to gather and analyze requirements, design software solutions, and implement new features.",
+          "Performed code reviews and implemented best practices to ensure code quality and maintainability.",
+          "Supported and troubleshooted production issues, providing timely resolutions to minimize impact on business operations."
+        ]
+      },
+      {
+        "position": "Project Manager",
+        "company": "XYZ Solutions",
+        "company_location": "Los Angeles",
+        "experience_dates": "Jun 2015 - Dec 2017",
+        "responsibilities": [
+          "Led multiple software development projects from initiation to delivery, ensuring timely completion within budget and scope.",
+          "Managed project resources, including development teams, to achieve project goals and deliverables.",
+          "Coordinated with stakeholders to gather project requirements and define project scope and objectives.",
+          "Performed risk management and mitigation strategies, identifying and resolving potential project issues and bottlenecks."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "project_title": "E-commerce Platform Development",
+        "project_dates": "Jan 2019 - Mar 2020",
+        "project_description": "Led a team of developers in the design and development of an e-commerce platform using Java and Spring Boot. Implemented features such as product catalog management, shopping cart functionality, and secure payment processing."
+      },
+      {
+        "project_title": "Customer Relationship Management System",
+        "project_dates": "Sep 2016 - Dec 2017",
+        "project_description": "Managed the development of a CRM system for a client in the healthcare industry. Collaborated with stakeholders to gather requirements and implemented features such as lead management, contact tracking, and reporting."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science in Computer Science",
+        "school": "XYZ University",
+        "school_location": "Chicago",
+        "graduation_date": "May 2015"
+      }
+    ],
+    "skills": [
+      "Java",
+      "Python",
+      "Spring Framework",
+      "SQL",
+      "Agile Methodology",
+      "Project Management",
+      "Problem Solving"
+    ],
+    "certifications": [
+      {
+        "certificate_name": "Oracle Certified Java Programmer",
+        "date_earned": "March 2017"
+      }
+    ],
+    "languages": [],
+    "profile_image": "data/resume/input/resources/person/frau/real_00973.jpg"
+  },
+  {
+    "name": "Frau\n Ilonka Hornich",
+    "address": "Waldtraut-Jacob-Stra\u00dfe 8\n11387 Neustadtner Waldnaab",
+    "email": "janettehofmann@example.com",
+    "phone_number": "08927 38935",
+    "company_location": "Riesa, Brandenburg",
+    "school_location": "Griesbach Rottal, Bayern",
+    "summary": "Experienced IT professional with a strong background in software development and project management. Skilled in various programming languages and frameworks, with a focus on Java and Python. Excellent problem-solving and communication skills, with a proven ability to lead and collaborate in cross-functional teams.",
+    "experience": [
+      {
+        "position": "Software Engineer",
+        "company": "ABC Tech",
+        "company_location": "New York",
+        "experience_dates": "Jan 2018 - present",
+        "responsibilities": [
+          "Developed and maintained enterprise-level software applications using Java and Spring framework.",
+          "Collaborated with cross-functional teams to gather and analyze requirements, design software solutions, and implement new features.",
+          "Performed code reviews and implemented best practices to ensure code quality and maintainability.",
+          "Supported and troubleshooted production issues, providing timely resolutions to minimize impact on business operations."
+        ]
+      },
+      {
+        "position": "Project Manager",
+        "company": "XYZ Solutions",
+        "company_location": "Los Angeles",
+        "experience_dates": "Jun 2015 - Dec 2017",
+        "responsibilities": [
+          "Led multiple software development projects from initiation to delivery, ensuring timely completion within budget and scope.",
+          "Managed project resources, including development teams, to achieve project goals and deliverables.",
+          "Coordinated with stakeholders to gather project requirements and define project scope and objectives.",
+          "Performed risk management and mitigation strategies, identifying and resolving potential project issues and bottlenecks."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "project_title": "E-commerce Platform Development",
+        "project_dates": "Jan 2019 - Mar 2020",
+        "project_description": "Led a team of developers in the design and development of an e-commerce platform using Java and Spring Boot. Implemented features such as product catalog management, shopping cart functionality, and secure payment processing."
+      },
+      {
+        "project_title": "Customer Relationship Management System",
+        "project_dates": "Sep 2016 - Dec 2017",
+        "project_description": "Managed the development of a CRM system for a client in the healthcare industry. Collaborated with stakeholders to gather requirements and implemented features such as lead management, contact tracking, and reporting."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science in Computer Science",
+        "school": "XYZ University",
+        "school_location": "Chicago",
+        "graduation_date": "May 2015"
+      }
+    ],
+    "skills": [
+      "Java",
+      "Python",
+      "Spring Framework",
+      "SQL",
+      "Agile Methodology",
+      "Project Management",
+      "Problem Solving"
+    ],
+    "certifications": [
+      {
+        "certificate_name": "Oracle Certified Java Programmer",
+        "date_earned": "March 2017"
+      }
+    ],
+    "languages": [],
+    "profile_image": "data/resume/input/resources/person/frau/real_00963.jpg"
+  },
+  {
+    "name": "Frau\n H\u00fclya Wieloch-B\u00f6rner",
+    "address": "R\u00f6mergasse 175\n59499 Anklam",
+    "email": "winklerangela@example.com",
+    "phone_number": "02559 639208",
+    "company_location": "Peine, Nordrhein-Westfalen",
+    "school_location": "Sulzbach-Rosenberg, Sachsen-Anhalt",
+    "summary": "Experienced IT professional with a strong background in software development and project management. Skilled in various programming languages and frameworks, with a focus on Java and Python. Excellent problem-solving and communication skills, with a proven ability to lead and collaborate in cross-functional teams.",
+    "experience": [
+      {
+        "position": "Software Engineer",
+        "company": "ABC Tech",
+        "company_location": "New York",
+        "experience_dates": "Jan 2018 - present",
+        "responsibilities": [
+          "Developed and maintained enterprise-level software applications using Java and Spring framework.",
+          "Collaborated with cross-functional teams to gather and analyze requirements, design software solutions, and implement new features.",
+          "Performed code reviews and implemented best practices to ensure code quality and maintainability.",
+          "Supported and troubleshooted production issues, providing timely resolutions to minimize impact on business operations."
+        ]
+      },
+      {
+        "position": "Project Manager",
+        "company": "XYZ Solutions",
+        "company_location": "Los Angeles",
+        "experience_dates": "Jun 2015 - Dec 2017",
+        "responsibilities": [
+          "Led multiple software development projects from initiation to delivery, ensuring timely completion within budget and scope.",
+          "Managed project resources, including development teams, to achieve project goals and deliverables.",
+          "Coordinated with stakeholders to gather project requirements and define project scope and objectives.",
+          "Performed risk management and mitigation strategies, identifying and resolving potential project issues and bottlenecks."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "project_title": "E-commerce Platform Development",
+        "project_dates": "Jan 2019 - Mar 2020",
+        "project_description": "Led a team of developers in the design and development of an e-commerce platform using Java and Spring Boot. Implemented features such as product catalog management, shopping cart functionality, and secure payment processing."
+      },
+      {
+        "project_title": "Customer Relationship Management System",
+        "project_dates": "Sep 2016 - Dec 2017",
+        "project_description": "Managed the development of a CRM system for a client in the healthcare industry. Collaborated with stakeholders to gather requirements and implemented features such as lead management, contact tracking, and reporting."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science in Computer Science",
+        "school": "XYZ University",
+        "school_location": "Chicago",
+        "graduation_date": "May 2015"
+      }
+    ],
+    "skills": [
+      "Java",
+      "Python",
+      "Spring Framework",
+      "SQL",
+      "Agile Methodology",
+      "Project Management",
+      "Problem Solving"
+    ],
+    "certifications": [
+      {
+        "certificate_name": "Oracle Certified Java Programmer",
+        "date_earned": "March 2017"
+      }
+    ],
+    "languages": [],
+    "profile_image": "data/resume/input/resources/person/frau/real_00963.jpg"
+  },
+  {
+    "name": "Frau\n Frau Zofia Wulf B.Sc.",
+    "address": "Amir-Etzold-Platz 9\n32269 Mittweida",
+    "email": "milica86@example.net",
+    "phone_number": "08046 03965",
+    "company_location": "Emmendingen, Nordrhein-Westfalen",
+    "school_location": "Kleve, Bremen",
+    "summary": "Experienced IT professional with a strong background in software development and project management. Skilled in various programming languages and frameworks, with a focus on Java and Python. Excellent problem-solving and communication skills, with a proven ability to lead and collaborate in cross-functional teams.",
+    "experience": [
+      {
+        "position": "Software Engineer",
+        "company": "ABC Tech",
+        "company_location": "New York",
+        "experience_dates": "Jan 2018 - present",
+        "responsibilities": [
+          "Developed and maintained enterprise-level software applications using Java and Spring framework.",
+          "Collaborated with cross-functional teams to gather and analyze requirements, design software solutions, and implement new features.",
+          "Performed code reviews and implemented best practices to ensure code quality and maintainability.",
+          "Supported and troubleshooted production issues, providing timely resolutions to minimize impact on business operations."
+        ]
+      },
+      {
+        "position": "Project Manager",
+        "company": "XYZ Solutions",
+        "company_location": "Los Angeles",
+        "experience_dates": "Jun 2015 - Dec 2017",
+        "responsibilities": [
+          "Led multiple software development projects from initiation to delivery, ensuring timely completion within budget and scope.",
+          "Managed project resources, including development teams, to achieve project goals and deliverables.",
+          "Coordinated with stakeholders to gather project requirements and define project scope and objectives.",
+          "Performed risk management and mitigation strategies, identifying and resolving potential project issues and bottlenecks."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "project_title": "E-commerce Platform Development",
+        "project_dates": "Jan 2019 - Mar 2020",
+        "project_description": "Led a team of developers in the design and development of an e-commerce platform using Java and Spring Boot. Implemented features such as product catalog management, shopping cart functionality, and secure payment processing."
+      },
+      {
+        "project_title": "Customer Relationship Management System",
+        "project_dates": "Sep 2016 - Dec 2017",
+        "project_description": "Managed the development of a CRM system for a client in the healthcare industry. Collaborated with stakeholders to gather requirements and implemented features such as lead management, contact tracking, and reporting."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science in Computer Science",
+        "school": "XYZ University",
+        "school_location": "Chicago",
+        "graduation_date": "May 2015"
+      }
+    ],
+    "skills": [
+      "Java",
+      "Python",
+      "Spring Framework",
+      "SQL",
+      "Agile Methodology",
+      "Project Management",
+      "Problem Solving"
+    ],
+    "certifications": [
+      {
+        "certificate_name": "Oracle Certified Java Programmer",
+        "date_earned": "March 2017"
+      }
+    ],
+    "languages": [],
+    "profile_image": "data/resume/input/resources/person/frau/real_00975.jpg"
+  },
+  {
+    "name": "Herr\n Tino Hartmann",
+    "address": "W\u00e4hnerweg 359\n81729 Kaiserslautern",
+    "email": "gretebauer@example.org",
+    "phone_number": "00222 77278",
+    "company_location": "Bad Br\u00fcckenau, Rheinland-Pfalz",
+    "school_location": "Mellrichstadt, Saarland",
+    "summary": "Experienced IT professional with a strong background in software development and project management. Skilled in various programming languages and frameworks, with a focus on Java and Python. Excellent problem-solving and communication skills, with a proven ability to lead and collaborate in cross-functional teams.",
+    "experience": [
+      {
+        "position": "Software Engineer",
+        "company": "ABC Tech",
+        "company_location": "New York",
+        "experience_dates": "Jan 2018 - present",
+        "responsibilities": [
+          "Developed and maintained enterprise-level software applications using Java and Spring framework.",
+          "Collaborated with cross-functional teams to gather and analyze requirements, design software solutions, and implement new features.",
+          "Performed code reviews and implemented best practices to ensure code quality and maintainability.",
+          "Supported and troubleshooted production issues, providing timely resolutions to minimize impact on business operations."
+        ]
+      },
+      {
+        "position": "Project Manager",
+        "company": "XYZ Solutions",
+        "company_location": "Los Angeles",
+        "experience_dates": "Jun 2015 - Dec 2017",
+        "responsibilities": [
+          "Led multiple software development projects from initiation to delivery, ensuring timely completion within budget and scope.",
+          "Managed project resources, including development teams, to achieve project goals and deliverables.",
+          "Coordinated with stakeholders to gather project requirements and define project scope and objectives.",
+          "Performed risk management and mitigation strategies, identifying and resolving potential project issues and bottlenecks."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "project_title": "E-commerce Platform Development",
+        "project_dates": "Jan 2019 - Mar 2020",
+        "project_description": "Led a team of developers in the design and development of an e-commerce platform using Java and Spring Boot. Implemented features such as product catalog management, shopping cart functionality, and secure payment processing."
+      },
+      {
+        "project_title": "Customer Relationship Management System",
+        "project_dates": "Sep 2016 - Dec 2017",
+        "project_description": "Managed the development of a CRM system for a client in the healthcare industry. Collaborated with stakeholders to gather requirements and implemented features such as lead management, contact tracking, and reporting."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science in Computer Science",
+        "school": "XYZ University",
+        "school_location": "Chicago",
+        "graduation_date": "May 2015"
+      }
+    ],
+    "skills": [
+      "Java",
+      "Python",
+      "Spring Framework",
+      "SQL",
+      "Agile Methodology",
+      "Project Management",
+      "Problem Solving"
+    ],
+    "certifications": [
+      {
+        "certificate_name": "Oracle Certified Java Programmer",
+        "date_earned": "March 2017"
+      }
+    ],
+    "languages": [],
+    "profile_image": "data/resume/input/resources/person/herr/real_01005.jpg"
+  }
+]
