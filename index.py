@@ -27,4 +27,4 @@ def get_configuration(doc_format="invoice"):
 
 if __name__ == "__main__":
     app.title = "Artificial Document Generator"
-    uvicorn.run("__main__:app", port=8003)
+    uvicorn.run("__main__:app")
